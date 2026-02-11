@@ -1,0 +1,196 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "If w^7 + w^7 + 17 = k + 2 * w^7, find the value of k.",
+        "answer": "17"
+      },
+      "question_3": {
+        "question": "A square has perimeter 12. Find the length of a diagonal of that square. Give an exact answer as a simplified radical expression.",
+        "answer": "3√2"
+      },
+      "question_4": {
+        "question": "Someone stole 5 candy bars and 2 bags of potato chips. Each bag of potato chips sells for $2.19, and each candy bar sells for k cents each. If the value of the 5 candy bars and 2 large bags of potato chips that were stolen was $7.83, find the value of k. Express your answer as an integral number of cents.",
+        "answer": "69"
+      },
+      "question_5": {
+        "question": "If the smaller base of a trapezoid is increased by 4 and the larger base of a trapezoid is decreased by 12, by how much is the median increased or decreased? Assume that both bases have positive lengths after the change. Give an increase as a positive number or a decrease as a negative number.",
+        "answer": "-4"
+      },
+      "question_6": {
+        "question": "A sale on Vitamin D allowed customers to buy 3 bottles and get 2 free. During the sale, Cody purchased 75 bottles of Vitamin D at a cost of $150. How much would he have been charged for this purchase at regular price?",
+        "answer": "250"
+      },
+      "question_7": {
+        "question": "Solve for k if (x^k * x^2)^5 = x^75",
+        "answer": "13"
+      },
+      "question_8": {
+        "question": "Find the value of the product (ab) given that 1/a + 1/b = 5/6 and a + b = 15/2.",
+        "answer": "9"
+      },
+      "question_9": {
+        "question": "A triangle has vertices at (4,8), (12,7), and (x,y). The midpoint of one of the sides of the triangle is (7,5). Find the area of the triangle.",
+        "answer": "21"
+      },
+      "question_10": {
+        "question": "The lines k*x + 3*y = 9 and 8*x + 2*k*x - 2*y = 15 do not have a point of intersection. Find the value of k.",
+        "answer": "-3"
+      },
+      "question_12": {
+        "question": "The numerator of a fraction is a positive integer that is one more than its denominator. The sum of the fraction and its reciprocal is 25/12. Find the numerator of the original fraction.",
+        "answer": "4"
+      },
+      "question_13": {
+        "question": "Alex's age is the same as Brent's age and Carter's age together. In two years, Alex will be twice as old as Brent will be then. Six years ago, Carter was twice as old as Brent was then. How old will Carter be in two years?",
+        "answer": "12"
+      },
+      "question_14": {
+        "question": "The sum of the squares of two original positive numbers is 10. The product of the squares of these two original numbers is 2. Find the square of the sum of these two original numbers.",
+        "answer": "10 + 2√2"
+      },
+      "question_15": {
+        "question": "The length of one side of a regular hexagon is 2x and the length of the side that is opposite the first side is 3y. If the area of the regular hexagon is 1944√3, find the value of (x+y).",
+        "answer": "30"
+      },
+      "question_16": {
+        "question": "Katie randomly places 3 identical math, 2 identical science, and 2 identical English books on a shelf. Find the probability that the 3 math books are together on the shelf. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/7"
+      },
+      "question_17": {
+        "question": "A line is tangent at the point (6,10) to a circle whose equation is (x - 2)^2 + (y - 7)^2 = 25. If the equation for the tangent line is written in the form y = mx + b, find the value of b.",
+        "answer": "18"
+      },
+      "question_18": {
+        "question": "A vehicle travels one mile at 8 mph (miles per hour), a second mile at 12 mph, and a third mile at k mph. The average speed for the combined 3-mile trip is w mph. If k and w are both positive integers, find the sum of all possible distinct values for k.",
+        "answer": "206"
+      },
+      "question_19": {
+        "question": "A square is inscribed in a regular octagon, with each vertex of the square at the midpoint of a side of the octagon. Each side of the octagon has length 6 units. The perimeter of the square may be expressed in the form k + w√p where k, w, and p are all positive integers. Find the smallest possible value of (k + w + p).",
+        "answer": "38"
+      },
+      "question_20": {
+        "question": "Two circles have radii of 8 and 12 with centers that are 24 units apart. Find the length of a common internal tangent between these two circles. Give your answer as radical expression in simplest form.",
+        "answer": "4√11"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Let f(x) = x + 3 and g(x) = 2x - 1. If f(x) = g(x) - 3, find the value of x.",
+        "answer": "7"
+      },
+      "question_2": {
+        "question": "Find the degree of the following polynomial: 3x(x^3 + 5) + 6(x^2(x - 7)^3)^2 + 34x - 9.",
+        "answer": "10"
+      },
+      "question_3": {
+        "question": "The second term of a geometric sequence is 2/5 and the fourth term is 1/5. Find the sum of the eighth and tenth terms of this geometric sequence. Express your answer as a reduced common or improper fraction.",
+        "answer": "1/8"
+      },
+      "question_4": {
+        "question": "Let i = √-1 and let (x - 1 + 2i), (x - 1 - 2i), and (x - 5) be factors of the polynomial x^3 + kx^2 + wx + p where k, w, and p are integers. Find the value of (k + p).",
+        "answer": "-32"
+      },
+      "question_5": {
+        "question": "Let f(x) = k(log_7(x)) where k represents a non-zero constant. Then f(343) - f(7) = wk. Find the value of w.",
+        "answer": "2"
+      },
+      "question_6": {
+        "question": "There are 8 teams in a league. Each team in the league must play every other team in the league exactly 15 times in one season. Find the number of games that will be played among the teams in this league during one season.",
+        "answer": "420"
+      },
+      "question_7": {
+        "question": "The sum of the squares of two original positive numbers is 10. The product of the squares of these two original numbers is 2. Find the square of the sum of these two original numbers.",
+        "answer": "10 + 2√2"
+      },
+      "question_8": {
+        "question": "Katie randomly places 3 identical math, 2 identical science, and 2 identical English books on a shelf. Find the probability that the 3 math books are together on the shelf. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/7"
+      },
+      "question_9": {
+        "question": "If f(x) = x^2 + 8x - 19, find the minimum value of f(x).",
+        "answer": "-35"
+      },
+      "question_10": {
+        "question": "Alex's age is the same as Brent's age and Carter's age together. In two years, Alex will be twice as old as Brent will be then. Six years ago, Carter was twice as old as Brent was then. How old will Carter be in two years?",
+        "answer": "12"
+      },
+      "question_11": {
+        "question": "Find the focus of the parabola whose equation is y - 3 = 1/12(x + 2)^2. Express your answer as an ordered pair of the form (x,y).",
+        "answer": "(-2, 6)"
+      },
+      "question_12": {
+        "question": "A regular polyhedron has 4 distinct vertices and 6 distinct edges. If the length of one of these edges is 9, find the total surface area of this regular polyhedron. Give your answer as a simplified radical expression.",
+        "answer": "81√3"
+      },
+      "question_13": {
+        "question": "The vector <4.2, 7.5> is perpendicular to the vector <-3.6, k>. Find the value of k. Express your answer as an exact decimal.",
+        "answer": "2.016"
+      },
+      "question_14": {
+        "question": "Let f(x) = 9x - 256 and f(g(x)) = g(f(x)) = x. Find all points that the graphs of f(x) and g(x) have in common. Express your answer for any and all distinct points as ordered pair(s).",
+        "answer": "(32, 32)"
+      },
+      "question_16": {
+        "question": "In the standard three-dimensional rectangular coordinate system, a triangle has vertices (1,0,0), (0,13,2), and (0,0,8). The distance from the centroid of the triangle to the y-axis can be expressed as k√w/p where k, w, and p are positive integers. Find the smallest possible value of (k + w + p).",
+        "answer": "111"
+      },
+      "question_17": {
+        "question": "Dora, Griffin, and Jayden repeatedly take turns tossing a fair, standard cubical die. Dora begins, Griffin always follows Dora, and Jayden always follows Griffin. Find the probability that Griffin will be the first to toss a die so that its uppermost face displays an odd number of spots. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "2/7"
+      },
+      "question_18": {
+        "question": "A vehicle travels one mile at 8 mph (miles per hour), a second mile at 12 mph, and a third mile at k mph. The average speed for the combined 3-mile trip is w mph. If k and w are both positive integers, find the sum of all possible distinct values for k.",
+        "answer": "206"
+      },
+      "question_19": {
+        "question": "Each of 25 persons writes down 5 different integers at random from the 25 integers from 1 to 25 inclusive. Each of the 25 integers is then called off one at a time in a random order. As soon as all 5 of a person's numbers have been called off, the person yells: 'Bingo.' Find the probability that at least 1 of the 25 persons will have yelled 'Bingo' before the 18th number has been called. Express your answer as a decimal rounded to 4 significant digits.",
+        "answer": "0.9548"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "Let k be the number of distinct negative integers greater than -182 that are equal to 6 times an even integer. Let w be the smaller of two consecutive odd integers whose sum is 624. Find the value of k + w.",
+        "answer": "326"
+      },
+      "question_2": {
+        "question": "Of a group of 26 mathletes, 11 like both algebra and geometry problems, 12 like both geometry and trig problems, and 9 like both algebra and trig problems. Find the absolute value of the difference between the greatest number possible and the least number possible of the 26 who like all three types of problems.",
+        "answer": "6"
+      },
+      "question_3": {
+        "question": "Let k be the number of distinct ways to arrange 3 pairs of books on a shelf if each of the books in a pair are completely identical. Let w be five more than the sum of the first twelve natural numbers. Find the value of k - w.",
+        "answer": "7"
+      },
+      "question_5": {
+        "question": "In a class of 25 students, a subgroup of 15 students scored an average of 72 on a math test. The overall class average was 76. What was the average score of the remaining 10 students?",
+        "answer": "82"
+      },
+      "question_6": {
+        "question": "The first term of a geometric sequence is equal to the first term of an arithmetic sequence, and the fourth terms of each sequence are also equal. The common ratio of the geometric sequence is 2. If the first term is an integer, and the common difference d of the arithmetic sequence is an integer such that 0 < d < 54, find the largest possible acceptable value of d.",
+        "answer": "49"
+      },
+      "question_7": {
+        "question": "An ice cream cone has base-radius 6 units and height 10 units. The cone is filled with ice cream, which also extends from the top of the cone in the shape of a perfect hemisphere. Calculate the total volume of the ice cream cone and its contents. Give an approximate decimal answer rounded to the nearest tenth.",
+        "answer": "829.4"
+      },
+      "question_8": {
+        "question": "Tennis balls come only in boxes of 7 and 16. Thus, if you wanted 19 balls, you could not get 19 exactly with any combination of whole boxes of balls. Let k be the largest number of balls you could not get exactly with some combination of whole boxes of balls. A tennis net consists of strings that form layout consists of a rectangular grid of 6912 squares. If the net pattern has between 20 and 30 squares in height, let w be the sum of all possible integer values for the number of squares representing its height. Find k + w.",
+        "answer": "140"
+      },
+      "question_9": {
+        "question": "The lengths of all sides of a right triangle are whole numbers. If the length of one side of the triangle is 12, find the largest possible value of the perimeter of the triangle.",
+        "answer": "84"
+      },
+      "question_10": {
+        "question": "A coin flip will be used before a baseball game to determine the home team. Unbeknownst to the players, the coin will flip heads with probability 1/3 and tails with probability 2/3. One of the players is asked to 'call' the flip. What is the probability he calls the flip correctly? Give your answer as a reduced fraction.",
+        "answer": "1/2"
+      },
+      "question_11": {
+        "question": "A sum of $5,000 is invested and grows to $24,000 in 10 years, compounded quarterly. As a percentage, what annual interest rate was applied? Give your answer rounded to the nearest whole number.",
+        "answer": "16"
+      },
+      "question_12": {
+        "question": "What is the units digit of (67)^2025?",
+        "answer": "7"
+      }
+    }
+  }
