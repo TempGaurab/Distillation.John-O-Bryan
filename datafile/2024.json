@@ -1,0 +1,200 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "Find the ordered pair that represents the point at which the line with equation of 3y - 4x = 21 intersects the y-axis. Give your answer as an ordered pair.",
+        "answer": "(0,7)"
+      },
+      "question_2": {
+        "question": "A bag of marbles contains 6 red, 8 blue, and 7 yellow marbles. A marble is drawn at random from the bag. Find the probability that a yellow marble is drawn. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/3"
+      },
+      "question_3": {
+        "question": "A right triangle has vertices (-3,5), (2,4), and (0,-6). Find the exact length of the hypotenuse. Give your answer as a simplified radical expression (e.g. a√b).",
+        "answer": "√130"
+      },
+      "question_4": {
+        "question": "For what value of k is the following true: (1)^k = (3)^k = (6)^k",
+        "answer": "0"
+      },
+      "question_5": {
+        "question": "A square inscribed in a circle has area 80. Find the area of the circle. Give an exact answer in terms of π.",
+        "answer": "40π"
+      },
+      "question_6": {
+        "question": "The measure of the central angle that intercepts an arc of length 11π in a circle with area 289π is k degrees. Find k. Express your answer as a decimal rounded to the nearest hundredth.",
+        "answer": "116.47"
+      },
+      "question_7": {
+        "question": "A boss wants to give all of his employees a bonus of $100 for the holidays, but would be $11 short. The boss compromises by giving each of his employees $98 as a bonus. This resulted in the boss having $23 left over. How many employees does the boss have?",
+        "answer": "17"
+      },
+      "question_8": {
+        "question": "There is a circle inscribed inside a right triangle whose legs have length 10 and 30. Find the length of the circle's radius. Give your answer with two decimal places.",
+        "answer": "4.19"
+      },
+      "question_9": {
+        "question": "Find the length of the chord connecting the points of intersection for two circles whose equations are (x - 8)^2 + (y + 7)^2 = 100 and (x + 4)^2 + (y + 7)^2 = 100.",
+        "answer": "16"
+      },
+      "question_10": {
+        "question": "If (2/3)x is 10% of 180, find the value of 10% of (4/9)x. Express your answer as a decimal.",
+        "answer": "1.2"
+      },
+      "question_11": {
+        "question": "Find the value of k if (4th root of 3) * (third root of 2) = (12th root of k).",
+        "answer": "432"
+      },
+      "question_12": {
+        "question": "A regular polyhedron has 6 distinct vertices and 12 distinct edges. If the length of one of these edges is 8, find the total surface area of this regular polyhedron. Give your answer as a simplified radical expression (e.g. a√b).",
+        "answer": "200√3"
+      },
+      "question_13": {
+        "question": "Triangle ΔABC has area 4224 square units. The midpoints of the three sides are joined to form ΔDEF. The midpoints of the three sides of ΔDEF are then joined to form ΔXYZ. Find the area of ΔXYZ.",
+        "answer": "264"
+      },
+      "question_14": {
+        "question": "One hour after leaving port, a boat develops engine trouble which slows its speed to 75% of its usual rate. Continuing at this constant rate, the boat arrives at its destination 1 hour and 45 minutes later than it would have by traveling at its usual rate. If the engine troubles would have occurred 50 miles later, the boat would have reached its destination 1 hour and 30 minutes later than it would have by traveling at its usual rate. Find the number of miles between the port and its destination, rounded to the nearest integer.",
+        "answer": "417"
+      },
+      "question_15": {
+        "question": "A convex polygon has consecutive vertices (2,13), (1,14), (3,16), (6,17), (7,16) and (5,13). Find the area of this polygon. Give your answer as a reduced improper fraction.",
+        "answer": "29/2"
+      },
+      "question_16": {
+        "question": "When x^3 + x + k is divided by (x + 5), the remainder is 24. Find the value of k.",
+        "answer": "154"
+      },
+      "question_17": {
+        "question": "Consider the equation below. Find the value of k. 2(1/4)^(2k-3) = 1/32",
+        "answer": "3"
+      },
+      "question_18": {
+        "question": "A right cylindrical tube has an outside circumference of 18, and has a height of 17. Eight turns of a wire are helically wound from top to bottom in such a way that the ends of the wire are vertically aligned on the side of the tube. Find the length of the wire.",
+        "answer": "145"
+      },
+      "question_19": {
+        "question": "√(x + √(x + √(x + √(x + ...)))) = (1 + √157)/2. Find the value of x.",
+        "answer": "39"
+      },
+      "question_20": {
+        "question": "Given triangle ΔETS with E(0,0), T(10,0) and S(6,6). Let R be the point where the angle bisector of ∠EST intersects ET. Let K be the centroid of ΔETS. Find the length of RK. Express your answer as a decimal rounded to 4 significant digits.",
+        "answer": "2.001"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Find the y-coordinate of which the vertical line passing through (3,4) intersects the parabola whose equation is y = x^2 - x - 6.",
+        "answer": "0"
+      },
+      "question_2": {
+        "question": "Let b represent the degree measure of an angle such that tan(b) = √3/3. If 180 < b < 270, find the value of b.",
+        "answer": "210"
+      },
+      "question_3": {
+        "question": "A bag contains only green, yellow, blue, and orange marbles. The bag contains 17 green marbles, 24 yellow marbles, fewer than 13 blue marbles, and x orange marbles. If the probability that a marble drawn at random from the bag is orange is exactly 25%, find the sum of all possible distinct values of x.",
+        "answer": "62"
+      },
+      "question_4": {
+        "question": "Let a, b, c, and d represent vectors such that a = (5,2), b = (-1,-3), and c = (-8,5). Find the ordered pair representing d if a + b = c - d.",
+        "answer": "(-12,6)"
+      },
+      "question_5": {
+        "question": "Let a, b, c, and d be single digit positive integers such that f(x) = ax^3 + bx^2 + cx + d. If f(5) = 518 and f(10) = 3483, find the value of (5a + 2b + 4c + d).",
+        "answer": "58"
+      },
+      "question_6": {
+        "question": "Find the value of the indicated sum: ∑(k=2 to 4)(5k + 3^k)",
+        "answer": "162"
+      },
+      "question_7": {
+        "question": "Let b and x represent real numbers and let k be an element of the set {1,3,5,7,9}. Find the sum of all distinct values of k such that (b^x)(b^k) = (b^(x+k)).",
+        "answer": "25"
+      },
+      "question_8": {
+        "question": "Let k represent the degree measure of an angle such that sin(59°) = cos(k°). If 270° < k < 360°, find the value of k.",
+        "answer": "329"
+      },
+      "question_9": {
+        "question": "If 2024! - 2023! = (2022!) * x^2, find the value of x.",
+        "answer": "2023"
+      },
+      "question_10": {
+        "question": "If x ≠ 0 and x^k / x^(5(k+1)) = x^3, find the value of k.",
+        "answer": "-2"
+      },
+      "question_11": {
+        "question": "A right cylindrical tube has an outside circumference of 18, and has a height of 17. Eight turns of a wire are helically wound from top to bottom in such a way that the ends of the wire are vertically aligned on the side of the tube. Find the length of the wire.",
+        "answer": "145"
+      },
+      "question_12": {
+        "question": "When (-3x + 5y)^6 is expanded and completely simplified, the coefficient of one of the terms is 84,375. Find the exponent of y for that term.",
+        "answer": "4"
+      },
+      "question_13": {
+        "question": "Let i = √-1. Find the complex conjugate of 17 - 8 * (i^7).",
+        "answer": "17 - 8i"
+      },
+      "question_14": {
+        "question": "Find the value of ∑(n=1 to ∞)[(1/3)^n]. Give your answer as a fraction reduced to lowest terms.",
+        "answer": "1/2"
+      },
+      "question_15": {
+        "question": "Let i = √-1 and let a, b, and c represent positive integers. Find the smallest possible value of (a + b - c) for which |3i/(2 + 6i)| = (a√b)/c.",
+        "answer": "-7"
+      },
+      "question_16": {
+        "question": "In taking an eleven-problem multiple choice test with four choices for each problem, a student randomly guesses on all eleven questions. Find the probability that the student guessed at most six correct answers out of the eleven. Express your answer as a decimal rounded to the nearest ten-thousandth.",
+        "answer": "0.0076"
+      },
+      "question_17": {
+        "question": "Let m be a positive integer such that 1 + 3 + 6 + ... + m(m+1)/2 = 9(1 + 2 + 3 + ... + m). Find the value of m.",
+        "answer": "25"
+      },
+      "question_18": {
+        "question": "The sum of the last two terms of an eight-term geometric progression of real terms is 2/9. The sum of the third and fourth term of this geometric progression is 18. Find the sum of all eight terms of this geometric progression. Express your answer as an improper fraction reduced to lowest terms.",
+        "answer": "1640/9"
+      },
+      "question_19": {
+        "question": "Given triangle ΔETS with E(0,0), T(10,0) and S(6,6). Let R be the point where the angle bisector of ∠EST intersects ET. Let K be the centroid of ΔETS. Find the length of RK. Express your answer as a decimal rounded to 4 significant digits.",
+        "answer": "2.001"
+      },
+      "question_20": {
+        "question": "A convex polygon has consecutive vertices (2,13), (1,14), (3,16), (6,17), (7,16) and (5,13). Find the area of this polygon. Write your answer as a reduced improper fraction.",
+        "answer": "29/2"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "Let f(x) = 4x^2 - 5x + 3 and g(x) = 3x - 6. Find the value of f(g(4)) + g(f(4)).",
+        "answer": "252"
+      },
+      "question_2": {
+        "question": "An ellipse has an equation of (x-4)^2/256 + (y+3)^2/361 = 4. The area of this ellipse can be expressed in the form of nπ. Find the value of n.",
+        "answer": "1216"
+      },
+      "question_3": {
+        "question": "Let r be the numerical remainder when dividing t^4 + 4t^3 - 6t^2 + 31t - 15 by (t - 4). For all real numbers x and y, f(x + y) = f(x) + f(y). If f(1) = 5, let f(7) = k. Find the value of (r + k).",
+        "answer": "560"
+      },
+      "question_4": {
+        "question": "[x -2][4  1] = [8  -3]. Find the value of x - y.\n[4  y][y  x]   [20  10]",
+        "answer": "1"
+      },
+      "question_5": {
+        "question": "A sum of $5,000 is invested at an interest rate of 10% annual percentage rate. If compounded quarterly, in how many years will that sum be worth at least $24,000.",
+        "answer": "16"
+      },
+      "question_6": {
+        "question": "Let k be the sum of all positive integers x such that (x - 2)(x^2 - 15x + 32) < 0. Let w be the length of a radius of a circle whose circumference contains the same number of units as its area contains square units. Find the value of (k + w).",
+        "answer": "78"
+      },
+      "question_7": {
+        "question": "Let k and w be positive integers where k > w. Find the number of distinct ordered pairs (k,w) that exist such that √k + √w = 27",
+        "answer": "13"
+      },
+      "question_8": {
+        "question": "Let the volume of a cone with its height equal to its radius be 576π. The area of its base is kπ. Let the diagonal of a cube be of length 15. The area of one of its sides is j. Find the product jk.",
+        "answer": "10800"
+      }
+    }
+  }
