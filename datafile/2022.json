@@ -1,0 +1,200 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "Determine which of the following five statement(s) is sufficient to deduct that x > y. A) x + 1 = y  B) x + 2.2 = y  C) x - 1.3 = y  D) xy > 0  E) xy < 0",
+        "answer": "C"
+      },
+      "question_2": {
+        "question": "Jadyn just completed a 4-day trip. On the first day she drove 531 miles; on the second day, 615 miles; on the third day, 704 miles; on the fourth day, k miles. If Jadyn drove an average of 622.5 miles per day for the 4-day trip, determine the value of k.",
+        "answer": "640"
+      },
+      "question_3": {
+        "question": "A rectangle is half as wide as it is long and has a perimeter of x units. The numeric area of this rectangle can be written as the expression kx². Determine the value of k. Express your answer as an integer or as a common or improper fraction reduced to lowest terms.",
+        "answer": "1/18"
+      },
+      "question_4": {
+        "question": "A circle is inscribed within the region that is the solution of {x ≥ 2, x ≤ 6, y ≥ 1, y ≤ 5}. This circle can be represented algebraically by (x - h)² + (y - k)² = r². Determine the ordered triple (h, k, r²).",
+        "answer": "(4, 3, 4)"
+      },
+      "question_5": {
+        "question": "Let x² - 4y² = 30 and x - 2y = 5. Determine the value of (x + 2y).",
+        "answer": "6"
+      },
+      "question_6": {
+        "question": "The sum of twice a number and three times a second number is 16. The difference between the two numbers is 3. If the first number is greater than the second number, determine the sum of the two numbers.",
+        "answer": "7"
+      },
+      "question_7": {
+        "question": "Circle P has diameter AB. ΔABC is isosceles with base BC intersecting the circle at point D. AC = 4 and DC = 1. Determine the numeric area of ΔABC. Give your answer as a radical expression (in the form a√b), where b is a whole number as small as possible.",
+        "answer": "√15"
+      },
+      "question_8": {
+        "question": "In a circle with center C, minor arc ⌢AB has length 8π/9. ∠ACB = 40°. Determine the radius of the circle C.",
+        "answer": "4"
+      },
+      "question_9": {
+        "question": "Let k = √(110 + √(110 + √(110 + √110...))). Determine the exact value of k.",
+        "answer": "11"
+      },
+      "question_10": {
+        "question": "Let b and c be integers with g(x) = x² + bx + c and f(x) = x² + cx + b. Determine the sum (b + c) when g(c) = f(b) and c ≠ b.",
+        "answer": "-1"
+      },
+      "question_11": {
+        "question": "A square with numeric area k is inscribed in a semicircle (two vertices of the square lie on the semicircle and the side opposite the two vertices lies on the diameter.) A second square with numeric area w is inscribed in a full congruent circle (same radius as the semicircle). Determine the ratio k:w. Give your answer as a ratio where both k and w are whole numbers that are as small as possible.",
+        "answer": "2:5"
+      },
+      "question_12": {
+        "question": "Determine the number of diagonals that can be drawn in a convex polygon that has 100 sides.",
+        "answer": "4850"
+      },
+      "question_13": {
+        "question": "Let a and b be such that a²b - 3a - 2ab² + 6b = 32. If a is 4 more than twice b, determine the product (ab).",
+        "answer": "11"
+      },
+      "question_14": {
+        "question": "For all x in the expression's natural domain, the expression [2/(x+3) + (x-1)/(x+2) - (4x+5)/(x²+5x+6)]^(-1) can be written as a single simplified rational expression. Determine the numerator of this simplified rational expression. Express you answer as an algebraic expression in the form of an irreducible polynomial.",
+        "answer": "x+3"
+      },
+      "question_15": {
+        "question": "MAST is a kite with TM = TS. TG = 2y - 2, GA = y + 3, MG = 2y, and GS = y + 6. Determine the length of TS. Give your answer in the form where a√b, where a and b are integers and b is as small as possible.",
+        "answer": "2√61"
+      },
+      "question_16": {
+        "question": "Line l, with equation 3x - 4y - 4 = 0, intersects ⊙ O, with equation (x - 1)² + (y - k)² = 25, in exactly one point P. Determine the sum of all possible value(s) of k. Express your answer as an integer or as a common or improper fraction reduced to lowest terms.",
+        "answer": "1/2"
+      },
+      "question_17": {
+        "question": "Determine the numerical area of the triangular region enclosed by the system {y = 4x - 2, y = -4x + 14, y = (4/3)x - 2}.",
+        "answer": "8"
+      },
+      "question_18": {
+        "question": "A square with area S and an isosceles right triangle with area T have the same perimeter. Determine the larger of the two ratios S/T and T/S. Express your exact answer as a decimal rounded to the nearest thousandth.",
+        "answer": "1.457"
+      },
+      "question_19": {
+        "question": "A minor segment  of a circle with radius 12 is determined by a 120° arc. Determine the area of this segment of the circle. Express your answer as a decimal rounded to the nearest thousandth.",
+        "answer": "88.443"
+      },
+      "question_20": {
+        "question": "Rectangle RECT has diagonals that meet at point Z. RZ = 650, and the numeric area of rectangle RECT is 739200. Determine the perimeter of rectangle RECT.",
+        "answer": "3560"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Circle P has diameter AB. ΔABC is isosceles with base BC intersecting the circle at point D. AC = 4 and DC = 1. Determine the numeric area of ΔABC. Give your answer as a radical expression (in the form a√b), where b is a whole number as small as possible.",
+        "answer": "√15"
+      },
+      "question_2": {
+        "question": "Determine the sum of all distinct values(s) for x such that √(2x - 12) = x - 10.",
+        "answer": "14"
+      },
+      "question_3": {
+        "question": "Determine the constant term when the expansion of (x - 2/x)⁴ is expanded and completely simplified.",
+        "answer": "24"
+      },
+      "question_4": {
+        "question": "Determine the area enclosed by the graph of the inequality |3x - 12| + |2y + 4| ≤ 3. Express your answer as an integer or as a common or improper fraction reduced to lowest terms.",
+        "answer": "3"
+      },
+      "question_5": {
+        "question": "MAST is a kite with TM = TS (note: drawing not to scale). TG = 2y - 2, GA = y + 3, MG = 2y, and GS = y + 6. Determine the length of TS. Give your answer in the form where a√b, where a and b are integers and b is as small as possible.",
+        "answer": "2√61"
+      },
+      "question_6": {
+        "question": "Let n be a positive integer such that n!/(n-2)! + (2n - 4)² - n!/(n-1)! = 0. Determine the value(s) of n.",
+        "answer": "2"
+      },
+      "question_7": {
+        "question": "Determine the numerical area of the triangular region enclosed by the system {y = 4x - 2, y = -4x + 14, y = (4/3)x - 2}.",
+        "answer": "8"
+      },
+      "question_8": {
+        "question": "Determine the product of all possible value(s) for x such that |x + 2| + |x| = 8.",
+        "answer": "-15"
+      },
+      "question_9": {
+        "question": "i = √-1 and A = i + i² + i³ + i⁴ + i⁵ + ⋯ + i²⁰²². Determine the exact value of A.",
+        "answer": "i-1"
+      },
+      "question_10": {
+        "question": "The graph of an ellipse with center at (7, 2) is tangent to the x-axis at point (7, 0) and the y-axis at point (0, 2). The exact area of this ellipse may be expressed as kπ. Find the value of k.",
+        "answer": "14"
+      },
+      "question_11": {
+        "question": "Determine the geometric mean of 3, 27, 72.",
+        "answer": "18"
+      },
+      "question_12": {
+        "question": "The bullet train traveled at r miles per hour for t hours and was 143 miles short of the train station at the estimate time of arrival. The next day, on the same run starting at the same time and same place, the engineer increased the rate of travel by 13 miles per hour and reached the station at the same estimated time of arrival. Determine the number of hours it took the train to reach the station on the second trip.",
+        "answer": "11"
+      },
+      "question_13": {
+        "question": "Determine the value of k such that [16^(k) * 8^(k+3)] / [32^(k-1) * 4^(k) * 2^(4k)] = 32^(4). Express your answer as an integer or as a common or improper fraction reduced to the lowest terms.",
+        "answer": "-3/2"
+      },
+      "question_14": {
+        "question": "In a geometric sequence, a₁ = 5/4 and a₄ = -10. Determine the value of a₃. Express your answer as an integer or as a common or improper fraction reduced to lowest terms.",
+        "answer": "5"
+      },
+      "question_15": {
+        "question": "Rectangle RECT has diagonals that meet at point Z. RZ = 650, and the numeric area of rectangle RECT is 739200. Determine the perimeter of rectangle RECT.",
+        "answer": "3560"
+      },
+      "question_16": {
+        "question": "Let lim(n→∞)(ln((n²+cos n)/n²+167)) = k. Determine the exact value of k if it exists. Express your answer as an integer or as a common or improper fraction reduced to lowest terms of 'DNE' if the limit does not exist.",
+        "answer": "0"
+      },
+      "question_17": {
+        "question": "Let A = log₂ 3, B = log₂ 5, C = log₂ 7, D = log₂ 11. Then log₄(31500/1331) = aA + bB + cC + dD + f for real numbers a, b, c, d, and f. Determine the sum (a + b + c + d + f). Express your answer as an integer of as a common or improper fraction reduced to lowest terms.",
+        "answer": "5/2"
+      },
+      "question_18": {
+        "question": "Jack eats lunch at McDonalds or Burger King every week day according to the following pattern. When Jack eats at McDonalds, he eats at McDonalds the next day 70% of the time. When Jack eats at Burger King, he eats at Burger King the next day 80% of the time. Jack ate lunch at Burger King Monday. According to his pattern, determine the probability Jack will eat lunch at McDonalds on Friday, four days later. Express your answer as a decimal.",
+        "answer": "0.375"
+      },
+      "question_19": {
+        "question": "A square with numeric area k is inscribed in a semicircle (two vertices of the square lie on the semicircle and the side opposite the two vertices lies on the diameter.) A second square with numeric area w is inscribed in a full congruent circle (same radius as the semicircle). Determine the ratio k:w. Give your answer as a ratio where both k and w are whole numbers that are as small as possible.",
+        "answer": "2:5"
+      },
+      "question_20": {
+        "question": "i = √-1. f(x) = x² + kx + w has real coefficients k and w. The zeros of f(x) are r₁ and r₂ such that r₁ - r₂ = 2i and 1/r₁ + 1/r₂ = 3/5. Determine the sum of all possible value(s) for k and w. Express your answer as an integer or as a common or improper fraction reduced to lowest terms.",
+        "answer": "40/9"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "A system of equations has x² - 4y² = 30 and x - 2y = 5 and k = x + 2y. Quadrilateral ABCD is circumscribed about a circle with side lengths BC = 20 and AD = 17. The perimeter of the quadrilateral is w. Determine the value of k + w.",
+        "answer": "80"
+      },
+      "question_2": {
+        "question": "For the system of equations {3x - Ay = 3, -4x + 5y = -1}, let k be the value of A such that the system is inconsistent. Let w be the value of A such that this system represents perpendicular lines. Determine the product (kw). Express your answer as an integer or as a common or improper fraction reduced to lowest terms.",
+        "answer": "-9"
+      },
+      "question_3": {
+        "question": "In degree mode, let s(x) = sin⁻¹(x), the inverse sine function) and let t(x) = tan(x). Determine the exact value of s(t(s(t(s(t(30)))))). Do not include the 'degree' symbol in your answer.",
+        "answer": "90"
+      },
+      "question_4": {
+        "question": "Let k = ⟨2,3⟩ · ⟨4,-1⟩ (the dot product of two vectors) and let w = log₇(7203) - log₇(3). Determine the sum (k + w).",
+        "answer": "9"
+      },
+      "question_5": {
+        "question": "The sum of the lengths of two legs of a right triangle is 49. The square of the numeric length of the hypotenuse is 1225. Determine the numeric area of this triangle.",
+        "answer": "294"
+      },
+      "question_6": {
+        "question": "The volume of sphere with a radius of 9 is kπ. The slope of a line passing through the point (1/2, 56) is two times b, the y-intercept of this line. Determine the sum of (k + b).",
+        "answer": "1000"
+      },
+      "question_7": {
+        "question": "Hailey and Jay each toss a fair coin 5 times. Determine the probability that Hailey tossed at least 3 more heads then Jay. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "7/128"
+      },
+      "question_8": {
+        "question": "Let k and w be positive integers such that 1 + 2 + 3 + ⋯ + k = k² - 15 and 1 + 3 + 5 + 7 + ⋯ + (2w - 1) = 2w² + 3w - 340. Determine the sum (k + w).",
+        "answer": "23"
+      }
+    }
+  }
