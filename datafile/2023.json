@@ -1,0 +1,196 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "The circumference of Circle O is 34, the circumference of Circle P is 42, and the circumference of Circle T is 53. If one of the three circles is selected at random, find the probability that the radius of that circle is more than 6. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "2/3"
+      },
+      "question_2": {
+        "question": "In ΔABC, if AB = BC, and ∠BAC = 32°, by how many degrees does the angle measure of ∠ABC exceed that of ∠BCA?",
+        "answer": "84"
+      },
+      "question_3": {
+        "question": "For all values of x such that x ≠ 3, (5x-15)/12 ÷ (4x-12)/15 = k. Find the value of k. Express your answer as a decimal.",
+        "answer": "1.5625"
+      },
+      "question_4": {
+        "question": "Three different fruits lie on a table: an orange, an apple, and a banana. If two different fruits are selected at random from among these three, find the probability that the first letter of each fruit selected is a vowel. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/3"
+      },
+      "question_5": {
+        "question": "Two triangles have congruent bases. The heights of each of these two triangles on these two congruent bases are also congruent. Must these two triangles be congruent? For your answer, write the whole word, choosing from 'Yes' or 'No'.",
+        "answer": "No"
+      },
+      "question_6": {
+        "question": "If 17.4x + 34.2 = 5.8(3x + y), find the value of y. Express your answer as an improper fraction reduced to lowest terms.",
+        "answer": "171/29"
+      },
+      "question_7": {
+        "question": "From all the interior angles of an equiangular pentagon, an equiangular hexagon, and an equiangular heptagon, one of these interior angles is selected at random. Find the probability that the angle selected has a degree measure that is an integer. Express your answer as a common fraction reduced to the lowest terms.",
+        "answer": "11/18"
+      },
+      "question_8": {
+        "question": "In rectangle RECT, M is the midpoint of RE, N is the midpoint of EC, O is the midpoint of TC, and P is the midpoint of RT. If RP = 6, and TO = 17.5, find the perimeter of quadrilateral MNOP.",
+        "answer": "74"
+      },
+      "question_9": {
+        "question": "Assume that men and women are adults, and assume that boys and girls are not adults. At a Halloween party, only men, women, boys, and girls attended. There were 17 girls, 11 adults without costumes, 14 women, 10 girls with costumes, 29 people without costumes, 11 women with costumes, and 16 males with costumes. Find the total number of people who attended this Halloween party.",
+        "answer": "66"
+      },
+      "question_10": {
+        "question": "Allison walked for a certain number of miles at a constant rate of 4 mph. She then immediately jogged an additional number of miles at a constant rate of 8 mph. She covered a total distance of 29 miles in 7 hours. Find the number of minutes that Allison walked.",
+        "answer": "405"
+      },
+      "question_11": {
+        "question": "In △ABC, the vertices are at A(4,3), B(14,5), and C(-3,1). Find the length of the median from C to AB. Give your answer in the form a√b where both a and b are integers larger than 1.",
+        "answer": "3√17"
+      },
+      "question_12": {
+        "question": "Given the points D(1,2), E(10,2), F(9,-2). A lattice point is defined as a point for which all coordinates are integers. Find the number of distinct lattice points that are in the interior of ΔDEF.",
+        "answer": "12"
+      },
+      "question_13": {
+        "question": "When x⁴ - 33 is divided by x - 3, find the remainder.",
+        "answer": "48"
+      },
+      "question_14": {
+        "question": "If 43°20' were expressed in terms of degrees, the answer would be 43 1/3 degrees. Likewise 43°20'15'' would be 43 27/80 degrees. By how many degrees does 64 2/3 degrees exceed 60°25'30''? Express your answer as an improper fraction reduced to lowest terms.",
+        "answer": "509/120"
+      },
+      "question_15": {
+        "question": "If 5x = 7y = z, and x, y, and z are positive integers, then all of the following must be an integer except: A) z/xy  B) z/7  C) z/35  D) z/5  E) y/5. Write the capital letter corresponding to the correct answer on your answer sheet.",
+        "answer": "A"
+      },
+      "question_16": {
+        "question": "ABCD is an isosceles trapezoid with BC as one of the bases. AD = kx + 4, DC = 7.6x - 5.1, BC = 19x, and AB = 3.2x + 21.3. If k is a positive integer, find the smallest possible value of k.",
+        "answer": "5"
+      },
+      "question_17": {
+        "question": "Tiffany was rowing upstream one day when her cap blew off into the stream. She failed to notice it was missing until 18 minutes after it blew off. She immediately turned around and recovered the cap 2.64 miles downstream from where it initially blew off. Assume Tiffany's physical rate of rowing was constant, the rate of the current was constant, and that it took no time to turn around. Find the number of miles per hour in the rate of the current. Express your answer as an exact decimal.",
+        "answer": "4.4"
+      },
+      "question_18": {
+        "question": "A rectangular solid has dimensions of 5, 6, and 8. From one of the faces with smallest area, a circular hole of diameter 4 is drilled at a right angle from the face halfway through to the opposite face. When the circular hole reaches that halfway point, a semicircular hole of diameter 4 is drilled the rest of the way to the opposite face and at right angle with that opposite face. Find the total surface area of the rectangular solid with the hole. Express your answer as a decimal rounded to the nearest tenth.",
+        "answer": "314.8"
+      },
+      "question_19": {
+        "question": "Two positive integers each of which is less than 10 form a two-digit number. The digits are then switched to form a second two-digit number. When the second two-digit number is subtracted from the original two-digit number, the result is a number that is one less than the second two-digit number. Find the original number.",
+        "answer": "73"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Let i = √-1. The roots for x of the quadratic equation x² + kx + w = 0 are 12 - 3i and 12 + 3i. If k and w are integers, find the value of (2k + 3w).",
+        "answer": "411"
+      },
+      "question_2": {
+        "question": "In △ABC, AB = 8, BC = 15, and AC = 17. A point is selected at random in the interior of line segment BC. Find the probability that the distance from A to the point selected is more than 2√17. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "13/15"
+      },
+      "question_3": {
+        "question": "If 1/x + 1/y = 1/z and x = 2 and y = 3, find the value of z. Express your answer as a decimal.",
+        "answer": "1.2"
+      },
+      "question_4": {
+        "question": "Cindy has three marbles. One is colored red, another white, and the third is green. She has two containers labeled A and B. She selects a marble at random and then chooses a container at random into which she puts the marble. She repeats this process for each of the two remaining marbles. Find the probability that the red marbles was the first marble selected and that the white marble is in the same container as the red marble.",
+        "answer": "1/6"
+      },
+      "question_5": {
+        "question": "Find the 50th term of the arithmetic sequence 5, 24/5, 23/5, .... Express your answer as a decimal.",
+        "answer": "-4.8"
+      },
+      "question_6": {
+        "question": "If x represents a positive integer, find the sum of all distinct values of x such that x(x - 4)(x + 2) ≤ 0.",
+        "answer": "10"
+      },
+      "question_7": {
+        "question": "Find the radian period of the graph y = 3sin(2x).",
+        "answer": "π"
+      },
+      "question_8": {
+        "question": "Given a sequence 1,4,7,10,...(3n - 2). If one of the first ten numbers in this sequence is selected at random, find the probability that the number selected is odd. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/2"
+      },
+      "question_9": {
+        "question": "On a flat planar surface, a semicircle is drawn in the exterior of a square with a side of the square as its diameter. If the sum of the areas of the square and the semicircle is 240, find the length of the diameter. Express your answer as a decimal rounded to the nearest hundredth.",
+        "answer": "13.13"
+      },
+      "question_10": {
+        "question": "The distance between two points represented by (x, 5) and (-3,26) is 29. Find the largest possible value of x.",
+        "answer": "17"
+      },
+      "question_11": {
+        "question": "Find the number of years it will take for a sum of money to double if invested at an annual percentage rate of 8.1% and compounded continuously. Express your answer as a decimal rounded to the nearest hundredth of a year.",
+        "answer": "8.56"
+      },
+      "question_12": {
+        "question": "An apartment rental company has 3000 apartments available, and 1900 are presently rented at $950 per month. The company has decided it will only raise or lower the rent per month on all apartments by integral increments of $40. A survey has shown that, so long as there are apartments available, for each $40 drop in rent per month for every apartment, there will be 99 new tenants. Find the number of dollars in the monthly rent that will maximize total income.",
+        "answer": "870"
+      },
+      "question_13": {
+        "question": "Let f(x) = x² + 5 and let g(x) = kx + w where k and w are positive integers. If f(g(6)) = 1686, find the possible values of (k + w). For your answer, give the smallest possible value of (k + w).",
+        "answer": "11"
+      },
+      "question_14": {
+        "question": "If (x + y)^5 is expanded and completely simplified, find the sum of the numerical coefficients.",
+        "answer": "32"
+      },
+      "question_15": {
+        "question": "Let i = √-1. If the reciprocal of 7 - 2i is written in x + yi form where x and y are real numbers, find the value of (4x + 2y). Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "32/53"
+      },
+      "question_16": {
+        "question": "The graph of y = (2x³-7x²+5x-6)/(x²-5x+6) has an oblique or slant asymptote of y = kx + w. Find the value of (k + w).",
+        "answer": "5"
+      },
+      "question_17": {
+        "question": "For all real values of x except for x = ±√7, (2x⁵+x⁴+3x³-x+5)/(x²-7) = 2x³ + x² + 17x + 7 + (kx+w)/(x²-7). Find the value of (k + w).",
+        "answer": "172"
+      },
+      "question_18": {
+        "question": "On April 1, April puts 1 cent in her piggy bank which was empty. On April 2, April puts 2 additional cents in her piggy bank. On April 3, April puts 4 additional cents in her piggy bank. On April 4, April put 8 additional cents in her piggy bank. She continues this process of doubling the number of cents from the previous day. How many cents will April have in her piggy bank after her deposit on the last day of April?",
+        "answer": "1073741823"
+      },
+      "question_19": {
+        "question": "From a 20'' × 32'' rectangular sheet of cardboard, x'' × x'' squares are cut from two corners, and x'' × 16'' rectangles are cut from the other 2 corners. The remaining cardboard is then folded to form a box with a lid. Find the value of x that yields the box of maximum volume. Express your answer as a decimal rounded to the nearest hundredth of an inch.",
+        "answer": "4.00"
+      },
+      "question_20": {
+        "question": "A positive integer, if divided by 12, leaves a remainder of 11; if divided by 11, leave a remainder of 10; if divided by 10, leaves a remainder of 9; if divided by 9, leaves a remainder of 8; if divided by 8, leaves a remainder of 7; if divided by 7, leaves a remainder of 6; if divided by 6, leaves a remainder of 5; and if divided by 5, leaves a remainder of 4. Find the smallest such positive integer.",
+        "answer": "27719"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "Find the sum of the distinct roots of the following four equations: 5x - 8 = 112, y² - 4y - 12 = 0, z² = 288, |w - 1| = 10",
+        "answer": "30"
+      },
+      "question_2": {
+        "question": "Players stand in a circle. Player 1 stays in. Player 2 is knocked out. Player 3, in; Player 4, out. This continues, knocking every other Player out, until only one Player remains. With 9 Players, let k be the number of the last Player remaining; with 11 players, let w be the number of the last Player remaining. Find the value of (2k + 3w).",
+        "answer": "27"
+      },
+      "question_3": {
+        "question": "The sum of two numbers is 15 while their product is 5. Let k be the sum of their reciprocals. Let w be the telescoping sum 600 + √(600 + √(600 + √600 + ...)) where the pattern continues indefinitely. Find the value of k√w.",
+        "answer": "75"
+      },
+      "question_4": {
+        "question": "Let k be the value of the x-coordinate of the center of the circle whose equation is x² + y² - 6x + 8y - 24 = 0. Let w be the value of the y-coordinate of the center of the circle whose equation is x² + y² - 16 + 18y - 24x = 0. Find the value of (2k + 3w).",
+        "answer": "-21"
+      },
+      "question_5": {
+        "question": "Let p be the unit's digit of 3¹¹¹⁸²⁰²³. Let k be an integer greater than 50. One group of 50 numbers has an arithmetic mean of 32. Another group of 70 numbers has an arithmetic mean of k. Let w be the smallest possible value of k such that the arithmetic mean of both groups of numbers together is a positive integer. Find the value of (w + p).",
+        "answer": "63"
+      },
+      "question_6": {
+        "question": "Let log(k) = 5 - 5 log(2). Let w be the number of distinct possible committees of 7 that can be chosen from 5 girls and 4 boys if the majority of members of each committee must be girls. Find the value of (k + w).",
+        "answer": "3151"
+      },
+      "question_7": {
+        "question": "Working alone at constant rates, it takes the respective number of hours to clean the SU Ballroom: Nora, 3; Katie, 7; Ulrich, 13. With no loss of efficiency, let k and w be the respective number of hours required if the first two work together and then if the last two work together. Expressed as a decimal, find the value of (k + w).",
+        "answer": "6.65"
+      },
+      "question_8": {
+        "question": "Let k be a thirty-two digit number such that the last three digits (hundreds, tens, and units) of k² are 225. Let w be the sum of all possibilities for the tens digit of k. Let i = √-1. Let p be an integer such that 1 + i is a zero of f(x) = x³ + px² + 32x - 30. Find the value of (w + p).",
+        "answer": "1"
+      }
+    }
+}
