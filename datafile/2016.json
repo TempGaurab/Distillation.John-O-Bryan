@@ -1,0 +1,188 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "(Select all that apply) For your answer write the capital letter(s) which corresponds to all correct choice. There are 9 sections of seats in an auditorium. Each section contains more than 89 seats and less than 157 seats. Which of the following could be the number of seats in this auditorium? A) 98 B) 801 C) 809 D) 1056 E) 1405 F) 1695",
+        "answer": "D"
+      },
+      "question_2": {
+        "question": "The slope of a line that contains points A(6,k) and B(1,w) is 2. Find the value of (w-k).",
+        "answer": "10"
+      },
+      "question_3": {
+        "question": "A certain number is six more than 80% of 80. Find the value of that number.",
+        "answer": "70"
+      },
+      "question_4": {
+        "question": "Two cartons have weights of (4x-21) and (7x+11) respectively. Their average weight is 72 pounds. What is the difference in weights between the cartons?",
+        "answer": "74"
+      },
+      "question_5": {
+        "question": "The two longer sides of a rectangle have a total length of 120, and one of the diagonals of this rectangle has a length of 65. Find the length of one of the shorter sides of the rectangle.",
+        "answer": "25"
+      },
+      "question_6": {
+        "question": "Two cubes have edges whose respective lengths are 5 and 6. The ratio of the volume of the smaller cube to the volume of the larger cube is k:w, where k and w are positive integers. Find the smallest possible value of (k+w).",
+        "answer": "341"
+      },
+      "question_7": {
+        "question": "Given A(2,3), B(4,10), and C(16,7), find the ordered pair that represents the point at which the median from B intersects AC.",
+        "answer": "(9,5)"
+      },
+      "question_8": {
+        "question": "The graph of the function y=x²-2x+k has x-intercepts that are 6 units apart. Find the value of k.",
+        "answer": "-8"
+      },
+      "question_9": {
+        "question": "Suppose x and y are non-negative integers representing bases in the equation: (24/30)ₓ = (3/4)ᵧ. Find the smallest possible base-ten value of x+y.",
+        "answer": "21"
+      },
+      "question_11": {
+        "question": "A trapezoid has sides with respective lengths 2, 15, 20, 15. Find the length of an altitude of this trapezoid.",
+        "answer": "12"
+      },
+      "question_12": {
+        "question": "In the diagram, ABCD is a rhombus. If the degree measure of ∠ADC is 7 times the degree measure of ∠BAC, find the degree measure of ∠BCD.",
+        "answer": "40"
+      },
+      "question_14": {
+        "question": "The sum of the digits of a three-digit positive integer is 18. The hundreds digit divides the remaining two-digit integer without remainder. The ones digit is 5 more than the tens digit. Find the three-digit integer.",
+        "answer": "927"
+      },
+      "question_15": {
+        "question": "Suppose that x, y, and z are positive integers with 8x+y+12z=62. Find the minimum value of the sum x+y+z.",
+        "answer": "8"
+      },
+      "question_16": {
+        "question": "Let ABCDE be a regular pentagon with center at point O. Point P lies on DE such that OP⊥DE. If OE were drawn, find the degree measure of ∠EOP.",
+        "answer": "36"
+      },
+      "question_17": {
+        "question": "Find the sum of the number of degrees in the interior angles of a convex polygon having 18 sides.",
+        "answer": "2880"
+      },
+      "question_18": {
+        "question": "A bag has 4 red marbles and 2 blue marbles. You take out two marbles at the same time. Find the probability that they are the same color. Give your answer as a reduced common fraction.",
+        "answer": "7/15"
+      },
+      "question_19": {
+        "question": "Find the largest integer that divides 300, 417, and 764 with remainders R₁, R₂, and R₃, respectively, such that R₂=R₁+3 and R₃=R₂+5.",
+        "answer": "114"
+      },
+      "question_20": {
+        "question": "In the city of Stormwind there are 405 druids and 459 warlocks. The fractional part of the total of these druids and warlocks that are warlocks can be expressed as k/w where k and w are positive integers. Find the smallest possible value of k+w.",
+        "answer": "49"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Find the exact distance between the centers of the two circles whose respective equations are x²-8x+y²+6y=-16 and (x+5)²+(y-1)²=81.",
+        "answer": "√97"
+      },
+      "question_2": {
+        "question": "Let i=√(-1) and let r represent a real number. If r-5i+x=-7+2i is solved for x, then x=-10+7i. Find the value of r.",
+        "answer": "3"
+      },
+      "question_3": {
+        "question": "Given the arithmetic sequence -10,-9,-8,...,10, find the sum of all distinct members k of that arithmetic sequence for which 0.5^k < 0.49.",
+        "answer": "54"
+      },
+      "question_4": {
+        "question": "Let A={8,4,2,j}. If j is equally likely to be any one of the first 100 positive integers, find the probability that A will consist of 4 distinct numbers that can be arranged in some order to form a geometric sequence. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/50"
+      },
+      "question_5": {
+        "question": "A bag has 1 green and 3 red marbles. You take out two marbles at the same time. What is the probability that they are the same color? Write your answer as a reduced common fraction.",
+        "answer": "1/2"
+      },
+      "question_7": {
+        "question": "A trapezoid has sides with respective lengths 2, 41, 20, and 41. Find the length of an altitude of this trapezoid.",
+        "answer": "40"
+      },
+      "question_8": {
+        "question": "Find the value of (log₂ 625)(log₂₅ 20)(log₂₀ 2)(log₂ 25).",
+        "answer": "4"
+      },
+      "question_9": {
+        "question": "In how many distinct points do the real graphs of x²+y²=29103 and -x²=29102y intersect?",
+        "answer": "2"
+      },
+      "question_10": {
+        "question": "Let a>0. Dealing with only real numbers, logₐ(2x+6)=3 and logₐ(3x+54)=6. Find the value of x. Express your answer as a decimal.",
+        "answer": "0.75"
+      },
+      "question_11": {
+        "question": "In △XYZ with right angle at Z, XZ/YX = 9/41. Find sin(∠YXZ). Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "40/41"
+      },
+      "question_13": {
+        "question": "Let n represent a positive integer such that 0<n<92. If n! is an integral multiple of 11, find the sum of all possible distinct values of n.",
+        "answer": "4131"
+      },
+      "question_14": {
+        "question": "In a finite geometric sequence, the last term is 1458, the common ratio is -3, and the sum of the terms is 1094. Find the second term of this geometric sequence.",
+        "answer": "-6"
+      },
+      "question_15": {
+        "question": "In a bridge game with a standard 52 card deck (four suits with 13 ranks each), each of 4 persons is dealt 13 cards at random. If Joe is one of these four persons, find the probability that Joe was dealt exactly 4 spades, exactly 4 hearts, exactly 2 diamonds, and exactly 3 clubs. Express your answer as a decimal rounded to 5 decimal places.",
+        "answer": "0.01796"
+      },
+      "question_16": {
+        "question": "In △DEF, sin(∠EDF)+cos(∠EDF)=167/145. If tan(∠EDF)<1, find tan(∠EDF). Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "24/143"
+      },
+      "question_17": {
+        "question": "If ((x+n)!/x!)-x=1 for all possible values of x, where x, n represent positive integers, find the value of n.",
+        "answer": "1"
+      },
+      "question_19": {
+        "question": "Stacie has 7 t-shirts, identical in every way except for color. Three of these shirts are the same color, while the other shirts are all different colors. In how many ways can she arrange these 7 t-shirts in a single row on a table?",
+        "answer": "840"
+      },
+      "question_20": {
+        "question": "Consider the sequence {xₙ} defined as xₙ₊₁ = (5xₙ)/8 + 126/(8xₙ) for integral n such that n≥1 and for which x₁=10. As n increases without bound, the limiting value of xₙ is k. Find the exact value of k.",
+        "answer": "√42"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "There are k<25 players in a game who stand in a circle. The players are numbered consecutively beginning with 1. Player 1 stays in. Player 2 is knocked out. Player 3 stays in. Player 4 is knocked out. This process continues, knocking every other player out, until only one player remains. Find the sum of all values of k for which the Player 13 will be the last player remaining.",
+        "answer": "36"
+      },
+      "question_2": {
+        "question": "Let k be the smallest integer such that kx must be greater than x+2, if 0.6<x<1. All sides of a right triangle have integer length. If 10 is the length of the shortest side, let w be the smallest possible length of the longest side. Find the value of (k+w).",
+        "answer": "31"
+      },
+      "question_3": {
+        "question": "Let aπ be the area of the circumscribed circle of a triangle whose side-lengths are 12, 16, and 20. The three points (4,5), (-7,17), and (-95,b) are collinear. Find the value of (a+b).",
+        "answer": "213"
+      },
+      "question_4": {
+        "question": "Functions f and g are defined as follows: f(x)=(1-2x)/3 and g(x)=(1-3x)/2. Find the value of f(g(2))+g(f(3))+f(g(4))+g(f(5)).",
+        "answer": "14"
+      },
+      "question_5": {
+        "question": "Let k be the number of gallons of a 50% potassium chloride solution that are added to 15 gallons of a 30% potassium chloride solution to produce a 35% potassium chloride solution. Let w be the number of sides of a regular polygon whose degree measure of one of the exterior angles is 8. Find the value of (k+w).",
+        "answer": "50"
+      },
+      "question_6": {
+        "question": "Let q be a positive integer less than 200 such that √q = √d + √d + √d where d is a positive integer. Find the sum of all distinct values of q.",
+        "answer": "2277"
+      },
+      "question_7": {
+        "question": "Let S=log(1/2)+log(2/3)+log(3/4)+...+log(n/(n+1))+...+log(99/100). The length k of a side of an equilateral triangle is also a root of the quartic equation k⁴-474k²-4840=0. Find the value of (S+k).",
+        "answer": "20"
+      },
+      "question_8": {
+        "question": "Let g be the number of distinct permutations of the letters in the word 'geometry'. Let p be the probability of drawing two hearts if two cards are selected (without replacement) at random from four hearts and two spades. Find the value of the product (gp).",
+        "answer": "8064"
+      },
+      "question_9": {
+        "question": "(T1) Calculate the value of √(1+√(1+√(1+√1+...))). Give your answer to four significant figures.",
+        "answer": "1.618"
+      },
+      "question_10": {
+        "question": "(T2) Find the value of 11₂ + 222₃ + 3333₄. Express your answer in base five.",
+        "answer": "2114five"
+      }
+    }
+  }
