@@ -52,10 +52,6 @@
         "question": "A triangle with base AB̄ has a height to base AB̄ whose length is 3/x units, x>0. The area of this triangle is 24/x square units. Find the number of units in the length of the base AB̄.",
         "answer": "16"
       },
-      "question_14": {
-        "question": "In the figure, if x = 3y, ∠ACB = 90°, and ∠BAC = 27°, find the value of z.",
-        "answer": "132"
-      },
       "question_15": {
         "question": "A circle has an equation of (x-8)² + y² + 10y = -13. Find the length of the radius of the circle. Give your answer in the form a√b where both a and b are integers and b is prime.",
         "answer": "2√3"
@@ -71,10 +67,6 @@
       "question_18": {
         "question": "The length of the hypotenuse of a right triangle is 97, and the sum of the lengths of the two legs of this right triangle is 137. Find the length of the smaller leg.",
         "answer": "65"
-      },
-      "question_19": {
-        "question": "In the diagram, M, I, and L are collinear, and E, Y, and I are collinear. Ray IȲ bisects ∠ELM. EĪ is an altitude of △EML. EL=120, and IL=80. Find the value of (EY-YI). Give your answer in the form a√b where both a and b are integers and b is prime.",
-        "answer": "8√5"
       },
       "question_20": {
         "question": "Let a, b, and c represent single digit positive integers such that f(x) = ax² + bx + c. If f(4) = 63 and f(10) = 273, find the value of a+2b+3c.",
@@ -151,14 +143,10 @@
         "answer": "Lose 18"
       },
       "question_18": {
-        "question": "In the diagram, M, I, and L are collinear, and E, Y, and I are collinear. Ray IȲ bisects ∠ELM. EĪ is an altitude of △EML. EL=120, and IL=80. Find the value of (EY-YI). Give your answer in the form a√b where both a and b are integers and b is prime.",
-        "answer": "8√5"
-      },
-      "question_19": {
         "question": "In rhombus ABCD, ∠DAB = 60°. A circle passes through vertices A, B, and D, and intersects diagonal AC̄ at E. If EC = 12. If kπ is the area of the circle, find the value of k.",
         "answer": "144"
       },
-      "question_20": {
+      "question_19": {
         "question": "Points A, B, C, and D are the vertices of a rectangle. Point E is in the interior of the rectangle, with AE = 8 and EC = 21. The lengths of DE̅, BE̅, and BC̅ are integers. If DE < BE, find the largest possible value for the length of BC̅.",
         "answer": "19"
       }
