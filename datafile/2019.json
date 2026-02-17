@@ -1,0 +1,192 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "For all real values of x, 6x² + bx + c = 3(ax² + 3x + 4). Determine the sum (a + b + c).",
+        "answer": "23"
+      },
+      "question_2": {
+        "question": "The sum of the mode and median is k larger than the arithmetic mean for the set of numbers {2, 2, 8, 2, 0, 1, 5}. Determine the value of k. Express your answer as a common or improper fraction reduced to lowest terms.",
+        "answer": "8/7"
+      },
+      "question_3": {
+        "question": "A triangle with sides extended is shown (but not necessarily drawn to scale). It has angle measures as labeled. a : b : c = 5 : 7 : 8. Determine the ratio of x : y : z. Express your answer in the form x : y : z.",
+        "answer": "15:13:12"
+      },
+      "question_4": {
+        "question": "A prime number less than 20 is randomly selected. Determine the probability that the number selected is even. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/8"
+      },
+      "question_5": {
+        "question": "The slope of a ramp has a 5:12 ratio for vertical height to horizontal length measure. The length of the actual ramp is 39 feet. Determine the height of the ramp in feet.",
+        "answer": "15"
+      },
+      "question_6": {
+        "question": "A town's population increased by 700 people, and then this new population decreased by 5%. The town now has 20 fewer people than it did before the 700 person increase. Determine the number of people in the town's population.",
+        "answer": "13,680"
+      },
+      "question_7": {
+        "question": "Points A, D, and C lie on circle O with diameter CD. AB is perpendicular to CD at point B with AB = 5 and AC = 13. Determine the length of the diameter of this circle. Express your answer as a common or improper fraction reduced to lowest terms.",
+        "answer": "169/12"
+      },
+      "question_8": {
+        "question": "Determine the smallest integer x such that 1/2 of 2/3 of the sum of x and 6 is greater than 1/6 of the sum of x and 30.",
+        "answer": "19"
+      },
+      "question_9": {
+        "question": "x is a positive odd integer. Determine the sum of all the distinct value(s) of x such that -(x-11) = |x-11|.",
+        "answer": "36"
+      },
+      "question_10": {
+        "question": "A triangular piece broke off rectangle ABDF leaving trapezoid ACDF. BD = 16, BC = 7, FD = 24, and E is the midpoint of FD. Find the perimeter of ΔACE.",
+        "answer": "60"
+      },
+      "question_11": {
+        "question": "Question 11 (content not visible in provided pages)",
+        "answer": "37.5"
+      },
+      "question_12": {
+        "question": "Question 12 (content not visible in provided pages)",
+        "answer": "100.5"
+      },
+      "question_13": {
+        "question": "Question 13 (content not visible in provided pages)",
+        "answer": "27"
+      },
+      "question_14": {
+        "question": "Question 14 (content not visible in provided pages)",
+        "answer": "171"
+      },
+      "question_15": {
+        "question": "Question 15 (content not visible in provided pages)",
+        "answer": "40/49"
+      },
+      "question_16": {
+        "question": "Question 16 (content not visible in provided pages)",
+        "answer": "75"
+      },
+      "question_17": {
+        "question": "Question 17 (content not visible in provided pages)",
+        "answer": "1/2"
+      },
+      "question_18": {
+        "question": "Question 18 (content not visible in provided pages)",
+        "answer": "17"
+      },
+      "question_19": {
+        "question": "Question 19 (content not visible in provided pages)",
+        "answer": "2.580"
+      },
+      "question_20": {
+        "question": "Question 20 (content not visible in provided pages)",
+        "answer": "(6,8)"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "3^(x-2y) = (3^(2x-y))/81. Determine the sum (x + y).",
+        "answer": "4"
+      },
+      "question_2": {
+        "question": "Determine the value of k so that 3x² - 6x + k = 12 has exactly one double root.",
+        "answer": "15"
+      },
+      "question_3": {
+        "question": "Determine the number of distinct prime factors for the number 426,888.",
+        "answer": "4"
+      },
+      "question_5": {
+        "question": "Jordan drove to a town 25 miles away at an average speed of 50 miles per hour. The return trip along the same route took 20 minutes longer than the trip to town. Determine the average speed in miles per hour for Jordan's round trip. Express your answer as an exact decimal.",
+        "answer": "37.5"
+      },
+      "question_7": {
+        "question": "Determine the exact distance from the center of the circle given by x² + 8x + y² - 6y + 3 = 2 to the vertex of the parabola given by y = x² + 4x + 3. Express your answer in the form a√b where a and b are integers and a+b is as small as possible.",
+        "answer": "2√5"
+      },
+      "question_8": {
+        "question": "A right circular cone with base diameter 10 and slant height 13 fits inside a prism with a square base. The base of the cone is inscribed in the base of the prism and both the cone and the prism have the same height. Determine the volume interior to the prism but exterior to the cone. Round your answer to four significant digits.",
+        "answer": "885.8"
+      },
+      "question_9": {
+        "question": "Given g(x) = 6^(0.6x). Determine g^(-1)(36). Express your answer as a common or improper fraction reduced to lowest terms.",
+        "answer": "10/3"
+      },
+      "question_10": {
+        "question": "Suppose x = √(20 + √(20 + √(20 + ...)). Determine the exact value of x.",
+        "answer": "5"
+      },
+      "question_11": {
+        "question": "Question 11 (content not visible in provided pages)",
+        "answer": "1/2"
+      },
+      "question_12": {
+        "question": "Question 12 (content not visible in provided pages)",
+        "answer": "(3,1)"
+      },
+      "question_13": {
+        "question": "Question 13 (content not visible in provided pages)",
+        "answer": "10√59"
+      },
+      "question_14": {
+        "question": "Question 14 (content not visible in provided pages)",
+        "answer": "6/5"
+      },
+      "question_15": {
+        "question": "Question 15 (content not visible in provided pages)",
+        "answer": "3"
+      },
+      "question_16": {
+        "question": "Question 16 (content not visible in provided pages)",
+        "answer": "58.73"
+      },
+      "question_17": {
+        "question": "Question 17 (content not visible in provided pages)",
+        "answer": "2.58"
+      },
+      "question_18": {
+        "question": "Question 18 (content not visible in provided pages)",
+        "answer": "144"
+      },
+      "question_19": {
+        "question": "Question 19 (content not visible in provided pages)",
+        "answer": "48"
+      },
+      "question_20": {
+        "question": "Question 20 (content not visible in provided pages)",
+        "answer": "7"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "Let k = 1/a + 1/bc + 1/ac with a + b + c = 15 and abc = 5. Let w = z/xy + y/xz + x/yz with x² + y² + z² = 12 and xyz = 3. Determine (k + w).",
+        "answer": "7"
+      },
+      "question_2": {
+        "question": "Let f(x) = sin²(19x) + cos²(19x) and g(x) = |2/-1, x/9|. If k = f(g(2)) and w = g(f(2)), then determine (k + w).",
+        "answer": "20"
+      },
+      "question_3": {
+        "question": "Let log₈ 64 + log₂ k - 2 log₄ 8 = 4 and 3 sin(π/6) + 4 tan θπ + 7 cos(5π/3) = 1 with 0 ≤ θ ≤ 1. Determine k/θ.",
+        "answer": "24"
+      },
+      "question_4": {
+        "question": "Let s be the coefficient of x⁴ in (x + 1)⁷ and t be the coefficient of y³ in (y + 2)⁵. Determine (s - t).",
+        "answer": "-5"
+      },
+      "question_5": {
+        "question": "Let a be a positive integer number base so that 28ₐ = 132₅. Let 3^(b-2c) = 3^(2b-c)/81. Determine (a + b + c).",
+        "answer": "21"
+      },
+      "question_6": {
+        "question": "A circle C has a diameter with endpoints A(4,-1) and B(2,5). If C has center (h,k) and radius r, determine h + k + r².",
+        "answer": "15"
+      },
+      "question_7": {
+        "question": "Let p be the probability of rolling at least one 6 on one roll of two fair, standard, cubical dice. Let q be the probability of rolling a sum of 20 on one roll of two fair, standard, 20-sided dice. Determine (pq). Provide your answer as a common reduced fraction.",
+        "answer": "209/14,400"
+      },
+      "question_8": {
+        "question": "Let k = 1/√1968 + 1/√1969 + 1/√1970 + ... + 1/√2019. Let s be 1/3 the length of the side of a cube whose surface area is 2019. Round (5k + s) to the closest integer.",
+        "answer": "12"
+      }
+    }
+  }

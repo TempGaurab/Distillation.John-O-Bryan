@@ -1,0 +1,166 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "Let k be the area of a right triangle with a leg of length 36 and hypotenuse of length 85. Let w be the area of a square whose diagonal has a length of √242. Find the value of (k+w).",
+        "answer": "1507"
+      },
+      "question_2": {
+        "question": "If x is 80% of y and y is 25% of z, then z is what percent of x?",
+        "answer": "500"
+      },
+      "question_3": {
+        "question": "The product of two consecutive negative integers is 144 more than the smaller of the two integers. Find the sum of the two consecutive integers.",
+        "answer": "-23"
+      },
+      "question_4": {
+        "question": "Sixty-four players stand in a circle. Player 1 stays in. Player 2 is knocked out. Player 3 stays in. Player 4 is knocked out. Player 5 stays in. Player 6 is knocked out. This process continues, knocking every other Player out, until only one player remains. What is that player's number?",
+        "answer": "1"
+      },
+      "question_5": {
+        "question": "Find the slope of a line that is perpendicular to the line that contains the points (48,0) and (0,-24).",
+        "answer": "2"
+      },
+      "question_6": {
+        "question": "The repeating decimal 0.683̄ (where only the 3 repeats) can be written as k/w where k and w are positive integers. Find the smallest possible value of (k+w).",
+        "answer": "101"
+      },
+      "question_7": {
+        "question": "In the diagram, ABCD is a parallelogram which is not a rhombus. EFGH is a square. AB ≅ EF. If two of the eight sides are selected at random (without replacement), find the probability that the two sides selected are congruent. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "4/7"
+      },
+      "question_8": {
+        "question": "Jake enters a convenience store and says: 'Give me as much money as I have now, and I will spend $12 in your store.' The manager agrees, and Jake spends $12. Jake then enters a candy store and says: 'Give me as much money as I have now, and I will spend $12 in your store.' The manager agrees, and Jake spends $12. Finally, Jake enters an ice cream store and says 'Give me as much money as I have now, and I will spend $12 in your store.' The manager agrees, and Jake spends $12 after which he has no money left. Find the number of cents that Jake started with.",
+        "answer": "1050"
+      },
+      "question_9": {
+        "question": "In the diagram, AB̄ is the hypotenuse of △ABC and has a length of 20. The radius of the inscribed circle has a length of 4. Find the perimeter of △ABC.",
+        "answer": "48"
+      },
+      "question_10": {
+        "question": "The smaller of two consecutive positive integers is an integral multiple of 23, and the larger of the two consecutive positive integers is an integral multiple of 29. If the smaller integer is less than 2000, find the sum of all distinct possibilities for the smaller integer.",
+        "answer": "2346"
+      },
+      "question_11": {
+        "question": "Let k be the smallest integer and let w be the largest integer such that both k and w are values for x that satisfy the inequality |2x-1|<15. Find the value of (3k+2w).",
+        "answer": "-4"
+      },
+      "question_12": {
+        "question": "In rhombus ABCD, ∠DAB = 60°. A circle passes through vertices A, B, and D, and intersects diagonal AC̄ at E. If EC = 12. If kπ is the area of the circle, find the value of k.",
+        "answer": "144"
+      },
+      "question_13": {
+        "question": "A triangle with base AB̄ has a height to base AB̄ whose length is 3/x units, x>0. The area of this triangle is 24/x square units. Find the number of units in the length of the base AB̄.",
+        "answer": "16"
+      },
+      "question_14": {
+        "question": "In the figure, if x = 3y, ∠ACB = 90°, and ∠BAC = 27°, find the value of z.",
+        "answer": "132"
+      },
+      "question_15": {
+        "question": "A circle has an equation of (x-8)² + y² + 10y = -13. Find the length of the radius of the circle. Give your answer in the form a√b where both a and b are integers and b is prime.",
+        "answer": "2√3"
+      },
+      "question_16": {
+        "question": "A parallelogram that is not a rectangle has an area of 184. The two diagonals of the parallelogram divide the parallelogram into four triangles. Find the smallest possible area of any one of these four triangles.",
+        "answer": "46"
+      },
+      "question_17": {
+        "question": "Let k represent a positive integer. Let k be divided into 4 parts such that each part is a positive integer and such that the sum of the four parts is k. If the first part were increased by 4, the second part decreased by 4, the third part divided by 4, and the fourth part multiplied by 4, then the four results would be equal. Find the smallest possible value of k.",
+        "answer": "50"
+      },
+      "question_18": {
+        "question": "The length of the hypotenuse of a right triangle is 97, and the sum of the lengths of the two legs of this right triangle is 137. Find the length of the smaller leg.",
+        "answer": "65"
+      },
+      "question_19": {
+        "question": "In the diagram, M, I, and L are collinear, and E, Y, and I are collinear. Ray IȲ bisects ∠ELM. EĪ is an altitude of △EML. EL=120, and IL=80. Find the value of (EY-YI). Give your answer in the form a√b where both a and b are integers and b is prime.",
+        "answer": "8√5"
+      },
+      "question_20": {
+        "question": "Let a, b, and c represent single digit positive integers such that f(x) = ax² + bx + c. If f(4) = 63 and f(10) = 273, find the value of a+2b+3c.",
+        "answer": "25"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Find the sum of all distinct members of the union A∪B of the two sets A={1,2,4,5,7} and B={3,4,6,7,8}.",
+        "answer": "36"
+      },
+      "question_2": {
+        "question": "If f(x)-x(f(-x))=x², find f(5). Express your answer as an improper fraction reduced to lowest terms.",
+        "answer": "75/13"
+      },
+      "question_3": {
+        "question": "Find the smallest positive integer that has exactly 32 distinct positive integral divisors, but had only 3 distinct prime positive factors.",
+        "answer": "1080"
+      },
+      "question_4": {
+        "question": "Let 5+³√7 be a root for x of a polynomial equation in terms of x of the smallest possible degree in which all coefficients are integers. If the coefficient of the term of the highest degree is 1, find the sum of the numerical coefficients of the x² and x terms.",
+        "answer": "60"
+      },
+      "question_5": {
+        "question": "If n is a positive integer, find the value of n such that [1(2)+3(4)+5(6)+···+(2n-1)(2n)]/[1(2)(3)+2(3)(4)+3(4)(5)+···+n(n+1)(n+2)] = 29/150",
+        "answer": "22"
+      },
+      "question_6": {
+        "question": "Find the length of the minor axis of an ellipse whose equation is 27x²+144y²=3888. Give your answer in the form a√b where both a and b are integers and a is as large as possible.",
+        "answer": "6√3"
+      },
+      "question_7": {
+        "question": "Let i=√-1. If x+2i=y find the value of |x-y|+|y-x|",
+        "answer": "4"
+      },
+      "question_8": {
+        "question": "Find the remainder when (11)^(27)⁶ is divided by 7.",
+        "answer": "1"
+      },
+      "question_9": {
+        "question": "The terms of an arithmetic sequence are: 50,75,100,···. The terms of the triangular sequence whose nth term is (n²+n)/2 are: 1,3,6,10,···. Find the value of the first term of the triangular sequence that is greater than the corresponding term of the arithmetic sequence.",
+        "answer": "1326"
+      },
+      "question_10": {
+        "question": "If Jayden selects 1 coin at random from k coins, the probability the coin will be a nickel is 1/3. If Cody selects 2 coins at random and without replacement from the same k coins, the probability that both coins will be nickels is 1/12. What is the smallest possible value of k?",
+        "answer": "9"
+      },
+      "question_11": {
+        "question": "Given the set: {log₂(16),log₃(16),log₄(16),log₅(16),log₆(16),log₇(16),log₈(16)}. If one of the members of the set is drawn at random, find the probability that the member drawn could represent a positive integer. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "2/7"
+      },
+      "question_12": {
+        "question": "Find the ordered pair that represents the sum of the following two vectors: (-5,6) and (17,7)",
+        "answer": "(12,13)"
+      },
+      "question_13": {
+        "question": "In △ABC, find the exact length of AC̄ if AB=20, BC=80, and ∠ABC=120°. Give your answer in the form a√b where both a and b are integers and a is as large as possible.",
+        "answer": "20√21"
+      },
+      "question_14": {
+        "question": "Alessandra is sitting in the stands behind one end-zone of a football field. She observes, in the same vertical plane with her position, two players standing on their goal lines, exactly 100 yards apart. Looking at the spots on the ground where they are standing, a player at one goal line is at an angle of depression of 15° and a player at the other goal line is at an angle of depression of 8°. Assuming the football field is horizontal, find the number of feet in the vertical height of the woman's eye above the horizontal plane of the football field. Express your answer as a decimal rounded to the nearest hundredth of a foot.",
+        "answer": "88.67"
+      },
+      "question_15": {
+        "question": "If three real geometric means are inserted between 15 and 5/27 to form the first five terms of a geometric sequence, find the value of the third term. Express your answer as an improper fraction reduced to lowest terms.",
+        "answer": "5/3"
+      },
+      "question_16": {
+        "question": "Let there be k objects, each of weight w. When these objects are weighed in pairs, the sum of the weights of all possible pairs is 770. When these objects are weighed in groups of four, the sum of the weights of all possible groups of four is 9240. Find the value of (k+w)",
+        "answer": "18"
+      },
+      "question_17": {
+        "question": "Tom is a gambler. He has a pair of fair, standard cubical dice. He selects two different numbers in advance from the face numbers 1, 2, 3, 4, 5, and 6. He then rolls the pair of dice. If both numbers showing match his two selections he wins $64. If exactly one of his two selections is matched by either one or both dice, he neither wins nor loses. If neither number showing matches either of his two selections, he loses $54. Find Tom's mathematical expectation each time he rolls the pair of dice. Express your answer by including the word 'lose' or the word 'win'. For example, your answer might be 'lose $2' or 'win 7'.",
+        "answer": "Lose 18"
+      },
+      "question_18": {
+        "question": "In the diagram, M, I, and L are collinear, and E, Y, and I are collinear. Ray IȲ bisects ∠ELM. EĪ is an altitude of △EML. EL=120, and IL=80. Find the value of (EY-YI). Give your answer in the form a√b where both a and b are integers and b is prime.",
+        "answer": "8√5"
+      },
+      "question_19": {
+        "question": "In rhombus ABCD, ∠DAB = 60°. A circle passes through vertices A, B, and D, and intersects diagonal AC̄ at E. If EC = 12. If kπ is the area of the circle, find the value of k.",
+        "answer": "144"
+      },
+      "question_20": {
+        "question": "Points A, B, C, and D are the vertices of a rectangle. Point E is in the interior of the rectangle, with AE = 8 and EC = 21. The lengths of DE̅, BE̅, and BC̅ are integers. If DE < BE, find the largest possible value for the length of BC̅.",
+        "answer": "19"
+      }
+    }
+  }
