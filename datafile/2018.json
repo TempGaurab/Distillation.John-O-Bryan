@@ -1,0 +1,180 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "Find the largest odd three-digit number such that the hundreds digit is equal to twice the ones digit and the tens digit is even.",
+        "answer": "683"
+      },
+      "question_2": {
+        "question": "The expressions a(x - 2)² + (3x + 1)² and (2x - 5)² + 12(x² + kx) + c are equivalent for all values of x. Determine the product (akc). Express your answer as a common or improper fraction reduced to lowest terms.",
+        "answer": "-14/3"
+      },
+      "question_3": {
+        "question": "An odd number and an even number are picked at random from the first ten positive integers. Find the probability that their sum is 11. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/5"
+      },
+      "question_4": {
+        "question": "Define a \"mid-diagonal\" to be a segment connecting a midpoint of one side of a polygon to a vertex of the polygon other than the two vertices that are endpoints of the side on which the midpoint is located. Find the number of mid-diagonals of an octagon.",
+        "answer": "48"
+      },
+      "question_5": {
+        "question": "The points (6,3), (-1,2), and (9,k) are collinear with k = a/b where a and b are relatively prime positive integers. Find the value of √(a² + b²).",
+        "answer": "25"
+      },
+      "question_6": {
+        "question": "The ratio width:length:height of a rectangular solid is 8:15:144. If the length of a diagonal of the rectangular solid is 108.75, find the width of the solid.",
+        "answer": "6"
+      },
+      "question_7": {
+        "question": "In the following number base problem, if 1/4 of 40x is 8 (base 10), then find 1/7 of 36x. Express your answer as a base 10 number, written without the base.",
+        "answer": "6"
+      },
+      "question_9": {
+        "question": "Find the smallest positive integer greater than 2018 that leaves the same positive integral remainder when divided by 30, 36, and 50",
+        "answer": "2701"
+      },
+      "question_10": {
+        "question": "In ΔMTH the measure of ∠M is 1/4 the measure of ∠H and 1/3 the measure of ∠T. MH = a√b, with a and b being integers, and the sum of the lengths of sides MT and TH is an integer less than 30. If b is as small as possible, find the sum of all possible values of a.",
+        "answer": "45"
+      },
+      "question_11": {
+        "question": "Sami rides her bike 3 miles each day to school. The first mile is uphill and she rides at a constant rate of 4 mph. The second mile is downhill, where she coasts at a constant rate that is an integer, is faster than her uphill rate, and is less than 60 mph. For the final mile she rides at a constant rate of 6 mph. Her average speed, in mph, for the entire trip to school is an integer. Find the speed, in mph, at which she coasts down the hill.",
+        "answer": "12"
+      },
+      "question_13": {
+        "question": "Circles of radii 4, 5, and 6 are mutually tangent externally. Find the area of the triangle formed by connecting the centers of the three circles. Express your answer in the form a√b where both a and b are positive integers and b is as small as possible.",
+        "answer": "30√2"
+      },
+      "question_15": {
+        "question": "The number 5760 can be expressed as 4ᵃ5ᵇ6ᶜ where a, b, and c are rational numbers. Find the value of a⁴b⁵c⁶.",
+        "answer": "2500"
+      },
+      "question_16": {
+        "question": "A triangle is selected at random from the set of triangles with internal degree measure angles for which the ratio of the degree measures of the angles is a:b:c, where a, b, and c are consecutive positive integers. Find the probability that the degree measure of the largest angle is an odd number. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "4/11"
+      },
+      "question_17": {
+        "question": "Two triangles are similar but not congruent. The lengths of all sides of both triangles are integers. The first triangle has sides of 9 and 12 and a perimeter of 68. If one of the sides of the second triangle is the same length as one of the sides of the first triangle, find the perimeter of the second triangle.",
+        "answer": "204"
+      },
+      "question_18": {
+        "question": "If x + y = 7 and 1/x + 1/y = 3/8 with xy ≠ 0, find the value of (x² + xy + y²). Express your answer as a common or improper fraction reduced to lowest terms.",
+        "answer": "91/3"
+      },
+      "question_19": {
+        "question": "On the planet Vulcan, there are 11 major cities. Each pair of cities is connected by exactly one road. There are no other roads on the planet. Find the number of roads on Vulcan.",
+        "answer": "55"
+      },
+      "question_20": {
+        "question": "A rectangular sheet of paper 40 cm by 70 cm is folded once so that exactly two of the opposing corners are coincident. Find the number of cm in the length of the crease in the paper. Give your answer as a decimal rounded to the nearest hundredth.",
+        "answer": "46.07"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "If a/c - 1 = 6(c/a), then a = kc. Find the product of all value(s) of k.",
+        "answer": "-6"
+      },
+      "question_2": {
+        "question": "If m = pqr/(p-q), solve the equation for q. Assume no denominator is equal to zero. Give your answer as a single fraction.",
+        "answer": "mp/(m + pr)"
+      },
+      "question_3": {
+        "question": "Find the ordered pair of positive prime integers (a,b) with a ≤ b, for which aᵇ · bᵃ = 6272.",
+        "answer": "(2,7)"
+      },
+      "question_4": {
+        "question": "Let i = √-1. Find the ordered pair of integers (a,b) with a > b > 0 such that (a + bi)(a - bi) = 13.",
+        "answer": "(3,2)"
+      },
+      "question_6": {
+        "question": "If sin θ = 7/25 and tan θ > 0, find the value of cos θ. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "24/25"
+      },
+      "question_7": {
+        "question": "Two distinct numbers are chosen without replacement from the set {1,2,3,...,30}. Find the probability that the sum of the two numbers is odd. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "15/29"
+      },
+      "question_8": {
+        "question": "Given that |M| represents the determinant of matrix M, solve for x when |2 x 1; 1 x 2; 3 4 0| = 9.",
+        "answer": "7"
+      },
+      "question_9": {
+        "question": "A sequence is defined recursively as follows: a₁ = 5, a₂ = 9, aₙ = 2aₙ₋₁ - aₙ₋₂. Find the value of a₂₀₁₈.",
+        "answer": "8073"
+      },
+      "question_10": {
+        "question": "Let i = √-1. If x = 4 + i, y = -3 + 5i, and z = 7 + 4i, find the value of (e^(xy-yz))/yz. Express your answer as a complex number in the form a + bi where a and b are common or improper fractions reduced to lowest terms.",
+        "answer": "-15/17 - 9/17 i"
+      },
+      "question_11": {
+        "question": "Given that Σ(n=1 to 5) n = 1 + 2 + 3 + 4 + 5, find Σ(n=2 to 7) (5n + 2ⁿ).",
+        "answer": "387"
+      },
+      "question_12": {
+        "question": "If 2^(x²+2x) = 7, then the exact value of (x + 1)² is log₂ k where k is an integer. Find the value of k.",
+        "answer": "14"
+      },
+      "question_13": {
+        "question": "If 2x³ - 3x² + kx + 2 is divisible by (x - 2) and (x + 1), find the value of the sum (k + w).",
+        "answer": "-1"
+      },
+      "question_14": {
+        "question": "The line with equation y = k is a horizontal asymptote of the graph of y = (3x² + 2x)/(5 - 7x²). Find the value of k. Give your answer as a common fraction reduced to lowest terms.",
+        "answer": "-3/7"
+      },
+      "question_15": {
+        "question": "If sin(2x)/sin(x) = k/w for 0 < x < π/2, write cos x as a single simplified rational expression in terms of k and w.",
+        "answer": "k/(2w)"
+      },
+      "question_16": {
+        "question": "Given (x + 1/x)² = 11 and x > 0, find the exact value of x³ + 1/x³. Give your answer in the form a√b where both a and b are integers and b is as small as possible.",
+        "answer": "8√11"
+      },
+      "question_17": {
+        "question": "Find the largest value of x satisfying (2017 1000) + (2017 1001) = (2018 x). Note that (n r) = nCr = C(n,r) is the combinatorial combination.",
+        "answer": "1017"
+      },
+      "question_19": {
+        "question": "The term 4082400x²y⁵ appears in the expansion of (kx + wy)ᵖ, where k, w, and p are integers. Find the sum k + w + p.",
+        "answer": "18"
+      },
+      "question_20": {
+        "question": "Circles of radii 4, 5, and 6 are mutually tangent externally. Find the area of the triangle formed by connecting the centers of these three circles. Give your answer in the form a√b where both a and b are integers and b is as small as possible.",
+        "answer": "30√2"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "Let k = 2/y if 3^(x+4y) = (1/9)^(y-2x). Let w = ab if (a + b)² = 25 and a² + b² = 13. Find the reduced, simplified form of (k + w).",
+        "answer": "8"
+      },
+      "question_2": {
+        "question": "Define the universal set U = {0,1,2,3,4,5,6,7,8,9}. Let A be the set of possible unit digits in the square of any integer and B be the set of possible unit digits in the cube of any integer. Find the set A̅ ∩ B̅ (the complement of A and B in U). Express your answer using set notation.",
+        "answer": "{2,3,7,8}"
+      },
+      "question_3": {
+        "question": "Let 2 and 10 be the first and third terms respectively of a sequence. k represents the 7th term if the sequence is arithmetic. w represents the 7th term if the sequence is geometric. Find (k + w).",
+        "answer": "276"
+      },
+      "question_4": {
+        "question": "Let a = |7 - 3√6| - |2√6 - 4|. Let b = |√18 - 2π|. Find the exact value of (a + b). Express your answer as a simplified radical expression. (Note: |x| represents the greatest integer, or floor, function of x.)",
+        "answer": "-6 + √6"
+      },
+      "question_5": {
+        "question": "If p ≤ q ≤ r are the lengths of the three sides of a triangle whose area is 1, let k be the exact minimum value for q. The line y = 3x + b is tangent to the circle x² + y² = 10. Let w be the larger of the two possible values for b. Find the exact value of (kw)².",
+        "answer": "200"
+      },
+      "question_6": {
+        "question": "ΔABC is a right triangle with hypotenuse of length 17.5, one leg of length 10.5, and the other leg of length d. |3 t 5; 2 0 3; 4 1 2| = 65. Find the sum (d + t).",
+        "answer": "22"
+      },
+      "question_7": {
+        "question": "A triangle with sides of lengths 12, 35, and 37 is inscribed in a circle. Let A be the numerical area inside the circle but outside the triangle. Let T be the numerical length of the altitude to the longest side of the triangle. Find the numerical sum (A + T). Express your answer as a decimal rounded to the nearest tenth.",
+        "answer": "876.6"
+      },
+      "question_8": {
+        "question": "Two points are chosen randomly from the circumference of a circle. P is the probability that the chord connecting these points is longer than the radius of the circle. A regular hexagon is inscribed in the circle. Q is the probability that a point chosen at random from inside the circle also lies inside the hexagon. Find the product (PQ). Express your answer as a decimal rounded to the nearest thousandth.",
+        "answer": "0.551"
+      }
+    }
+  }

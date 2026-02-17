@@ -138,10 +138,6 @@
         "question": "Trailing zeros are the zeros to the right of the last non-zero digit in the integer representation of a number read from left to right. How many trailing zeros does the number n = 2021! have?",
         "answer": "503"
       },
-      "question_15": {
-        "question": "The triangle shown on the right, (x + y + z) = 2[√k + √w + √p] in simplified and reduced radical form with k, w, and p positive integers. Determine the sum (k + w + p).",
-        "answer": "41"
-      },
       "question_16": {
         "question": "An array of 12 points is set up in 3 evenly spaced rows and 4 evenly spaced columns (forming 6 adjacent congruent squares if connected horizontally and vertically). One point is chosen at random from each row. Determine the probability the 3 points chosen will be collinear. Give your answer as a fraction reduced to lowest terms.",
         "answer": "1/8"
@@ -157,10 +153,6 @@
       "question_19": {
         "question": "Determine the area of ΔABC when ∠A = 55°, AC = 12, and AB = 18. Express your answer as a decimal rounded to four significant digits.",
         "answer": "88.47"
-      },
-      "question_20": {
-        "question": "In the diagram of ΔABC on right with coordinates as shown, AC = 51, and BC = 55. The ratio of the area of ΔPAB to the area of ΔPAC to the area of ΔPBC is 1:2:3. Determine the ordered pair of coordinates that represents point P. Each coordinate should be written as an improper fraction reduced to lowest terms.",
-        "answer": "(739/83, 110/13)"
       }
     },
     "two_person_speed_event": {
