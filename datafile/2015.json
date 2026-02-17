@@ -1,0 +1,180 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "When twice a number is increased by 7, the result is 2015. Find the number.",
+        "answer": "1004"
+      },
+      "question_2": {
+        "question": "If x represents a negative number, how many of the following quantities must be positive? Note that each of the five boxes below contains a different quantity: 0.5x, x-3, 3-x, (-2)x, |x|+0.5",
+        "answer": "3"
+      },
+      "question_3": {
+        "question": "Two students in Austin's class failed algebra. Three students in Holden's class failed geometry. There were 11 students in Austin's class and the failure rate in Holden's class was 20%. Assuming that no student was enrolled in both classes, how many students passed one of the classes?",
+        "answer": "21"
+      },
+      "question_6": {
+        "question": "Let A = {5,10,15,20,25,30,35}. Let x be the sum of the seven remainders when each element of A is divided by 4. Let y be the sum of the seven remainders when each element of A is divided by 3. Find the value of (x+y).",
+        "answer": "20"
+      },
+      "question_7": {
+        "question": "The price of a gold chain varies directly as the length of the chain. If a gold chain that is 14 inches long costs $266, find the number of dollars in the cost of a gold chain that is 18 inches long.",
+        "answer": "342"
+      },
+      "question_8": {
+        "question": "If the smaller base of a trapezoid is increased by 14 and the larger base is decreased by 8, by how much is the median increased or decreased? Write an increase as a positive number and a decrease as a negative number.",
+        "answer": "3"
+      },
+      "question_9": {
+        "question": "A right triangle having legs of lengths 10√3 and 24√3 is inscribed in a circle of area 4π. Find the value of A.",
+        "answer": "507"
+      },
+      "question_10": {
+        "question": "A group of four people are meeting for lunch today in a restaurant. The first person eats lunch there every 8 days; the second person every 9 days; the third person every 10 days; and the fourth person every 12 days. How many days will pass until all four will again be eating lunch in this restaurant on the same day?",
+        "answer": "360"
+      },
+      "question_11": {
+        "question": "Leah had x dollars on the table that she wished to give to various charities. She found that if he gave $65 to each charity, she would be $12 short. So she decided to give $62 to each of the same charities and found that she had $48 left over. Find the value of x.",
+        "answer": "1288"
+      },
+      "question_12": {
+        "question": "Given the set: {5,x,2,y} where x and y represent positive integers. The average of the three members of this set is 6. Find the largest possible value of the product of x and y.",
+        "answer": "21"
+      },
+      "question_13": {
+        "question": "The ratio of the area of an equilateral triangle to the area of a square is 16√3:49. What is the ratio of the perimeter of the equilateral triangle to the perimeter of the square? Give your answer in the form a:b where a and b are integers with no common factors.",
+        "answer": "6:7"
+      },
+      "question_14": {
+        "question": "On a flat surface, Katie starts out by going 7 miles due north, then 6 miles due northwest, then 3 miles due west, and finally 2 miles due southwest. At the end of her journey, how many miles is Katie from her starting point? Give your answer as a decimal rounded to the nearest hundredth.",
+        "answer": "13.10"
+      },
+      "question_16": {
+        "question": "One of the interior angles of a convex decagon measure 23°. What is the maximum number of interior angles of that convex decagon that could be supplementary to the 23° angle?",
+        "answer": "8"
+      },
+      "question_17": {
+        "question": "The marked price of a computer is discounted by 15% from its retail price. Later, the marked price is discounted 10% to a sales price. Finally, the sales price is discounted 30% to a clearance price of $535.50. Find the original retail price.",
+        "answer": "1000"
+      },
+      "question_18": {
+        "question": "Working at a constant rate, Jayden would need 30 hours to build a certain brick wall. Working at a constant rate, Cody would need 21 hours to build the same wall. Due to magical chemistry, if they work together, a total of 8 more bricks will be laid per hour than if working alone. By working together, they took exactly 11 hours and 40 minutes to build the wall. Find the number of bricks in the wall.",
+        "answer": "1680"
+      },
+      "question_19": {
+        "question": "If (5+√3)/(3-√3) = (a+b√c)/d where a, b, c, and d are integers and d > 0, find the minimum value of the product abcd.",
+        "answer": "324"
+      },
+      "question_20": {
+        "question": "Circle A has center (6,-2) and radius 5. Circle B has center (-3,4) and radius 3. Find the exact length of the common internal tangent between circles A and B. Express your answer as a radical in reduced form.",
+        "answer": "√53"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Given f(x) = 2x - 5, for what value(s) of a does f(a) = f(f(a))?",
+        "answer": "5"
+      },
+      "question_2": {
+        "question": "If (5+√3)/(3-√3) = (a+b√c)/d, where a, b, c, and d are integers with d > 0, find the minimum value of the product abcd.",
+        "answer": "324"
+      },
+      "question_4": {
+        "question": "When the polynomial x³ - 2x³ + x + k is divided by x - 2, the remainder is 2. Find the value of k.",
+        "answer": "-16"
+      },
+      "question_5": {
+        "question": "Find the value of k if the graph of f(x) = (3kx-10)/(4x+k) has an x-intercept of 30. Express your answer as a reduced common or improper fraction.",
+        "answer": "1/9"
+      },
+      "question_6": {
+        "question": "The tangent of one of the acute angles of a right triangle is 1. If one of the legs of this right triangle has a length of 7√2, find the length of the hypotenuse of this right triangle.",
+        "answer": "14"
+      },
+      "question_7": {
+        "question": "Find the sum of all distinct values of y that satisfy the system {log₂(x) = log₇(y), x² - 9y³ + 8 = 0}. Put your answer in the form a + b√c.",
+        "answer": "1 + 2√2"
+      },
+      "question_8": {
+        "question": "Two numbers are selected at random in the interval [0,5]. Find the probability that the sum of the squares of these numbers is less than 5. Express your answer as a decimal rounded to the nearest ten-thousandth.",
+        "answer": "0.1571"
+      },
+      "question_9": {
+        "question": "The vector ⟨7.1,8.2⟩ is perpendicular to the vector ⟨-4.1,k⟩. If both vectors are in standard position, find the value of k. Express your answer as an exact decimal.",
+        "answer": "3.55"
+      },
+      "question_10": {
+        "question": "If the seven letters of the word BANANAS are written in random order, find the probability that the three A's are consecutive letters. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/7"
+      },
+      "question_11": {
+        "question": "One of the interior angles of a convex decagon measures 23°. What is the maximum number of interior angles of that convex decagon that could be supplementary to the 23° angle?",
+        "answer": "8"
+      },
+      "question_12": {
+        "question": "A right triangle having legs of lengths 10√3 and 24√3 is inscribed in a circle of area 4π. Find the value of A. Give your answer rounded to two decimal places.",
+        "answer": "507"
+      },
+      "question_14": {
+        "question": "Find the value of k for which the graph of y = 16x² + 2x + k is tangent to the x-axis. Express your answer as a reduced common or improper fraction.",
+        "answer": "1/16"
+      },
+      "question_15": {
+        "question": "The first term of a geometric sequence is 1, the second term is -2, and the third term is 4. Find the sum of the fifth and seventh terms.",
+        "answer": "80"
+      },
+      "question_16": {
+        "question": "The sum of the first four terms of an arithmetic sequence is 106, and the sum of the first five terms of this arithmetic sequence is 180. Find the second term of this sequence.",
+        "answer": "17"
+      },
+      "question_17": {
+        "question": "Find the exact length of the minor axis of the conic section whose equation is x² - 2x + 3y² - 12y + 4 = 0.",
+        "answer": "2√3"
+      },
+      "question_18": {
+        "question": "Let i = √-1. Find the value of i - i² + i³ + i⁴ - i⁵ + i⁶ - i⁷ + i⁸.",
+        "answer": "2"
+      },
+      "question_19": {
+        "question": "Let f(x) = 27x² - 32x + 10. Find the absolute value of the difference between the distinct values of x such that f(x) = x. Express your answer as a reduced common or improper fraction.",
+        "answer": "1/9"
+      },
+      "question_20": {
+        "question": "Assume that the probability that Jayden will make any free throw is 73%. Find the maximum whole number of free throws that Jayden can shoot such that his probability of making at least one free throw is less than 99%.",
+        "answer": "3"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "Let A = {1, 2, 3, 4}. Let k be the number of distinct subsets if A that contain the element 3. Let w be the number of distinct positive integer factors of 2015. Find the product (kw).",
+        "answer": "64"
+      },
+      "question_2": {
+        "question": "Let |2w 100; 50 10| = 2200. Let k be the probability that the sum of the two top faces is six when randomly throwing two fair 6-sided dice (the faces of each die are labeled with the values 1, 2, 3, 4, 5, 6). Find the product (kw).",
+        "answer": "50"
+      },
+      "question_3": {
+        "question": "Two sequences are defined as follows: {a₁ = 2, aₙ = a(n-1) + 3} and {b₁ = 3, bₙ = b(n-1) + 3.5}. Find the arithmetic mean of the first three common terms of these sequences.",
+        "answer": "38"
+      },
+      "question_4": {
+        "question": "Let y = mx + b be the equation of a line that contains (2,18) and is perpendicular to the line whose equation is x + 5y = 10. Let k be the smallest positive improper fraction that each of the following will divide exactly, resulting in integral quotients: 3/13, 5/26, 7/39. Find k(m + b).",
+        "answer": "105"
+      },
+      "question_5": {
+        "question": "Let n be the smallest possible positive integer such that there are at least 2900 distinct committees possible when appointing a 3-member committee from n persons. Let r be the length of the radius of the inscribed circle of a triangle whose side lengths are 13, 37, and 40. Find the value of the product (nr).",
+        "answer": "144"
+      },
+      "question_6": {
+        "question": "Find the sum of all distinct values of x such that the three terms x + 7, 5x - 6, and 7x + 2 taken in some order form an arithmetic sequence. Express your answer as an improper fraction reduced to lowest terms.",
+        "answer": "477/40"
+      },
+      "question_7": {
+        "question": "Determine the positive difference between the number of digits in 83²⁰¹⁵ and the units digit of 83²⁰¹⁵.",
+        "answer": "3860"
+      },
+      "question_8": {
+        "question": "Let ABCDEF be a regular hexagon. Let k = m∠FAB / (m∠AFB + m∠ABF). Let w be the number of gallons of water that should be evaporated from 120 gallons of a solution that is 30% salt to obtain a solution that is 50% salt. Find the value of (k + w).",
+        "answer": "50"
+      }
+    }
+  }
