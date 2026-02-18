@@ -1,0 +1,192 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "Set B = {37, sqrt(3), -8, 1/2, pi}. If one of the members of Set B is selected at random, find the probability that the member selected is an irrational number. Give your answer as a fully reduced fraction.",
+        "answer": "2/5"
+      },
+      "question_2": {
+        "question": "If x = 2.8, find the value of (3x + 7.6)^(-0.75). Give your answer as a fully reduced fraction.",
+        "answer": "1/8"
+      },
+      "question_3": {
+        "question": "Suppose that C, D, E, F, G, and H are six distinct collinear points such that CD = (1/2)(DE) = EF = FG = GH. Further suppose that none of the segments CD, DE, EF, FG, or GH overlap except at shared end-points. If one of these six points is selected at random, find the probability that the point selected is one of the trisection points of the segment that joins C with H. Give your answer as a fully reduced fraction.",
+        "answer": "1/6"
+      },
+      "question_4": {
+        "question": "For all positive integers c and d, let c ⊕ d = (c!)(2d) - (5d) and c ⊗ d = d^2 - 3c^3. Find the value of (3 ⊕ 6) - (2 ⊗ 5).",
+        "answer": "41"
+      },
+      "question_5": {
+        "question": "A rectangle has area 2014. The length of one side is 53. Find the perimeter of the rectangle.",
+        "answer": "182"
+      },
+      "question_6": {
+        "question": "If x - 12 is a factor of x^2 - 2kx - 72, find the value of k.",
+        "answer": "3"
+      },
+      "question_7": {
+        "question": "A zookeeper was asked how many birds the zoo had in their flock. She answered: 'If 1/3, 1/5, 1/7, and 1/8 of the flock were added together, they would total 1346.' How many total birds are in the zoo's flock?",
+        "answer": "1680"
+      },
+      "question_8": {
+        "question": "This question is multiple choice. For your answer, write the capital letter corresponding to the correct choice. The graph of y < 8x + 7 is: A. The interior of a circle, B. The region to the right of a vertical line, C. The region below a horizontal line, D. The region below a line with negative slope, E. The region above a line with positive slope, F. None of the choices (A-E) is correct.",
+        "answer": "F"
+      },
+      "question_9": {
+        "question": "Triangle ABC is isosceles with AB = AC = 15 and BC = 24. Find the area of the triangle.",
+        "answer": "108"
+      },
+      "question_10": {
+        "question": "A rectangle has diagonal of length 17 and all sides are integers. From among all diagonals and sides of the rectangle, one segment is selected at random. Find the probability that it has length less than 11. Give your answer as a fully reduced fraction.",
+        "answer": "1/3"
+      },
+      "question_11": {
+        "question": "If a cleaning solution contains only alcohol and water, find the number of liters of water that must be added to reduce 9 liters of the cleaning solution containing 60% alcohol to a solution containing only 40% alcohol. Give your answer as an exact decimal.",
+        "answer": "4.5"
+      },
+      "question_12": {
+        "question": "A man has 30 coins in his pocket. The coins include only nickels, dimes, and quarters (there is at least one of each type). If the coins have a total value of $5.10, find the maximum number of nickels the man can have in his pocket.",
+        "answer": "9"
+      },
+      "question_14": {
+        "question": "Find the value of k such that 3/(k-2) = 4/(k-3) - 6/(k^2 - 5k + 6).",
+        "answer": "5"
+      },
+      "question_15": {
+        "question": "A line containing the point (-2, -5) also goes through the point (7, y). The slope of the line is -2/3. Find the value of y.",
+        "answer": "-11"
+      },
+      "question_17": {
+        "question": "Let m and n be positive integers such that m ≠ n. It is known that 1/m of the population of hippogriffs have long hair and horns while 1/n of the population of hippogriffs have short hair and blue eyes. If these two groups comprise 1/93 of the entire population of hippogriffs, find the smallest possible value of (m + n).",
+        "answer": "496"
+      },
+      "question_18": {
+        "question": "An escalator (going up) rises at a constant rate of k steps per second. Harry walks up the rising escalator by stepping up at a rate of 1 step per second and reaches the top in 44 seconds. Hermione runs up at a rate of 3 steps per second and reaches the top in 28 seconds. How many steps are on the escalator?",
+        "answer": "154"
+      },
+      "question_19": {
+        "question": "Find the smallest positive integer b such that the four numbers represented by b/2, (b+1)/3, (b+2)/5, and (b+3)/7 are all integers.",
+        "answer": "158"
+      },
+      "question_20": {
+        "question": "A triangle has vertices at (6,7), (0,15), and (2,4). If the triangle is revolved around its shortest side, find the total surface area of the three-dimensional figure created by the rotation. Give your answer as a decimal rounded to the nearest tenth.",
+        "answer": "665.4"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Find the sum of all distinct values of x such that [log_k(x^2)](log_12(k)) = 2.",
+        "answer": "0"
+      },
+      "question_2": {
+        "question": "Let i = sqrt(-1). Then -2i^2 + (sqrt(-4))(sqrt(4)) - (sqrt(-3))(sqrt(-3)) - 2i^5 = a + bi, where a and b are real numbers. Find the value of (3a + 2b).",
+        "answer": "19"
+      },
+      "question_3": {
+        "question": "If x is an integer, find the sum of all distinct values of x such that (x-4)/(x-9) - 3 >= 0.",
+        "answer": "21"
+      },
+      "question_5": {
+        "question": "The three vertices of a triangle are (4,0), (1,3), and (1,6). Find the smallest possible value of the sum of the squares of the distances of a point to the three vertices of the triangle.",
+        "answer": "24"
+      },
+      "question_6": {
+        "question": "If csc(theta) = 13/5 and tan(theta) < 0, find the value of cos(theta). Give your answer as a fully reduced fraction.",
+        "answer": "-12/13"
+      },
+      "question_7": {
+        "question": "A bag contains exactly 3 marbles - 1 red, 1 white, and 1 blue. A girl draws a marble at random, replaces the marble, and continues to draw in this fashion. Find the probability that, in 6 draws, she has drawn at least 1 marble of each color. Give your answer as a fully reduced fraction.",
+        "answer": "20/27"
+      },
+      "question_9": {
+        "question": "Shane borrows $3,375 from a friend. He arranges to pay back $40 the first month, $45 the second month, $50 the third month, and so on by paying $5 more each month than he did the preceding month. If no interest is charged, how many months will it take Shane to repay the loan?",
+        "answer": "30"
+      },
+      "question_10": {
+        "question": "Find the value of log_27(9 * (1/27)^(-2)). Give your answer as a fully reduced improper fraction.",
+        "answer": "8/3"
+      },
+      "question_11": {
+        "question": "Find the eighth term of an arithmetic progression whose first term is 3 and whose 31st term is 73. Give your answer as a fully reduced improper fraction.",
+        "answer": "58/3"
+      },
+      "question_12": {
+        "question": "Suppose that 8! / (3! * k!) = 56. Find the value of k.",
+        "answer": "5"
+      },
+      "question_13": {
+        "question": "When 1, 2, 3, 4, and 5 are substituted for x in a polynomial expression for x, the results are, respectively, 1, 24, 61, 112, and 177. If P(x) is the polynomial expression of lowest degree with integral coefficients satisfying the given, find P(51).",
+        "answer": "18301"
+      },
+      "question_14": {
+        "question": "One member of the 4 members of the set {169, 224, sqrt(3^2 + 4^2), 81 + 19} is selected at random. Find the probability that the number selected is the square of an integer. Give your answer as a fully reduced fraction.",
+        "answer": "1/2"
+      },
+      "question_15": {
+        "question": "Jordan plans to invest $5,000 in a savings account that pays an annual percentage rate of 7% and is compounded quarterly. After the interest is credited at the end of one year, find the value of Jordan's investment. Round your answer to the nearest dollar.",
+        "answer": "5359"
+      },
+      "question_16": {
+        "question": "How many non-congruent triangles ABC are possible if angle B is a given acute angle, BC = 12 and AC = 15?",
+        "answer": "1"
+      },
+      "question_17": {
+        "question": "Find the length of the major axis of the ellipse whose equation is x^2/49 + y^2/25 = 1.",
+        "answer": "14"
+      },
+      "question_18": {
+        "question": "A sector with a 60 degree central angle is cut out of a circle with a radius of 6, and the remaining 300 degree sector is folded to form a right circular cone. Find the volume of this right circular cone. Express your answer as a decimal rounded to the nearest hundredth.",
+        "answer": "86.83"
+      },
+      "question_19": {
+        "question": "A line whose equation is 40y = 9x + k is parallel to a line whose equation is y = (9/40)x + 17. If k > 1000, and if the distance between the two lines is 40, find the value of k.",
+        "answer": "2320"
+      },
+      "question_20": {
+        "question": "Let f(x) = x^3 - 13.5x^2 + 42x + 39. The set of values for k such that f(x) - k will have three distinct real zeroes is {k : w < k < p}. Find the value of (w + p). Express your answer as an exact decimal.",
+        "answer": "91.5"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "Let ABCDEF be a regular hexagon with sides of length 2. Suppose that k is the degree measure of angle AFB and m is the distance between segments AB and DE. Find the exact value of km^2.",
+        "answer": "360"
+      },
+      "question_2": {
+        "question": "Let k be the coefficient on the term x^5*y^3 in the expansion of (x + y)^8. Let pi*w be the area of a circle inscribed in a square that has area 36. Find k + w.",
+        "answer": "65"
+      },
+      "question_3": {
+        "question": "Suppose log(k) - log(3) + log(5) = 2 and w is the absolute value of the difference between the roots of the equation x^2 - 4x - 21 = 0. Find the value of kw.",
+        "answer": "600"
+      },
+      "question_4": {
+        "question": "Let m = det([3,1;2,4]) - det([8,4;3,1]) and let 4^(n+7) = (1/16)^6. Find the value of m + n.",
+        "answer": "-5"
+      },
+      "question_5": {
+        "question": "Let (x, y) be the solution to the system {5x + 2y = 1071, 13x - y = 3851}. Let k be the length of the shortest side of a triangle whose perimeter is 20424 and whose sides have lengths in the ratio 89:786:827. Find the value of (x + y + k).",
+        "answer": "1179"
+      },
+      "question_6": {
+        "question": "Let x be the smallest positive integer such that x!(x+2)! = (x+3)!. Let y be the length of the longest altitude of a triangle with sides of length 11, 13, and 20. Find the value of the product xy.",
+        "answer": "36"
+      },
+      "question_7": {
+        "question": "Bob has two sequences - one arithmetic and the other geometric. The sum of the first 16 terms of his arithmetic sequence is 1608; its first two terms are 2k+4 and 2k+7. His geometric sequence has w as its first term, sums to 25 and has a common ratio of 0.2. Find k + w.",
+        "answer": "57"
+      },
+      "question_8": {
+        "question": "Let B = {2,3,5,12,29}. Define p to be the probability that the sum of two distinct elements of B selected at random is a prime integer. Define q to be the probability that the sum of three distinct elements of B selected at random is not a prime integer. Find the value of p + q. Express your answer as a common fraction.",
+        "answer": "9/10"
+      },
+      "question_T1": {
+        "question": "(Tiebreaker 1) Find the product of the smallest and largest integer values of x that satisfy -33 < -2(x-1) - 3 < 3.",
+        "answer": "-15"
+      },
+      "question_T2": {
+        "question": "(Tiebreaker 2) Four red flags and six blue flags are to be arranged on a pole. If all flags are identical except for color, in how many distinct ways can the flags be arranged from top to bottom?",
+        "answer": "210"
+      }
+    }
+  }

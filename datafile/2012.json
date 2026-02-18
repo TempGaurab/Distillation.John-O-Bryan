@@ -1,0 +1,208 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "Set A = {1,2,3,4,5}. If one member of Set A is selected at random and substituted for x in the expression (2x+1)/3, find the probability that this expression will then have a value that is an integer. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "2/5"
+      },
+      "question_2": {
+        "question": "Consider the statement: If the largest of four different positive integers is less than 8, then the average of the four positive integers is more than 6. Is this statement ALWAYS true, SOMETIMES true, or NEVER true? For your answer write the whole word: ALWAYS, SOMETIMES, or NEVER – whichever is correct.",
+        "answer": "NEVER"
+      },
+      "question_3": {
+        "question": "A line segment has endpoints at (14,9) and (2,37). Find the ordered pair that represents the midpoint of that segment.",
+        "answer": "(8,23)"
+      },
+      "question_4": {
+        "question": "Does the point (4,7) lie INSIDE, OUTSIDE, or ON the circle whose equation is x^2 + (y-2)^2 = 42? For your answer, write the whole word: INSIDE, OUTSIDE, or ON – whichever is correct.",
+        "answer": "INSIDE"
+      },
+      "question_5": {
+        "question": "A trapezoid has sides with respective lengths 2, 41, 20, and 41. Find the length of an altitude of this trapezoid.",
+        "answer": "40"
+      },
+      "question_6": {
+        "question": "Find the maximum possible value of 4y if x and y must be positive integers satisfying the system: x + y ≤ 16 and y - x ≤ 6.",
+        "answer": "44"
+      },
+      "question_7": {
+        "question": "Today there are k dollars in a bowl. Every 5 days from today, $6 will be added to the bowl. Every 8 days from today, $9 will be removed from the bowl. After the addition and/or subtraction is made from the bowl on the day which is 365 days from today, there will be $74 in the bowl. Find the value of k.",
+        "answer": "41"
+      },
+      "question_8": {
+        "question": "The circumference of a circle is Cπ meters. In this circle a chord of length 26 meters is 5 meters from the center of the circle. Find C.",
+        "answer": "26"
+      },
+      "question_9": {
+        "question": "Consider the statement: The midpoint of the hypotenuse of a right triangle is equidistant from the three vertices of the right triangle. Is this statement ALWAYS true, SOMETIMES true, or NEVER true? For your answer write the whole word: ALWAYS, SOMETIMES, or NEVER – whichever is correct.",
+        "answer": "ALWAYS"
+      },
+      "question_10": {
+        "question": "In number base k, 2666 has the same value as the base five number 31004. Find k.",
+        "answer": "9"
+      },
+      "question_11": {
+        "question": "Let p be a positive integer multiple of 8. Let A = {p, 2p, 3p, 4p, p+2, p+3, p+4, 24, (1/2)p, (1/3)p}. What is the probability that a random draw from the set A will be divisible by 8 without remainder?",
+        "answer": "1/2"
+      },
+      "question_12": {
+        "question": "In rhombus ABCD, the degree measure of angle DAB is 60°. A circle passes through vertices A, B, and D and intersects diagonal AC at E. If AE = 9, find the perimeter of the rhombus. Give your answer as a decimal rounded to two places.",
+        "answer": "31.18"
+      },
+      "question_13": {
+        "question": "Suppose that at a certain high school, 5% of female students and 4% of male students are on the math team. If 25/41 of the students at this high school are male and there are 27 students on the math team, find the total number of students at the high school.",
+        "answer": "615"
+      },
+      "question_14": {
+        "question": "Penny has three times as many quarters as she has dimes. If the total value of her quarters and dimes is $4.25, find the total number of coins that Penny has.",
+        "answer": "20"
+      },
+      "question_15": {
+        "question": "Find the exact area of an equilateral triangle if the perimeter is 6. Leave your answer as a radical expression in simplest form.",
+        "answer": "√3"
+      },
+      "question_16": {
+        "question": "Mowing at constant rates, Alfred can mow the whole lawn in 6 hours; Betty can mow the entire lawn in 4 hours, and Chad can mow the entire lawn in 3 hours. Assuming no loss of efficiency, find the number of minutes it will take before the lawn is mowed if all three start mowing the lawn at the same time.",
+        "answer": "80"
+      },
+      "question_17": {
+        "question": "A classroom in the shape of a rectangular solid has a volume of 7840 cubic feet. If the height of the classroom is half the length and the width is 8 feet less than the length, what is the height of the classroom?",
+        "answer": "14"
+      },
+      "question_18": {
+        "question": "How many of the following five statements are true for all real numbers x and y? a) |x| = -|-x|, b) |y-3| = |3-y|, c) |y-5x| = |5y-x|, d) |x+y| ≤ |x|+|y|, e) |x-y| ≤ |x|+|y|",
+        "answer": "3"
+      },
+      "question_19": {
+        "question": "Find the smallest 3-digit positive integer that meets all three of the following conditions: a) If two is added to the number formed by any two of its digits (in either order) the result is prime. b) If two is added to the number formed by its three digits (in any order) the result is prime. c) At least two of the digits in the number must be different.",
+        "answer": "177"
+      },
+      "question_20": {
+        "question": "The points (7,k) and (11,w) lie on a circle whose equation is x^2 + y^2 = p. If k and w are both positive integers with k + w < 132, find the sum of all distinct values of p.",
+        "answer": "710"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Let i = √(-1). Then i^7 - i^13 = ki, where k is a real number. Find the value of k.",
+        "answer": "-2"
+      },
+      "question_2": {
+        "question": "Find the sum of the first thirty terms of the arithmetic sequence: 1.23, 2.37, 3.51,... Express your answer as a decimal.",
+        "answer": "532.8"
+      },
+      "question_3": {
+        "question": "ABCD is a parallelogram in which the diagonals intersect at E. If AD = 8, ∠DAC = 30° and ∠DEA = 70°, find the length of diagonal BD. Express your answer as a decimal rounded to the nearest hundredth.",
+        "answer": "8.51"
+      },
+      "question_4": {
+        "question": "A right circular cylinder has a total surface area of 132π. Find the maximum volume of such a right circular cylinder. Express your answer as a decimal rounded to the nearest hundredth.",
+        "answer": "648.36"
+      },
+      "question_5": {
+        "question": "If the magnitude of the three dimensional vector (2, 3, p) is √38, find the smallest possible value of p.",
+        "answer": "-5"
+      },
+      "question_6": {
+        "question": "Let x be an integer such that 0 < x < 150. Find the sum of all possible distinct values of x such that cos(2x+8)° > 0 and sin(5x-12)° < 0.",
+        "answer": "2167"
+      },
+      "question_7": {
+        "question": "A trapezoid has sides with respective lengths: 2, 41, 20, 41. Find the length of an altitude of this trapezoid.",
+        "answer": "40"
+      },
+      "question_8": {
+        "question": "Rounded to the nearest centimeter, find the circumference of a circle in which a chord whose length is 80 centimeters is 9 centimeters from the center of the circle.",
+        "answer": "258"
+      },
+      "question_9": {
+        "question": "When two boys mow a lawn, one works at twice the rate of the other. If it takes the two boys a total of 3 hours to mow the lawn when they work together, how many hours would it take the faster boy to mow the lawn by himself?",
+        "answer": "4.5"
+      },
+      "question_10": {
+        "question": "A triangle has vertices at (0,0), (5,6), and (5,-2). A point is selected at random in the interior of the triangle. Find the probability that the point selected lies in Quadrant I. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "3/4"
+      },
+      "question_11": {
+        "question": "Solve the determinant equation for k: |1 -2 -6; 4 1 0; 5 -3 k| = 165.",
+        "answer": "7"
+      },
+      "question_12": {
+        "question": "Let the equation of a parabola be y = x^2 - kx + w. The sum of the squares of the x-intercepts of the parabola is 4210. If 18 times the sum of the x-intercepts of the parabola is subtracted from the product of the x-intercepts of the parabola, the result is 183. Find the least possible value of y.",
+        "answer": "-1429"
+      },
+      "question_13": {
+        "question": "When 2.2̄3̄ (where only the 3 repeats) is written as an improper fraction reduced to lowest terms, what is the value?",
+        "answer": "67/30"
+      },
+      "question_14": {
+        "question": "Let f(x) = 2x^2 + 3 and let g(x) = kx + w where k and w are positive integers. If f(g(3)) = 5411, find the largest possible value of (k + w).",
+        "answer": "50"
+      },
+      "question_15": {
+        "question": "Let P(x) = 0 be a third degree polynomial equation with integer coefficients. Let the polynomial equation have at least one root that is an integer. If P(5) = 6, P(4) = -2, and P(-2) = -92, find P(13).",
+        "answer": "1078"
+      },
+      "question_16": {
+        "question": "If (2x + 3y)^8 is expanded and completely simplified, then kx^3y^5 would be one of the terms. Find the value of k.",
+        "answer": "108864"
+      },
+      "question_17": {
+        "question": "[7 3 -2; 8 6 12] + [11 -3 3; 1 7 -5] = [a b c; d e f]. Find the value of acd - 2cf.",
+        "answer": "148"
+      },
+      "question_18": {
+        "question": "The first three terms of an arithmetic progression are respectively: 3x-7, 8x-58, and 2x+78. Find the value of x.",
+        "answer": "17"
+      },
+      "question_19": {
+        "question": "Find the vertex of the parabola whose equation is y = x^2 + 4x + 11. Express your answer as an ordered pair of the form (x, y).",
+        "answer": "(-2,7)"
+      },
+      "question_20": {
+        "question": "If k(log(9)) = log(27), find the value of k. Express your answer as a decimal.",
+        "answer": "1.5"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "From the four numbers 6, 15, 42, and 51, one number is selected at random. Find the probability that the number selected has exactly two prime positive factors. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "3/4"
+      },
+      "question_2": {
+        "question": "Eight times an odd integer x is 33 more than the next largest odd integer. A rectangle has perimeter 64 and the longer side is 4 units greater than the shorter side. Find the sum of x and the length of one of the shorter sides of the rectangle.",
+        "answer": "19"
+      },
+      "question_3": {
+        "question": "For all real numbers a and b, let a ⊗ b = (a-5)(b+3). Let k be the number of sides of a convex polygon whose sum of the degree measures of its interior angles is 2160. Find the value of (7 ⊗ 20) + k.",
+        "answer": "60"
+      },
+      "question_4": {
+        "question": "Let k be the common ratio of an infinite geometric progression with 1st term of 15 and sum of 25. Let w be the common ratio of an infinite geometric progression with 1st term of 63 and sum of 81. Find the value of (k + w). Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "28/45"
+      },
+      "question_5": {
+        "question": "Let k be the probability of drawing 5 hearts when 5 cards are selected at random (without replacement) from 13 hearts and 3 spades. Let S be the sum of all distinct positive integral multiples of 3 that are less than 56. Find the smallest integer that is greater than (kS).",
+        "answer": "152"
+      },
+      "question_6": {
+        "question": "The equation of a line whose x-intercept is 4 and which passes through (10,12) can be expressed in the form y = mx + b. The inverse of y = 2x + 3 can be expressed in the form y = kx + w. Find the value of (m + b + k + w).",
+        "answer": "-7"
+      },
+      "question_7": {
+        "question": "The lengths of all sides of a scalene triangle are integers. Two of the sides have lengths of 8 and 11. Let k be the possible number of non-congruent scalene triangles that meet these criteria. Let A = {25, 68, 91, 73, 62, 168, w} and let the arithmetic mean (average) of A be 79. Let m be the median of the set A. Find the sum of k, m, and w.",
+        "answer": "147"
+      },
+      "question_8": {
+        "question": "Let x be the smallest positive integer such that cot(x°) < 0 and cot(x°) = -cot(-x°). Let y be the largest real value for which y = -2x^2 + 44x - 11. Find (y - x).",
+        "answer": "140"
+      },
+      "question_9": {
+        "question": "(T1) The second term of an arithmetic sequence is 13 and the eighteenth term of this arithmetic sequence is 41. Find the twenty-ninth term. Express your answer as a decimal.",
+        "answer": "60.25"
+      },
+      "question_10": {
+        "question": "(T2) The area of a rectangle is 168 square units, and a diagonal of the rectangle has length 25 units. Find the number of units in the perimeter of this rectangle.",
+        "answer": "62"
+      }
+    }
+  }

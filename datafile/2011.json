@@ -1,33 +1,154 @@
 {
-    "freshman_sophomore_test": {
-      "question_1": {
-        "question": "",
-        "answer": ""
-      },
-      "question_2": {
-        "question": "",
-        "answer": ""
-      }
+  "freshman_sophomore_test": {
+    "question_1": {
+      "question": "A convex polygon has 19 sides. Find the sum of the degree measures of the interior angles of this polygon.",
+      "answer": "3060"
     },
-    "junior_senior_test": {
-      "question_1": {
-        "question": "",
-        "answer": ""
-      },
-      "question_2": {
-        "question": "",
-        "answer": ""
-      }
+    "question_2": {
+      "question": "If (x^2 - y^2) = 0 and x + y = 17.534, find the value of x - y.",
+      "answer": "0"
     },
-    "two_person_speed_event": {
-      "question_1": {
-        "question": "",
-        "answer": ""
-      },
-      "question_2": {
-        "question": "",
-        "answer": ""
-      }
+    "question_3": {
+      "question": "Two circles are constructed such that one has radius of length 8 and the other has circumference of length 64π. The area of the larger circle is k times the area of the smaller circle. Find the value of k.",
+      "answer": "16"
+    },
+    "question_4": {
+      "question": "Casey invested part of $100,000 in bonds that earned interest at 6% annual percentage rate. The rest he invested in certificates that earned interest at 5% annual percentage rate. At the end of one year, his interest income from these totaled $5320. Find the number of dollars Casey invested in certificates.",
+      "answer": "68000"
+    },
+    "question_6": {
+      "question": "A bag of shapes contains the following polygons: a square, a triangle, a pentagon, and a hexagon. Two polygons are selected from this bag at random and without replacement. Find the probability that the total number of sides for the selected polygons is at least 9.",
+      "answer": "2/3"
+    },
+    "question_7": {
+      "question": "A man bought a 36-ounce Pepsi. On the first day he drank 1 ounce from the container and then refilled the remainder of the container with Coke. On the second day, he drank 2 ounces from the container and refilled the remainder of the container with Coke. On the third day, he drank 3 ounces from the container and refilled the remainder with Coke. This procedure was continued for succeeding days until the container was empty. Find the total number of ounces of coke the man drank during this process.",
+      "answer": "630"
+    },
+    "question_9": {
+      "question": "How many integers between 1 and 100 (including 1 and 100) are neither the square nor cube of an integer?",
+      "answer": "88"
+    },
+    "question_10": {
+      "question": "The number of inches in the length of the minor arc intercepted by a chord whose length is √1200 inches is kπ inches. If the radius of this circle is 20 inches, find the value of k. Express your answer as an improper fraction reduced to lowest terms.",
+      "answer": "40/3"
+    },
+    "question_11": {
+      "question": "Let x, y, and z represent integers greater than 1. If (x^7)^y = x^7 * x^z, find the sum of the smallest two distinct values of |z - y|.",
+      "answer": "16"
+    },
+    "question_12": {
+      "question": "Two integers are formed by writing the same two digits in reverse order. The sum of the two integers is 22 times the difference between the digits. Also, the difference between the squares of the two integers is m where m > 1000. If none of the digits of m are the same as any digits used to form the original two integers, find the larger of the two original integers.",
+      "answer": "93"
+    },
+    "question_13": {
+      "question": "A triangle has sides of lengths of 34, 34, and 32. Find the radius of the circle inscribed in that triangle. Express your answer as a decimal.",
+      "answer": "9.6"
+    },
+    "question_14": {
+      "question": "Let x and y be positive integers such that the average of 5x and 7y is 60. Find the sum of all distinct possible values of x.",
+      "answer": "30"
+    },
+    "question_15": {
+      "question": "A right triangle has sides of integer length. The difference between the length of the hypotenuse and the length of the longer leg is the same as the difference between the length of the longer leg and the length of the shorter leg. If the area of the triangle is 600, find the length of the radius of the circumscribed circle.",
+      "answer": "25"
+    },
+    "question_16": {
+      "question": "A truck was originally priced at $25,000. Its price was reduced by r% to x dollars. Then the price of x dollars was again reduced by k% to $16170. If both r and k are positive integers with r < k, find the smallest possible value of 2k.",
+      "answer": "46"
+    },
+    "question_17": {
+      "question": "ABCD and EFGH are rectangles such that the lengths of all sides and diagonals are integers. The area of ABCD is 7/6 of the area of EFGH. If the length diagonal HF is 41, find the sum of all possible distinct lengths of diagonal DB.",
+      "answer": "66"
+    },
+    "question_18": {
+      "question": "Twice the sum of the squares of the roots for x^2 - 70x + k = 0 is added to the product of the roots and the result is 6632. Find the smaller of the two roots for x.",
+      "answer": "22"
+    },
+    "question_19": {
+      "question": "AEC is an acute triangle, with B lying on AC and D lying on CE. AD and BE intersect at F. If DC = 5(DE) and AB:BC = 4:5, then the ratio of the area of triangle ABF to the area of quadrilateral BCDF is k : w where k and w are positive integers. Find the smallest possible value of k + w.",
+      "answer": "87"
+    },
+    "question_20": {
+      "question": "The number x is five more than the product of two consecutive positive integers. The number x is also an integral multiple of both 55 and 121. Let the smaller of the two consecutive positive integers be represented by k. Find the sum of all distinct values of k if k < 157.",
+      "answer": "169"
+    }
+  },
+  "junior_senior_test": {
+    "question_1": {
+      "question": "If x^4 - 1 = 624, find the largest possible real value of x^3 + 107x^2 - 317x + 157.",
+      "answer": "4292"
+    },
+    "question_2": {
+      "question": "Find the degree of the following polynomial: 48x^2(3x(x+5)^3 + 6x^3)(x^2 - 7)^11 + 44x^9 - 179.",
+      "answer": "28"
+    },
+    "question_3": {
+      "question": "You are given 25 coins that look identical; however one of the coins is heavier than the others (the other 24 all have the same weight). You also have a pan balance that may be used to compare the weights of any two stacks of coins. Find the minimum number of weighings needed to be sure of finding the heavy coin.",
+      "answer": "3"
+    },
+    "question_4": {
+      "question": "The hypotenuse of a right triangle has length 37. The length of the longest leg is 35. Consider the circumscribed circle. Find the length of the arc subtended by the smallest angle of the triangle. Express your answer as a decimal rounded to four significant digits.",
+      "answer": "12.22"
+    },
+    "question_5": {
+      "question": "ABCD is a rectangle with AB = 45 and BC = k. Let i = √(-1). If |45 + ki| = 53, find the perimeter of the rectangle.",
+      "answer": "146"
+    },
+    "question_6": {
+      "question": "The points (-6, 15), (9, 15), and (-6, 7) are the vertices of a triangle. Rounded to the nearest whole degree, find the degree measure of the smallest angle of this triangle.",
+      "answer": "28"
+    },
+    "question_7": {
+      "question": "When (2x - 3)^12 is expanded and completely simplified, find the numerical coefficient of x^5.",
+      "answer": "-55427328"
+    },
+    "question_8": {
+      "question": "Let ABC be a triangle and suppose that the lengths of sides AB and BC are 20 and 80 meters, respectively. If ∠ABC measures 120°, find the exact length of AC.",
+      "answer": "20√21"
+    },
+    "question_9": {
+      "question": "If the speed of the current remains constant at 5.5 mph, a boat can travel 246 miles downstream in the same time it can travel 180 miles upstream. Find the speed (in mph) of the boat in still water. Express your answer as a decimal.",
+      "answer": "35.5"
+    },
+    "question_10": {
+      "question": "Urn A contains two orange marbles and one blue marble. Urn B contains two orange marbles and two blue marbles. An urn is selected at random and then one of the marbles is selected at random from that urn. Find the probability that the marble selected is orange. Express your answer as a common fraction reduced to lowest terms.",
+      "answer": "7/12"
+    },
+    "question_11": {
+      "question": "A committee of four is to be chosen randomly from five Whigs and six Tories. What is the probability that there is at least one person from each party on the committee? Express your answer as a fraction reduced to lowest terms.",
+      "answer": "31/33"
+    },
+    "question_12": {
+      "question": "A circle has the line x - 2y + 4 = 0 tangent at the point (0, 2) and y = 2x - 7 tangent at (3, -1). Find the exact area of this circle.",
+      "answer": "5π"
+    },
+    "question_13": {
+      "question": "When 2^2011 is written as an integer, how many digits are there in the integer?",
+      "answer": "606"
+    },
+    "question_14": {
+      "question": "A woman is sitting in the stands behind one end zone of a football field. She observes, in the same vertical plane with her position, two players standing on their own goal lines, exactly 100 yards apart. Looking at the spots on the ground where they are standing, a player at one goal line is at an angle of depression of 15° and a player at the other goal line is at an angle of depression of 8°. Assuming the football field is horizontal, find the number of feet in the vertical height of the woman's eye above the horizontal plane of the football field. Express your answer as a decimal rounded to the nearest hundredth of a foot.",
+      "answer": "88.67"
+    },
+    "question_15": {
+      "question": "Find the smallest positive integer that has exactly 44 distinct positive divisors.",
+      "answer": "15360"
+    },
+    "question_16": {
+      "question": "Let x and n be two-digit positive numbers (for which the tens digits are not zero). Suppose n > x. Find the value of x for which the sum of consecutive positive integers from 1 to (x - 1) is the same as the sum of consecutive positive integers from (x + 1) through n.",
+      "answer": "35"
+    },
+    "question_17": {
+      "question": "AB is the hypotenuse of △ABC and has a length AB = 20. The radius of the inscribed circle has a length of 4. Find the perimeter of △ABC.",
+      "answer": "48"
+    },
+    "question_18": {
+      "question": "The first term of an infinite geometric sequence of real terms is 225, and the fourth term of this geometric sequence is 14.4. Find the sum of the terms of this infinite geometric sequence.",
+      "answer": "375"
+    },
+    "question_19": {
+      "question": "Tom is a gambler. He has a pair of fair, standard cubical dice. He selects two different numbers in advance from the face numbers 1, 2, 3, 4, 5, and 6. He then rolls the pair of dice. If both numbers showing match his two selections, he wins $108. If exactly one number showing matches one of his two selections, he neither wins nor loses. If neither number showing matches either of his two selections, he loses $54. Find Tom's mathematical expectation (in dollars) each time he rolls the pair of dice. Express your answer by including the word 'lose' or the word 'win.'",
+      "answer": "Lose 18"
     }
   }
-  
+}
