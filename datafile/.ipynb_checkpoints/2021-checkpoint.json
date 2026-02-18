@@ -1,0 +1,192 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "Determine the sum of the smallest and largest solutions for the inequality |2x-5| ≤ 11.",
+        "answer": "5"
+      },
+      "question_2": {
+        "question": "On the first quiz of a new unit, Terri worked 4 out of 5 problems correctly. On the second quiz she was able to answer twice as many questions correctly, but earned only half as good a grade. Determine the number of questions on the second quiz (there is no partial credit involved in the scoring).",
+        "answer": "20"
+      },
+      "question_3": {
+        "question": "Six monkeys all eating at the same rate r can eat 8 bananas in 4 minutes. How many minutes will it take 8 monkeys, eating at the same rate r, to eat 12 bananas? Give your answer as an exact decimal.",
+        "answer": "4.5"
+      },
+      "question_4": {
+        "question": "Determine the sum of all positive values of k such that x² + kx + 24 can be factored into two binomial factors with integer coefficients.",
+        "answer": "60"
+      },
+      "question_5": {
+        "question": "Points A(-3,8) and B(5,2) lie in a plane. Point C lies in quadrant one of the same plane, on the perpendicular bisector of AB, and 15 units from the midpoint of AB. Determine the coordinates of point C. Express your answer as an ordered pair (x,y).",
+        "answer": "(10,17)"
+      },
+      "question_6": {
+        "question": "There are 30 students on a school bus. 24 either play in the band or sing in chorus (or both). 6 play in band but do not sing in chorus. 14 sing in chorus and play in the band. A student is selected at random. Determine the probability that the student sings in the chorus but does not play in band. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "2/15"
+      },
+      "question_7": {
+        "question": "Express the number 5.325̄ (where \"25\" is the repeating block of digits) as an improper fraction reduced to lowest terms.",
+        "answer": "2636/495"
+      },
+      "question_8": {
+        "question": "One of the angles of an isosceles trapezoid has a degree measure of 42. Determine the largest possible sum of the degree measures of two of the other angles of the trapezoid.",
+        "answer": "276"
+      },
+      "question_9": {
+        "question": "The rational expression ((3 - 2/(1-x)) / (3/(x-1) - 1)) = (kx+w)/(p+qx) where k, w, p, and q are integers with k > 0. Determine the sum (k + w + p + q).",
+        "answer": "5"
+      },
+      "question_10": {
+        "question": "AC is the diameter of Circle O. Point B lies on the circle such that ∠BAC = 60° and AB = 10. Determine the exact length of the radius of Circle O.",
+        "answer": "10"
+      },
+      "question_11": {
+        "question": "An array of 12 points is set up in 3 evenly spaced rows and 4 evenly spaced columns (forming 6 adjacent congruent squares if connected horizontally and vertically). One point is chosen at random from each row. Determine the probability that the three points chosen will be collinear. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "1/8"
+      },
+      "question_12": {
+        "question": "A palindromic number is a positive integer that reads the same backwards and forwards, such as 83238. Jayden is challenged to produce the largest palindromic number possible, subject to the requirements that no digit is 0, at least four different digits are used, and the sum of all digits in the number is 25. Jayden is successful in his offering of N. Determine the sum of the first five digits of N (when reading the digits of N from left to right).",
+        "answer": "9"
+      },
+      "question_13": {
+        "question": "The total cost of prom this year was $17,850. The cost was to be shared equally by those who planned to attend. Regrettably, at the last minute, 10 people could not attend, raising the cost for each person by $4.25. Determine the number of students who actually attended prom.",
+        "answer": "200"
+      },
+      "question_14": {
+        "question": "The product of two positive numbers is 768 and their sum is 7 times their positive difference. Determine the larger of the two numbers.",
+        "answer": "32"
+      },
+      "question_15": {
+        "question": "List all real numbers x such that (3x³ - 2x)^(6x) = 1.",
+        "answer": "1 and -1/3"
+      },
+      "question_16": {
+        "question": "A quadrilateral is formed by an equilateral triangle sharing a side with one leg of a right triangle. A side of the equilateral triangle measures 2.7 units, while the hypotenuse of the right triangle measures 4.9 units. Determine the area of this quadrilateral. Express your answer as a decimal rounded to 4 significant digits.",
+        "answer": "8.677"
+      },
+      "question_17": {
+        "question": "The area of a rectangle is 24 square units. The perimeter of the rectangle is 20 units. Find the exact length of the diagonal of the rectangle. Give your answer in the form a√b where b is as small as possible.",
+        "answer": "2√13"
+      },
+      "question_18": {
+        "question": "Three neighbors have identical adjacent back yards. It takes Andrea 60 minutes to mow his yard alone; it takes Bram 54 minutes to mow his yard alone; it takes Claire 36 minutes to mow her yard alone. One week, they start at the same time and work together to mow all three yards. All mow until all three yards are finished. Determine the time in hours they mow together. Express your answer as a common or improper fraction reduced to lowest terms.",
+        "answer": "27/34"
+      },
+      "question_19": {
+        "question": "In the base ten alphanumeric equation × BC/D, each letter represents a unique digit. Determine the value of the digit B.",
+        "answer": "3"
+      },
+      "question_20": {
+        "question": "Trailing zeros are the zeros to the right of the last non-zero digit in the integer representation of a number read from left to right. How many trailing zeros does the number n = 2021! have?",
+        "answer": "503"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "Let f(x) = x³. Determine the value of f⁻¹(8).",
+        "answer": "2"
+      },
+      "question_2": {
+        "question": "The area of a rectangle is 24 square units. The perimeter of the rectangle is 20 units. Find the exact length of the diagonal of the rectangle. Give your answer in the form a√b where b is as small as possible.",
+        "answer": "2√13"
+      },
+      "question_3": {
+        "question": "In the diagram on the right (not drawn to scale), points A, B, and D lie on circle O, CD is tangent at point D, and A, B, and C are collinear. AB is a diameter, CD = 12, and CB = 4. Determine the area of ΔCOD.",
+        "answer": "96"
+      },
+      "question_4": {
+        "question": "Let |x-3|/(1-x) ≤ x - 1. Determine the least value of x such that this inequality is true.",
+        "answer": "2"
+      },
+      "question_5": {
+        "question": "In a geometric sequence, the last term is 1458, the common ratio is -3, and the sum of the terms is 1094. Determine the second term of this geometric sequence.",
+        "answer": "-6"
+      },
+      "question_6": {
+        "question": "Alix rolls two fair, standard cubical dice. Determine the probability the sum of the numbers on the upper faces will be equal to or greater than 5. Give your answer as a fraction reduced to lowest terms.",
+        "answer": "5/6"
+      },
+      "question_7": {
+        "question": "Let log_b 5 = x and log_b 3 = y. Then log_b ⁴√135b = kx + wy + p where k, w, and p are real numbers. Determine the value of the sum (k + w + p). Give your answer as an improper fraction reduced to lowest terms.",
+        "answer": "5/3"
+      },
+      "question_8": {
+        "question": "Let p(x) = x², q(x) = 2x + 4, f(x) = (p ∘ q)(x), and g(x) = (q ∘ p)(x). Determine the value of x such that f(x) = 2g(x). Give your answer as a fraction reduced to lowest terms.",
+        "answer": "-1/2"
+      },
+      "question_9": {
+        "question": "Let x = ³√(33 + ³√(33 + ³√(33 + ...))). Then x = (k+p√w)/q in simplified and reduced radical form where k, w, p, and q are positive integers. Determine the value of the sum (k + w + p + q).",
+        "answer": "137"
+      },
+      "question_10": {
+        "question": "Determine the value of k such that 2/(6^(x+1)) + 3/(6^x) = 5(2^k)/(6^(x+1)) for all real values of x.",
+        "answer": "2"
+      },
+      "question_11": {
+        "question": "Angle A lies in quadrant IV with tan(A) = -3/5. Determine the value of sin(2A). Give your answer as a proper or improper fraction reduced to lowest terms.",
+        "answer": "-24/25"
+      },
+      "question_12": {
+        "question": "Four preschoolers randomly toss a total of 24 indistinguishable balls into three boxes labeled A, B, C. Each ball is equally likely to end up in any one of the boxes and all balls go into one of the boxes. Determine the number of distinct outcomes that are possible. The order in which the balls are placed in the containers does not matter, just the outcome.",
+        "answer": "325"
+      },
+      "question_13": {
+        "question": "Let f(x) = √a x² + √(ab) x + b√a with a > 0 and b > 0. Determine the minimum value for f(x) in terms of a and b.",
+        "answer": "¾b√a"
+      },
+      "question_14": {
+        "question": "Trailing zeros are the zeros to the right of the last non-zero digit in the integer representation of a number read from left to right. How many trailing zeros does the number n = 2021! have?",
+        "answer": "503"
+      },
+      "question_16": {
+        "question": "An array of 12 points is set up in 3 evenly spaced rows and 4 evenly spaced columns (forming 6 adjacent congruent squares if connected horizontally and vertically). One point is chosen at random from each row. Determine the probability the 3 points chosen will be collinear. Give your answer as a fraction reduced to lowest terms.",
+        "answer": "1/8"
+      },
+      "question_17": {
+        "question": "A triangle has sides with lengths 5, 6, and 8. The area of this triangle can be expressed as (k√w)/f in simplified and reduced radical form where k, w, and f are positive integers. Determine the value of (k + w + f).",
+        "answer": "406"
+      },
+      "question_18": {
+        "question": "Determine the value for x such that log_5(5 log_5(log_5(x^(-5)))) = 1. Give your answer as a proper or improper fraction reduced to lowest terms.",
+        "answer": "1/5"
+      },
+      "question_19": {
+        "question": "Determine the area of ΔABC when ∠A = 55°, AC = 12, and AB = 18. Express your answer as a decimal rounded to four significant digits.",
+        "answer": "88.47"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "Let |7 0 4; x 5 -2| = 158 and y = log_4(27)/log_2(9). Find the product xy.",
+        "answer": "6"
+      },
+      "question_2": {
+        "question": "Let 36, k, and 20 in that order be the terms in an arithmetic sequence. Let 12, w, and 48 in that order be terms in a geometric sequence with w > 0. Then the terms k, w, and p, in that order form another arithmetic sequence. Determine the value of p.",
+        "answer": "20"
+      },
+      "question_3": {
+        "question": "The point P is located on the x-axis and the point Q is located on the y-axis. Each point is 5 units from the point (3,4). Determine the largest possible length of PQ.",
+        "answer": "10"
+      },
+      "question_4": {
+        "question": "Let k be the perimeter of right triangle ΔABC having right angle at C, ∠A ≅ ∠B and AC = 3. Let w be the area of parallelogram DFGH has DF = 4, DH = 6, and ∠F = 120°. Find the sum k + w. Write your answer as a radical expression in the form p + q√r + s√t where all constants represent positive integers and r and t are as small as possible.",
+        "answer": "6 + 3√2 + 12√3"
+      },
+      "question_5": {
+        "question": "Ten lines lie in a plane in such a way that no two lines are parallel and no point of intersection contains more than two lines. Determine the largest number of regions into which these 10 lines divide the plane.",
+        "answer": "56"
+      },
+      "question_6": {
+        "question": "Let f(x) = {5-x if x < 2; |x-9| if x ≥ 2}. Determine the sum of all values for x such that f(x) = 6.",
+        "answer": "17"
+      },
+      "question_7": {
+        "question": "Let 20^x = 16 and 16^y = 20. Determine the value of (20^(x+2))/(16^(2y-1)).",
+        "answer": "256"
+      },
+      "question_8": {
+        "question": "An antenna is mounted on the outer edge of the roof of a building. From a point on ground level 30 feet away from that side of the building, the angles of elevation to the bottom and top of the antenna are 37° and 51° respectively. Determine the distance, in feet, from the bottom to the top of the antenna. Express your answer as a decimal rounded to the nearest tenth of a foot.",
+        "answer": "14.4"
+      }
+    }
+  }
