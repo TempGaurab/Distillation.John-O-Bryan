@@ -1,116 +1,130 @@
 """
 Math Competition Question Solver & Verifier
-Uses DeepSeek API with two agents:
-  - Agent 1: Solves questions and returns only the answer
-  - Agent 2: Independently verifies Agent 1's answer
-Results are saved to results.csv with a correctness flag.
+Uses DeepSeek Reasoner API with two agents:
+  - Agent 1 (deepseek-reasoner): Solves the question, returns only the answer
+  - Agent 2 (deepseek-reasoner): Given the true answer AND Agent 1's answer,
+                                  decides if they are mathematically equivalent
+
+Flag logic:
+   1  → Agent 2 says CORRECT   (answers are equivalent)
+   0  → Agent 2 says INCORRECT (Agent 1 is wrong — needs your review)
+
+CSV columns include agent1_reasoning so you can trace Agent 1's thinking.
+
+Dependencies:
+    pip install openai python-dotenv
+
+.env file (place in the same folder as this script):
+    Deepseek_api=your_key_here
 """
 
 import os
 import json
 import csv
-import re
 import time
 from pathlib import Path
+
+from dotenv import load_dotenv
 from openai import OpenAI
 
-# ── DeepSeek client ────────────────────────────────────────────────────────────
-api_key = os.environ.get("Deepseek_api")
-if not api_key:
-    raise EnvironmentError("Environment variable is not set.")
+# ── Load env & build client ────────────────────────────────────────────────────
+load_dotenv()
+
+API_KEY = os.environ.get("Deepseek_api")
+if not API_KEY:
+    raise EnvironmentError(
+        "Could not find 'Deepseek_api' in environment or .env file.\n"
+        "Create a .env file in the same folder with:\n"
+        "    Deepseek_api=your_key_here"
+    )
 
 client = OpenAI(
-    api_key=api_key,
+    api_key=API_KEY,
     base_url="https://api.deepseek.com",
 )
 
-MODEL = "deepseek-chat"
+SOLVER_MODEL   = "deepseek-reasoner"
+VERIFIER_MODEL = "deepseek-reasoner"
 
 # ── Prompts ────────────────────────────────────────────────────────────────────
 SOLVER_SYSTEM = (
     "You are an expert math competition solver. "
-    "When given a problem, reason through it carefully and then output ONLY the final answer — "
-    "no explanation, no units, no extra words. "
-    "Match the format the problem asks for (fraction, decimal, integer, expression, etc.)."
+    "Work through the problem carefully using step-by-step reasoning. "
+    "Your final response must contain ONLY the answer — no explanation, no LaTeX, "
+    "no \\boxed{}, no units, no extra words. "
+    "Match exactly the format the problem specifies "
+    "(e.g. integer, reduced fraction like 2/3, decimal, expression like 36√2, etc.)."
 )
 
 VERIFIER_SYSTEM = (
-    "You are an expert math competition judge. "
-    "You will be given a problem and a proposed answer. "
-    "Solve the problem independently, then decide if the proposed answer is correct. "
-    "Reply with EXACTLY one word: CORRECT or INCORRECT, "
-    "followed by a newline and a very brief justification (one sentence max)."
+    "You are a math answer checker. "
+    "You will be given a problem, the correct answer, and a student's answer. "
+    "Your only job is to decide if the student's answer is mathematically equivalent "
+    "to the correct answer. Account for equivalent forms (e.g. 0.5 = 1/2, 36√2 = 36*sqrt(2)). "
+    "Respond with EXACTLY one word on the first line: CORRECT or INCORRECT. "
+    "On the second line, write one short sentence explaining why."
 )
 
 
-# ── API helpers ─────────────────────────────────────────────────────────────────
-def call_solver(question: str) -> str:
-    """Agent 1 — solve and return the bare answer."""
+# ── Agent wrappers ─────────────────────────────────────────────────────────────
+def call_solver(question: str) -> tuple[str, str]:
+    """Agent 1 — solve the question.
+
+    Returns (answer, reasoning) where reasoning is the chain-of-thought.
+    """
     response = client.chat.completions.create(
-        model=MODEL,
+        model=SOLVER_MODEL,
+        max_tokens=8000,
         messages=[
             {"role": "system", "content": SOLVER_SYSTEM},
-            {"role": "user", "content": question},
+            {"role": "user",   "content": question},
         ],
-        temperature=0.0,
-        max_tokens=256,
     )
-    return response.choices[0].message.content.strip()
+    msg = response.choices[0].message
+
+    answer    = (msg.content or "").strip()
+    reasoning = (getattr(msg, "reasoning_content", None) or "").strip()
+
+    return answer, reasoning
 
 
-def call_verifier(question: str, proposed_answer: str) -> tuple[str, str]:
-    """Agent 2 — verify Agent 1's answer.
-
-    Returns (verdict, justification) where verdict is 'CORRECT' or 'INCORRECT'.
-    """
+def call_verifier(question: str, true_answer: str, agent1_answer: str) -> tuple[str, str]:
+    """Agent 2 — given the true answer, check if Agent 1's answer is equivalent."""
     prompt = (
         f"Problem:\n{question}\n\n"
-        f"Proposed answer: {proposed_answer}"
+        f"Correct answer: {true_answer}\n"
+        f"Student's answer: {agent1_answer}"
     )
     response = client.chat.completions.create(
-        model=MODEL,
+        model=VERIFIER_MODEL,
+        max_tokens=512,
         messages=[
             {"role": "system", "content": VERIFIER_SYSTEM},
-            {"role": "user", "content": prompt},
+            {"role": "user",   "content": prompt},
         ],
-        temperature=0.0,
-        max_tokens=256,
     )
-    raw = response.choices[0].message.content.strip()
+    raw   = (response.choices[0].message.content or "").strip()
     lines = raw.split("\n", 1)
+
     verdict = lines[0].strip().upper()
-    justification = lines[1].strip() if len(lines) > 1 else ""
-    # Normalise — sometimes the model adds punctuation
+    note    = lines[1].strip() if len(lines) > 1 else ""
+
     if verdict.startswith("CORRECT"):
         verdict = "CORRECT"
     elif verdict.startswith("INCORRECT"):
         verdict = "INCORRECT"
     else:
         verdict = "UNKNOWN"
-    return verdict, justification
 
-
-# ── Answer comparison ──────────────────────────────────────────────────────────
-def normalise(text: str) -> str:
-    """Lowercase, strip whitespace and common punctuation for loose comparison."""
-    text = text.lower().strip()
-    text = re.sub(r"[^\w./$√π^-]", "", text)   # keep alphanumeric + math chars
-    return text
-
-
-def answers_match(agent_answer: str, true_answer: str) -> bool:
-    """Return True if the answers look equivalent after normalisation."""
-    return normalise(agent_answer) == normalise(true_answer)
+    return verdict, note
 
 
 # ── JSON loader ────────────────────────────────────────────────────────────────
 def load_year(filepath: Path) -> list[dict]:
-    """Parse one year's JSON file into a flat list of question records."""
     with open(filepath, encoding="utf-8") as f:
         data = json.load(f)
 
-    year = filepath.stem          # e.g. "2013"
-    records = []
+    year, records = filepath.stem, []
 
     for section_name, section in data.items():
         if not isinstance(section, dict):
@@ -118,27 +132,29 @@ def load_year(filepath: Path) -> list[dict]:
         for q_key, q_obj in section.items():
             if not isinstance(q_obj, dict):
                 continue
-            question = q_obj.get("question", "").strip()
-            true_answer = q_obj.get("answer", "").strip()
+            question    = q_obj.get("question", "").strip()
+            true_answer = q_obj.get("answer",   "").strip()
             if not question:
                 continue
             records.append({
-                "year": year,
-                "section": section_name,
+                "year":        year,
+                "section":     section_name,
                 "question_id": q_key,
-                "question": question,
+                "question":    question,
                 "true_answer": true_answer,
             })
 
     return records
 
 
-# ── Main pipeline ──────────────────────────────────────────────────────────────
+# ── Main ───────────────────────────────────────────────────────────────────────
 def main():
     datafile_dir = Path("datafile")
     if not datafile_dir.exists():
-        raise FileNotFoundError(f"Directory '{datafile_dir}' not found. "
-                                "Run this script from the folder that contains 'datafile/'.")
+        raise FileNotFoundError(
+            f"Directory '{datafile_dir}' not found. "
+            "Run this script from the folder that contains 'datafile/'."
+        )
 
     json_files = sorted(datafile_dir.glob("*.json"))
     if not json_files:
@@ -146,15 +162,14 @@ def main():
 
     output_csv = Path("results.csv")
     fieldnames = [
-        "year",
-        "section",
-        "question_id",
-        "question",
+        "year", "section", "question_id", "question",
         "true_answer",
         "agent1_answer",
+        "agent1_reasoning",        # ← chain-of-thought from deepseek-reasoner
         "agent2_verdict",
         "agent2_justification",
-        "correct_flag",   # 1 = agent1 correct, 0 = agent1 wrong (needs review)
+        "correct_flag",
+        # flag: 1 = correct, 0 = wrong (needs review)
     ]
 
     with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:
@@ -162,9 +177,9 @@ def main():
         writer.writeheader()
 
         for filepath in json_files:
-            print(f"\n{'='*60}")
-            print(f"Processing {filepath.name} …")
-            print(f"{'='*60}")
+            print(f"\n{'='*65}")
+            print(f"  Processing {filepath.name}")
+            print(f"{'='*65}")
 
             try:
                 records = load_year(filepath)
@@ -180,45 +195,34 @@ def main():
                 true_answer = rec["true_answer"]
 
                 print(f"\n  [{year}] {section} / {q_id}")
-                print(f"  Q: {question[:80]}{'…' if len(question)>80 else ''}")
+                print(f"  Q : {question[:90]}{'…' if len(question) > 90 else ''}")
 
                 # ── Agent 1: solve ──────────────────────────────────────────
                 try:
-                    agent1_answer = call_solver(question)
+                    agent1_answer, agent1_reasoning = call_solver(question)
                 except Exception as exc:
-                    print(f"  ✗ Agent 1 error: {exc}")
-                    agent1_answer = "ERROR"
+                    print(f"  ✗  Agent 1 error: {exc}")
+                    agent1_answer, agent1_reasoning = "ERROR", str(exc)
 
-                print(f"  Agent 1 answer : {agent1_answer}")
-                print(f"  True answer    : {true_answer}")
+                print(f"  A1: {agent1_answer}")
+                print(f"  ✓ : {true_answer}")
+                if agent1_reasoning:
+                    preview = agent1_reasoning[:120].replace("\n", " ")
+                    print(f"  R : {preview}…")
 
-                # ── Agent 2: verify ─────────────────────────────────────────
+                # ── Agent 2: check against known answer ─────────────────────
                 try:
-                    verdict, justification = call_verifier(question, agent1_answer)
+                    verdict, justification = call_verifier(question, true_answer, agent1_answer)
                 except Exception as exc:
-                    print(f"  ✗ Agent 2 error: {exc}")
+                    print(f"  ✗  Agent 2 error: {exc}")
                     verdict, justification = "UNKNOWN", str(exc)
 
-                print(f"  Agent 2 verdict: {verdict} — {justification}")
+                print(f"  A2: {verdict} — {justification}")
 
-                # ── Correctness flag ────────────────────────────────────────
-                # Primary signal: direct string comparison (normalised).
-                # Secondary signal: agent 2's verdict (used if primary is close call).
-                direct_match = answers_match(agent1_answer, true_answer)
-                verifier_says_correct = verdict == "CORRECT"
-
-                # Flag is 1 only if BOTH the direct comparison AND verifier agree.
-                # This makes 0-flagged rows maximally useful for manual review.
-                if direct_match and verifier_says_correct:
-                    correct_flag = 1
-                elif not direct_match and not verifier_says_correct:
-                    correct_flag = 0
-                else:
-                    # Disagreement — conservative: mark for review
-                    correct_flag = 0
-
-                icon = "✓" if correct_flag else "✗ → needs review"
-                print(f"  Flag           : {correct_flag}  {icon}")
+                # ── Flag ────────────────────────────────────────────────────
+                correct_flag = 1 if verdict == "CORRECT" else 0
+                icon = "✓  correct" if correct_flag else "✗  needs review"
+                print(f"  Flag: {correct_flag}  {icon}")
 
                 writer.writerow({
                     "year":                 year,
@@ -227,17 +231,18 @@ def main():
                     "question":             question,
                     "true_answer":          true_answer,
                     "agent1_answer":        agent1_answer,
+                    "agent1_reasoning":     agent1_reasoning,
                     "agent2_verdict":       verdict,
                     "agent2_justification": justification,
                     "correct_flag":         correct_flag,
                 })
-                csvfile.flush()   # write incrementally so progress is saved
+                csvfile.flush()
 
-                # Polite rate-limit buffer
-                time.sleep(0.5)
+                time.sleep(0.3)
 
-    print(f"\n✅  Done!  Results saved to '{output_csv}'.")
-    print("    Rows with correct_flag=0 are flagged for your manual review.")
+    print(f"\n✅  Done! Results saved to '{output_csv}'.")
+    print("     correct_flag=1 → Agent 1 got it right")
+    print("     correct_flag=0 → Agent 1 wrong, review the row")
 
 
 if __name__ == "__main__":
