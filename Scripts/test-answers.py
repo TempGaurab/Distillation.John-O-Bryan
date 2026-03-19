@@ -15,9 +15,9 @@ from pathlib import Path
 from openai import OpenAI
 
 # ── DeepSeek client ────────────────────────────────────────────────────────────
-api_key = os.environ.get("DA")
+api_key = os.environ.get("Deepseek_api")
 if not api_key:
-    raise EnvironmentError("Environment variable 'Deepseek_api' is not set.")
+    raise EnvironmentError("Environment variable is not set.")
 
 client = OpenAI(
     api_key=api_key,
