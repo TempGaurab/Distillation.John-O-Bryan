@@ -1,0 +1,180 @@
+{
+    "freshman_sophomore_test": {
+      "question_1": {
+        "question": "When solved for x, the equation 3(4x - 7) + 6 = 12(x + k) has infinitely many solutions. Find k. Give your answer as a fraction reduced to simplest form.",
+        "answer": "-5/4"
+      },
+      "question_2": {
+        "question": "The points (7,a) and (b,6) lie on a line with the equation x - 3y + 25 = 0. Find √(3a + b).",
+        "answer": "5"
+      },
+      "question_3": {
+        "question": "Let A be a positive two-digit integer. The integer B is the same as A when its digits are reversed. What is the largest value of A such that A = 3B - 2?",
+        "answer": "82"
+      },
+      "question_4": {
+        "question": "The ratio of two supplementary angles is 1:8. Find the degree measure of the smaller of the two angles.",
+        "answer": "20"
+      },
+      "question_6": {
+        "question": "AB is a chord in circle O such that the degree measure of minor arc AB is one-quarter the degree measure of major arc AB. Find the degree measure of ∠OAB.",
+        "answer": "54"
+      },
+      "question_7": {
+        "question": "The average of three values is 3x + 2y. If two of the values are 4x + 2y and 3x - y, find the third value. Give your answer as an expression in terms of x and/or y.",
+        "answer": "2x + 5y"
+      },
+      "question_8": {
+        "question": "When eight coins are flipped, find the probability that tails occurs exactly three times. Write your answer as a common fraction reduced to lowest terms.",
+        "answer": "7/32"
+      },
+      "question_9": {
+        "question": "A right triangle has acute angles such that the degree measure of one is half of the degree measure of the other. The area of this triangle is 32√3. Find the length of the hypotenuse of this triangle.",
+        "answer": "16"
+      },
+      "question_10": {
+        "question": "A rectangle has diagonal 2√13 and one side that is 2 more than another. Find the length of the shortest side of this rectangle.",
+        "answer": "4"
+      },
+      "question_11": {
+        "question": "How many of the first 10000 natural numbers are divisible by all of the values 2, 3, 4, 5, 6, 7, 8, and 9?",
+        "answer": "3"
+      },
+      "question_12": {
+        "question": "The numeric value of the expression 2017 + k is a multiple of 9, where k is a positive integer less than 50. How many possible values are there for k?",
+        "answer": "5"
+      },
+      "question_13": {
+        "question": "The sum of the smallest and largest of three consecutive even integers is 52. The integer k is 10 less than the median of the three consecutive even integers. If p² = k where p is a positive integer, find the value of p.",
+        "answer": "4"
+      },
+      "question_15": {
+        "question": "A circle with area 81π is inscribed in an equilateral triangle. Find the area of the triangle, rounding your answer to the nearest integer.",
+        "answer": "421"
+      },
+      "question_16": {
+        "question": "If 3x² + 8 = 56, find the smallest possible value of 4x - 5.",
+        "answer": "-21"
+      },
+      "question_17": {
+        "question": "If [3 2; d 4] + 2[4 3; e 5] = [a b; 4 c], find the value of the expression (a + b + c + 2d + 4e).",
+        "answer": "41"
+      },
+      "question_19": {
+        "question": "One of the following statements is selected at random. Find the probability that the selected statement is true for all parallelograms. Write your answer as a common fraction reduced to lowest terms. [Statements: The opposite angles are supplementary. The opposite angles are congruent. Any pair of consecutive angles are supplementary. The opposite sides are congruent. The diagonals are congruent. The diagonals are perpendicular to each other. The diagonals bisect the vertex angles. The diagonals bisect each other.]",
+        "answer": "1/2"
+      },
+      "question_20": {
+        "question": "Max runs into his friends Zoe and Alex on a particular day of the week. He knows that Zoe lies on Mondays, Tuesdays, and Wednesdays, and tells the truth on the other days of the week. Alex, on the other hand, lies on Thursdays, Fridays, and Saturdays, but tells the truth on other days of the week. Zoe says \"Yesterday was one of my lying days.\" Alex responds \"Yesterday was one of my lying days.\" What day of the week is this particular day? Write the whole word for this day of the week.",
+        "answer": "Thursday"
+      }
+    },
+    "junior_senior_test": {
+      "question_1": {
+        "question": "If (2 + √3)/(4 - √3) = (a + b√3)/c, where a, b, and c are integers with no common factors and c > 0, find the value of a.",
+        "answer": "11"
+      },
+      "question_2": {
+        "question": "Given that i - 2i² + 3i³ - 4i⁴ = a + bi, where i = √(-1) and a and b are real numbers, find the value of a² - b².",
+        "answer": "0"
+      },
+      "question_3": {
+        "question": "The first term of an arithmetic sequence is 32 and the last term is 74. There are 38 terms in the sequence. Find the sum of the 38 terms in this sequence.",
+        "answer": "2014"
+      },
+      "question_4": {
+        "question": "Find the exact area of an equilateral triangle inscribed in the circle with equation x² + y² = 12.",
+        "answer": "9√3"
+      },
+      "question_5": {
+        "question": "Find the largest number of pigeonholes which 225 pigeons can occupy, given that there must be at least one pigeon in each hole and that no two holes can contain the same number of pigeons.",
+        "answer": "20"
+      },
+      "question_7": {
+        "question": "Find the ordered pair of positive integers (x, y) for which x² - y² = 19.",
+        "answer": "(10, 9)"
+      },
+      "question_8": {
+        "question": "The graph of 4x² - y² - 8x + 2y = 1 is rotated 90° clockwise about the origin. Find the coordinates of the center of the new rotated conic. Write your answer as the ordered pair (x, y).",
+        "answer": "(1, -1)"
+      },
+      "question_9": {
+        "question": "Find the value of k for which x + 4 is a factor of 2x² + kx - 8.",
+        "answer": "6"
+      },
+      "question_10": {
+        "question": "A bag contains red and green marbles. When two marbles are drawn, the probability that they are both red is equal to the probability that they are both green. The probability that one of each color is drawn is 4/7. Find the total number of marbles in the bag.",
+        "answer": "8"
+      },
+      "question_11": {
+        "question": "Find the exact sum of an infinite geometric series whose first term is 24 and whose common ratio is 1/5.",
+        "answer": "30"
+      },
+      "question_12": {
+        "question": "AB is a chord in circle O such that the degree measure of minor arc AB is 1/8 the degree measure of major arc AB. Find the degree measure of ∠OAB.",
+        "answer": "70"
+      },
+      "question_13": {
+        "question": "Evaluate the expression 100² - 99² + 98² - 97² + ... + 4² - 3² + 2² - 1².",
+        "answer": "5050"
+      },
+      "question_14": {
+        "question": "A point x₀ is called a fixed point of a function f if f(x₀) = x₀. Find the sum of all values of x which are fixed points of f(x) = x² - 5x - 7.",
+        "answer": "6"
+      },
+      "question_15": {
+        "question": "Three distinct integers are chosen from the first nine positive integers. Find the probability that 3 is the smallest of the integers chosen. Write your answer as a common fraction reduced to lowest terms.",
+        "answer": "5/28"
+      },
+      "question_16": {
+        "question": "Find the exact value of the tangent of the largest angle of a triangle if the lengths of the sides are 3, 7, and 8.",
+        "answer": "-4√3"
+      },
+      "question_17": {
+        "question": "Determine the exact sum of all values of θ (in radian measure), 0 ≤ θ < 2π, for which sin² θ = 4/5.",
+        "answer": "4π"
+      },
+      "question_19": {
+        "question": "Determine the number of distinct primes that are factors of 25!.",
+        "answer": "9"
+      },
+      "question_20": {
+        "question": "The composite function f(g(x)) is undefined for x = k/18. If f(x) = (x - 1)/(2x + 3) and g(x) = 3x - 1, find the value of k.",
+        "answer": "-3"
+      }
+    },
+    "two_person_speed_event": {
+      "question_1": {
+        "question": "120 students were provided a provided a choice of breakfast. They had three choices: fruit, cereal, and/or yogurt. 53 students had cereal, 47 students had yogurt, and 47 students had fruit. Also, 38 students had only cereal, 12 students had yogurt and fruit but no cereal, 27 students had only fruit, and 25 students had only yogurt. Find the number of students that chose not to have breakfast.",
+        "answer": "3"
+      },
+      "question_2": {
+        "question": "Given 9x - 4y = 7, let k be the value of y when x = -5. Let w be the value of p² - 11 when p = -3. Find the sum (k + w).",
+        "answer": "-15"
+      },
+      "question_3": {
+        "question": "Two students make a New Year's resolution to get more exercise. One student decides to go to a health club aerobics class every other day, and the other decides to go every third day. They go together on January 2. How many other days in January (31 day month) will they be in aerobics class together?",
+        "answer": "4"
+      },
+      "question_4": {
+        "question": "Let k = 3 + 1 + 1/3 + 1/9 + 1/27 + 1/81 + ... and let w = 1 - 1/2 + 1/4 - 1/8 + 1/16 - ... . Find the sum (k + w). Express your answer as a common or improper fraction reduced to lowest terms.",
+        "answer": "31/6"
+      },
+      "question_5": {
+        "question": "Find the absolute difference between the numerical area and the numerical perimeter of a rectangle with once side of length 12 and a diagonal of length 20.",
+        "answer": "136"
+      },
+      "question_6": {
+        "question": "In △ABC, A = (1,5), B = (-2,-3) and C = (5,-7). If k represents the slope of the altitude in △ABC from vertex B and w represents the slope of the median in △ABC from vertex B, find the product (kw). Express your answer as a common or improper fraction reduced to lowest terms.",
+        "answer": "2/15"
+      },
+      "question_7": {
+        "question": "The areas of the three of the faces of a right rectangular solid are numerically 20, 45, and 50. Find the numerical volume of this solid. Express your answer in the form a√b.",
+        "answer": "150√2"
+      },
+      "question_8": {
+        "question": "Alyssa flipped a fair coin three times, while Sally flipped another fair coin four times, each flip resulting in a head or a tail. Find the probability that Alyssa and Sally flipped the same number of heads. Express your answer as a common fraction reduced to lowest terms.",
+        "answer": "35/128"
+      }
+    }
+  }
