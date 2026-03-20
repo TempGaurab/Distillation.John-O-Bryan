@@ -20,6 +20,17 @@ Each row represents a single math question along with:
 
 ---
 
+
+=================================================================
+✅  Done!  Results saved to 'results.csv'.
+   Questions attempted : 651
+   Correct (flag=1)    : 594  (91.2%)
+   Wrong   (flag=0)    : 57
+   Skipped (flag=-1)   : 20  (placeholder/missing content)
+================================================================
+
+
+
 ## 🔁 System Overview
 
 ### 🧠 Agent 1 — Solver
