@@ -271,12 +271,12 @@ def main():
     parser.add_argument(
         "csv_file",
         nargs="?",
-        default="math500.csv",
+        default= "math500_output.csv",
         help="Path to the MATH-500 CSV file (default: math500.csv)",
     )
     parser.add_argument(
         "--output",
-        default="results.csv",
+        default="results-math500.csv",
         help="Path for the output CSV (default: results.csv)",
     )
     parser.add_argument(

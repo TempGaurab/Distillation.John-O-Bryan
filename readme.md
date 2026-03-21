@@ -19,7 +19,7 @@ Each row represents a single math question along with:
 - A final correctness flag
 
 ---
-
+Deepseekl-reasoning!
 
 =================================================================
 ✅  Done!  Results saved to 'results.csv'.
@@ -28,6 +28,15 @@ Each row represents a single math question along with:
    Wrong   (flag=0)    : 57
    Skipped (flag=-1)   : 20  (placeholder/missing content)
 ================================================================
+
+
+=================================================================
+✅  Done!  Results saved to 'results-math500.csv'.
+   Questions attempted : 500
+   Correct (flag=1)    : 470  (94.0%)
+   Wrong   (flag=0)    : 30  (6.0%)
+   Skipped (flag=-1)   : 0  (placeholder/missing content)
+=================================================================
 
 
 
