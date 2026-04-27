@@ -1,11 +1,15 @@
-Things to Do:
+# John O'Bryan Mathematics Competition - Distillation & Analysis
 
-1. Gather all Data from 2011 to 2025 of John O'Bryan Mathematics Competition at NKU. [Complete]
-2. Descriptive Analysis of the Questions [Complete]
-3. Generate DeepSeek Reasoning for all of those questions. Also mark the answers it gets correct and incorrect. 2 Agents running together, one knows answer and one tries to answer. Store all interaction.
-4. Analyze that.
-5. Fine tune QWEN to learn from those deepseek outputs.
-6. Inference.
+## ✅ Project Status / Roadmap
+
+- [x] **1. Gather Data:** Collected all data from 2011 to 2025 of the John O'Bryan Mathematics Competition at NKU.
+- [x] **2. Descriptive Analysis:** Analyzed the questions.
+- [x] **3. DeepSeek Reasoning Generation:** Ran 2 Agents (Solver and Verifier) using DeepSeek to generate reasoning and mark correct/incorrect answers. All interactions stored.
+- [x] **4. Analysis:** Processed outputs and prepared the dataset for fine-tuning.
+- [x] **5. Fine-tune QWEN:** Fine-tuned `Qwen2.5` using the MLX framework (`mlx_lm.lora`) on the distilled DeepSeek reasoning data.
+- [x] **6. Inference:** Evaluated the fused model (`fused_model/`) on the test set.
+
+---
 
 # 📘 Results Dataset Codebook (`results.csv`)
 

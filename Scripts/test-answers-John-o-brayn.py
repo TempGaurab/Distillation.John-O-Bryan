@@ -2,7 +2,9 @@
 Math Competition Question Solver & Verifier
 Uses DeepSeek Reasoner API with two agents:
   - Agent 1 (deepseek-reasoner): Solves the question, returns only the answer
-  - Agent 2 (deepseek-reasoner): Given the true answer AND Agent 1's answer,
+  - Distiller  (deepseek-chat):  Condenses Agent 1's raw reasoning into a short,
+                                  precise chain-of-thought for training smaller models
+  - Agent 2 (deepseek-chat):     Given the true answer AND Agent 1's answer,
                                   decides if they are mathematically equivalent
 
 Flag logic:
@@ -10,7 +12,7 @@ Flag logic:
    0  → Agent 2 says INCORRECT (Agent 1 is wrong — needs your review)
   -1  → Question was skipped   (placeholder / missing content in JSON)
 
-CSV columns include agent1_reasoning so you can trace Agent 1's thinking.
+CSV columns include both agent1_reasoning (raw) and distilled_reasoning (compact).
 
 Dependencies:
     pip install openai python-dotenv
@@ -45,8 +47,9 @@ client = OpenAI(
     base_url="https://api.deepseek.com",
 )
 
-SOLVER_MODEL   = "deepseek-reasoner"
-VERIFIER_MODEL = "deepseek-chat"
+SOLVER_MODEL     = "deepseek-reasoner"
+DISTILLER_MODEL  = "deepseek-chat"
+VERIFIER_MODEL   = "deepseek-chat"
 
 # ── Retry config ───────────────────────────────────────────────────────────────
 MAX_RETRIES    = 3
@@ -60,13 +63,12 @@ PLACEHOLDER_PATTERNS = [
     re.compile(r"see (figure|diagram|image|picture|graph)", re.IGNORECASE),
     re.compile(r"\[image\]", re.IGNORECASE),
     re.compile(r"\[figure\]", re.IGNORECASE),
-    re.compile(r"^\s*question\s+\d+\s*$", re.IGNORECASE),      # bare "Question 11"
-    re.compile(r"^\s*question\s+\d+\s*\(", re.IGNORECASE),     # "Question 11 (..."
+    re.compile(r"^\s*question\s+\d+\s*$", re.IGNORECASE),
+    re.compile(r"^\s*question\s+\d+\s*\(", re.IGNORECASE),
     re.compile(r"provide the problem", re.IGNORECASE),
 ]
 
 def is_placeholder(text: str) -> bool:
-    """Return True if the question text is a placeholder or missing content."""
     if not text or len(text.strip()) < 10:
         return True
     for pat in PLACEHOLDER_PATTERNS:
@@ -85,6 +87,20 @@ SOLVER_SYSTEM = (
     "(e.g. integer, reduced fraction like 2/3, decimal, expression like 36√2, etc.)."
 )
 
+DISTILLER_SYSTEM = (
+    "You are preparing training data for a small math model. "
+    "You will receive a competition math problem, its correct answer, and a verbose "
+    "chain-of-thought that reached that answer. "
+    "Your task: rewrite the reasoning as a SHORT, PRECISE chain-of-thought that a "
+    "smaller model can learn from. "
+    "Rules:\n"
+    "  • Keep only the essential steps — cut all dead-ends, restarts, and repetition.\n"
+    "  • Each step must be one clear sentence or equation.\n"
+    "  • End with: 'Answer: <answer>' on its own line.\n"
+    "  • Target length: 5–15 steps. Never exceed 20.\n"
+    "  • Do NOT add any preamble, greeting, or meta-commentary — output the steps only."
+)
+
 VERIFIER_SYSTEM = (
     "You are a strict math answer checker. "
     "You will be given a problem, the correct answer, and a student's answer. "
@@ -97,9 +113,8 @@ VERIFIER_SYSTEM = (
 )
 
 
-# ── Agent wrappers ─────────────────────────────────────────────────────────────
+# ── Retry wrapper ──────────────────────────────────────────────────────────────
 def call_with_retry(fn, *args, label="API call"):
-    """Call fn(*args), retrying up to MAX_RETRIES times on exception."""
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             return fn(*args)
@@ -110,6 +125,7 @@ def call_with_retry(fn, *args, label="API call"):
             time.sleep(RETRY_DELAY)
 
 
+# ── Agent 1: Solver ────────────────────────────────────────────────────────────
 def _solver_request(question: str):
     response = client.chat.completions.create(
         model=SOLVER_MODEL,
@@ -124,12 +140,37 @@ def _solver_request(question: str):
     reasoning = (getattr(msg, "reasoning_content", None) or "").strip()
     return answer, reasoning
 
-
 def call_solver(question: str) -> tuple[str, str]:
-    """Agent 1 — solve the question. Returns (answer, reasoning)."""
+    """Agent 1 — solve the question. Returns (answer, raw_reasoning)."""
     return call_with_retry(_solver_request, question, label="Agent 1 (solver)")
 
 
+# ── Distiller: compress reasoning ──────────────────────────────────────────────
+def _distiller_request(question: str, answer: str, raw_reasoning: str):
+    prompt = (
+        f"Problem:\n{question}\n\n"
+        f"Correct answer: {answer}\n\n"
+        f"Full reasoning to compress:\n{raw_reasoning}"
+    )
+    response = client.chat.completions.create(
+        model=DISTILLER_MODEL,
+        max_tokens=1024,
+        messages=[
+            {"role": "system", "content": DISTILLER_SYSTEM},
+            {"role": "user",   "content": prompt},
+        ],
+    )
+    return (response.choices[0].message.content or "").strip()
+
+def call_distiller(question: str, answer: str, raw_reasoning: str) -> str:
+    """Distiller — compress raw reasoning into a compact teaching chain-of-thought."""
+    return call_with_retry(
+        _distiller_request, question, answer, raw_reasoning,
+        label="Distiller"
+    )
+
+
+# ── Agent 2: Verifier ──────────────────────────────────────────────────────────
 def _verifier_request(question: str, true_answer: str, agent1_answer: str):
     prompt = (
         f"Problem:\n{question}\n\n"
@@ -146,48 +187,27 @@ def _verifier_request(question: str, true_answer: str, agent1_answer: str):
     )
     return (response.choices[0].message.content or "").strip()
 
-
 def parse_verdict(raw: str) -> tuple[str, str]:
-    """
-    Robustly extract CORRECT / INCORRECT from the verifier's raw response.
-
-    Strategy:
-      1. Check the first non-empty line for the verdict word.
-      2. If that fails, scan every line of the response.
-      3. If still not found, search for the word anywhere in the full text.
-    """
     if not raw:
         return "UNKNOWN", "(empty response)"
-
     lines = [l.strip() for l in raw.splitlines() if l.strip()]
-
-    # Pass 1: look for a line that IS the verdict (possibly with punctuation)
     for line in lines:
         clean = re.sub(r"[^A-Za-z]", "", line).upper()
         if clean == "CORRECT":
-            note = lines[1] if len(lines) > 1 else ""
-            return "CORRECT", note
+            return "CORRECT", (lines[1] if len(lines) > 1 else "")
         if clean == "INCORRECT":
-            note = lines[1] if len(lines) > 1 else ""
-            return "INCORRECT", note
-
-    # Pass 2: look for the verdict word anywhere inside a line
+            return "INCORRECT", (lines[1] if len(lines) > 1 else "")
     for i, line in enumerate(lines):
         upper = line.upper()
         if "INCORRECT" in upper:
-            note = lines[i + 1] if i + 1 < len(lines) else ""
-            return "INCORRECT", note
+            return "INCORRECT", (lines[i + 1] if i + 1 < len(lines) else "")
         if "CORRECT" in upper:
-            note = lines[i + 1] if i + 1 < len(lines) else ""
-            return "CORRECT", note
-
-    # Give up
+            return "CORRECT", (lines[i + 1] if i + 1 < len(lines) else "")
     preview = raw[:120].replace("\n", " ")
     return "UNKNOWN", f"(unparseable response: {preview})"
 
-
 def call_verifier(question: str, true_answer: str, agent1_answer: str) -> tuple[str, str]:
-    """Agent 2 — check if Agent 1's answer is equivalent to the true answer."""
+    """Agent 2 — check if Agent 1's answer matches the true answer."""
     raw = call_with_retry(
         _verifier_request, question, true_answer, agent1_answer,
         label="Agent 2 (verifier)"
@@ -197,31 +217,14 @@ def call_verifier(question: str, true_answer: str, agent1_answer: str) -> tuple[
 
 # ── JSON loader ────────────────────────────────────────────────────────────────
 def load_year(filepath: Path) -> list[dict]:
-    """
-    Parse one JSON file.  Expected structure (flexible):
-
-        {
-          "section_name": {
-            "question_1": { "question": "...", "answer": "..." },
-            ...
-          },
-          ...
-        }
-
-    Returns a list of record dicts, one per question.
-    Skips entries where the question text is missing or a placeholder.
-    """
     with open(filepath, encoding="utf-8") as f:
         raw = f.read()
-
     if not raw.strip():
         raise ValueError("File is empty.")
-
     try:
         data = json.loads(raw)
     except json.JSONDecodeError as exc:
         raise ValueError(f"JSON parse error: {exc}") from exc
-
     if not isinstance(data, dict):
         raise ValueError(f"Expected top-level JSON object, got {type(data).__name__}.")
 
@@ -233,40 +236,29 @@ def load_year(filepath: Path) -> list[dict]:
         if not isinstance(section, dict):
             print(f"  ⚠  Skipping non-dict section '{section_name}'")
             continue
-
         for q_key, q_obj in section.items():
             if not isinstance(q_obj, dict):
                 print(f"  ⚠  Skipping non-dict entry '{section_name}/{q_key}'")
                 continue
-
             question    = q_obj.get("question", "").strip()
             true_answer = str(q_obj.get("answer", "")).strip()
 
             if is_placeholder(question):
                 skipped.append(f"{section_name}/{q_key}")
                 records.append({
-                    "year":        year,
-                    "section":     section_name,
-                    "question_id": q_key,
-                    "question":    question,
-                    "true_answer": true_answer,
-                    "_skip":       True,
-                    "_skip_reason": "placeholder or missing question text",
+                    "year": year, "section": section_name, "question_id": q_key,
+                    "question": question, "true_answer": true_answer,
+                    "_skip": True, "_skip_reason": "placeholder or missing question text",
                 })
                 continue
 
             records.append({
-                "year":        year,
-                "section":     section_name,
-                "question_id": q_key,
-                "question":    question,
-                "true_answer": true_answer,
-                "_skip":       False,
+                "year": year, "section": section_name, "question_id": q_key,
+                "question": question, "true_answer": true_answer, "_skip": False,
             })
 
     if skipped:
         print(f"  ℹ  Skipped {len(skipped)} placeholder question(s): {', '.join(skipped)}")
-
     return records
 
 
@@ -290,13 +282,14 @@ def main():
         "year", "section", "question_id", "question",
         "true_answer",
         "agent1_answer",
-        "agent1_reasoning",
+        "agent1_reasoning",       # full raw reasoning from deepseek-reasoner
+        "distilled_reasoning",    # compressed teaching chain-of-thought
         "agent2_verdict",
         "agent2_justification",
         "correct_flag",
         # 1  = correct
         # 0  = incorrect (needs review)
-        # -1 = skipped (placeholder / missing content)
+        # -1 = skipped
     ]
 
     total_q = correct_q = skipped_q = 0
@@ -330,16 +323,12 @@ def main():
                     reason = rec.get("_skip_reason", "unknown")
                     print(f"  ⏭  SKIPPED — {reason}")
                     writer.writerow({
-                        "year":                 year,
-                        "section":              section,
-                        "question_id":          q_id,
-                        "question":             question,
-                        "true_answer":          true_answer,
-                        "agent1_answer":        "SKIPPED",
-                        "agent1_reasoning":     "",
-                        "agent2_verdict":       "SKIPPED",
-                        "agent2_justification": reason,
-                        "correct_flag":         -1,
+                        "year": year, "section": section, "question_id": q_id,
+                        "question": question, "true_answer": true_answer,
+                        "agent1_answer": "SKIPPED", "agent1_reasoning": "",
+                        "distilled_reasoning": "",
+                        "agent2_verdict": "SKIPPED", "agent2_justification": reason,
+                        "correct_flag": -1,
                     })
                     csvfile.flush()
                     skipped_q += 1
@@ -349,7 +338,7 @@ def main():
                 q_preview = question[:90] + ("…" if len(question) > 90 else "")
                 print(f"  Q : {q_preview}")
 
-                # ── Agent 1: solve ──────────────────────────────────────────
+                # ── Step 1: Agent 1 solves ──────────────────────────────────
                 try:
                     agent1_answer, agent1_reasoning = call_solver(question)
                 except Exception as exc:
@@ -358,11 +347,27 @@ def main():
 
                 print(f"  A1: {agent1_answer}")
                 print(f"  ✓ : {true_answer}")
-                if agent1_reasoning:
-                    preview = agent1_reasoning[:120].replace("\n", " ")
-                    print(f"  R : {preview}…")
 
-                # ── Agent 2: verify ─────────────────────────────────────────
+                # ── Step 2: Distill reasoning ───────────────────────────────
+                distilled_reasoning = ""
+                if agent1_reasoning and agent1_answer != "ERROR":
+                    try:
+                        distilled_reasoning = call_distiller(
+                            question, agent1_answer, agent1_reasoning
+                        )
+                        step_count = len([
+                            l for l in distilled_reasoning.splitlines() if l.strip()
+                        ])
+                        print(f"  📝 Distilled to {step_count} steps "
+                              f"(was {len(agent1_reasoning)} chars → "
+                              f"{len(distilled_reasoning)} chars)")
+                    except Exception as exc:
+                        print(f"  ✗  Distiller failed after {MAX_RETRIES} retries: {exc}")
+                        distilled_reasoning = f"DISTILLATION_ERROR: {exc}"
+                else:
+                    print(f"  ⏭  Skipping distillation (no reasoning to compress)")
+
+                # ── Step 3: Agent 2 verifies ────────────────────────────────
                 try:
                     verdict, justification = call_verifier(
                         question, true_answer, agent1_answer
@@ -395,6 +400,7 @@ def main():
                     "true_answer":          true_answer,
                     "agent1_answer":        agent1_answer,
                     "agent1_reasoning":     agent1_reasoning,
+                    "distilled_reasoning":  distilled_reasoning,
                     "agent2_verdict":       verdict,
                     "agent2_justification": justification,
                     "correct_flag":         correct_flag,
@@ -416,6 +422,9 @@ def main():
     print("   correct_flag= 1 → Agent 1 got it right")
     print("   correct_flag= 0 → Agent 1 wrong or verdict unclear, review the row")
     print("   correct_flag=-1 → Question had no content in the JSON, skipped")
+    print(f"{'='*65}")
+    print("   CSV columns: agent1_reasoning = full raw think trace")
+    print("                distilled_reasoning = compact teaching CoT")
 
 
 if __name__ == "__main__":

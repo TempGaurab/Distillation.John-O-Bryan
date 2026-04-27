@@ -1,0 +1,4 @@
+section,CORRECT,INCORRECT,SKIPPED
+freshman_sophomore_test,180,86,10
+junior_senior_test,189,80,10
+two_person_speed_event,71,44,0
