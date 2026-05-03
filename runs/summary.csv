@@ -1,0 +1,6 @@
+level,n_total,n_train,n_valid,n_test,train_ok,test_loss
+1,671,536,67,68,True,0.593
+2,671,536,67,68,True,1.137
+3,671,536,67,68,True,1.411
+4,671,536,67,68,True,1.752
+5,671,536,67,68,True,2.169

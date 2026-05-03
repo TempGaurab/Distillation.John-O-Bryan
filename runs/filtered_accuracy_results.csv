@@ -1,0 +1,2556 @@
+level,year,section,question_id,question,true_answer,qwen_response,qwen_extracted_answer,deepseek_verdict
+reasoning_1,2011,freshman_sophomore_test,question_1,A convex polygon has 19 sides. Find the sum of the degree measures of the interior angles of this polygon.,3060,"The sum of the interior angles of a convex polygon with \( n \) sides is given by the formula:
+
+\[
+\text{Sum of interior angles} = (n - 2) \times 180^\circ
+\]
+
+Here, the polygon has 19 sides, so \( n = 19 \).
+
+Substitute \( n = 19 \) into the formula:
+
+\[
+\text{Sum of interior angles} = (19 - 2) \times 180^\circ
+\]
+
+Simplify inside the parentheses:
+
+\[
+19 - 2 = 17
+\]
+
+So the sum becomes:
+
+\[
+17 \times 180^\circ
+\]
+
+Now multiply:
+
+\[
+17 \times 180 = 17 \times (100 + 80) = 1700 + 1360 = 3060
+\]
+
+Thus, the sum of the interior angles is:
+
+\[
+\boxed{3060}
+\]",3060,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_2,"If (x^2 - y^2) = 0 and x + y = 17.534, find the value of x - y.",0,"We are given:
+
+\[
+x^2 - y^2 = 0
+\]
+\[
+x + y = 17.534
+\]
+
+We need to find \(x - y\).
+
+---
+
+**Step 1: Factor the first equation.**
+
+The difference of squares formula is:
+
+\[
+x^2 - y^2 = (x + y)(x - y)
+\]
+
+So:
+
+\[
+(x + y)(x - y) = 0
+\]
+
+---
+
+**Step 2: Use the second equation.**
+
+We know:
+
+\[
+x + y = 17.534
+\]
+
+Substitute into the factored form:
+
+\[
+17.534 \cdot (x - y) = 0
+\]
+
+---
+
+**Step 3: Solve for \(x - y\).**
+
+Since \(17.534 \neq 0\), we must have:
+
+\[
+x - y = 0
+\]
+
+---
+
+\[
+\boxed{0}
+\]
+
+Thus, \(x - y = 0\). This makes sense because if \(x^2 - y^2 = 0\), then \(x^2 = y^2\), so \(x = y\) or \(x = -y\). But since \(x + y = 17.534\) (a positive number), \(x = y\) is the only possibility, giving \(x - y = 0\).",0,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_3,Two circles are constructed such that one has radius of length 8 and the other has circumference of length 64π. The area of the larger circle is k times the area of the smaller circle. Find the value of k.,16,"We are told:
+
+- One circle has radius \( r_1 = 8 \).
+- The other circle has circumference \( C_2 = 64\pi \).
+
+We need to find \( k \) such that the area of the larger circle is \( k \) times the area of the smaller circle.
+
+---
+
+**Step 1: Find the radius of the larger circle.**
+
+The circumference of a circle is given by:
+
+\[
+C = 2\pi r
+\]
+
+For the larger circle:
+
+\[
+64\pi = 2\pi r_2
+\]
+
+Divide both sides by \( 2\pi \):
+
+\[
+r_2 = \frac{64\pi}{2\pi} = 32
+\]
+
+So the larger circle has radius \( r_2 = 32 \).
+
+---
+
+**Step 2: Compute the areas.**
+
+Area of a circle is:
+
+\[
+A = \pi r^2
+\]
+
+Smaller circle:
+
+\[
+A_1 = \pi (8)^2 = 64\pi
+\]
+
+Larger circle:
+
+\[
+A_2 = \pi (32)^2 = 1024\pi
+\]
+
+---
+
+**Step 3: Find \( k \).**
+
+We are told:
+
+\[
+A_2 = k \cdot A_1
+\]
+
+Substitute:
+
+\[
+1024\pi = k \cdot 64\pi
+\]
+
+Divide both sides by \( 64\pi \):
+
+\[
+k = \frac{1024\pi}{64\pi} = \frac{1024}{64} = 16
+\]
+
+---
+
+\[
+\boxed{16}
+\]",16,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_4,"Casey invested part of $100,000 in bonds that earned interest at 6% annual percentage rate. The rest he invested in certificates that earned interest at 5% annual percentage rate. At the end of one year, his interest income from these totaled $5320. Find the number of dollars Casey invested in certificates.",68000,"We are told:
+
+- Total investment: $100,000
+- Invested in bonds at 6% annual interest
+- Invested in certificates at 5% annual interest
+- Total interest after one year: $5,320
+
+Let \( x \) be the amount invested in bonds.  
+Then the amount invested in certificates is \( 100,000 - x \).
+
+The interest from bonds after one year is \( 0.06x \).  
+The interest from certificates is \( 0.05(100,000 - x) \).
+
+The total interest is:
+
+\[
+0.06x + 0.05(100,000 - x) = 5,320
+\]
+
+Now, expand and simplify:
+
+\[
+0.06x + 5,000 - 0.05x = 5,320
+\]
+
+Combine like terms:
+
+\[
+0.01x + 5,000 = 5,320
+\]
+
+Subtract 5,000 from both sides:
+
+\[
+0.01x = 320
+\]
+
+Divide by 0.01:
+
+\[
+x = 32,000
+\]
+
+So the amount invested in bonds is $32,000.  
+The amount invested in certificates is:
+
+\[
+100,000 - 32,000 = 68,000
+\]
+
+Thus, the number of dollars invested in certificates is:
+
+\[
+\boxed{68000}
+\]",68000,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_6,"A bag of shapes contains the following polygons: a square, a triangle, a pentagon, and a hexagon. Two polygons are selected from this bag at random and without replacement. Find the probability that the total number of sides for the selected polygons is at least 9.",2/3,"We have four polygons:  
+- Square: 4 sides  
+- Triangle: 3 sides  
+- Pentagon: 5 sides  
+- Hexagon: 6 sides  
+
+We select two polygons at random without replacement.  
+We want the probability that the total number of sides is at least 9.
+
+---
+
+**Step 1: List all possible pairs and their side totals**
+
+There are \( \binom{4}{2} = 6 \) possible pairs:
+
+1. Square + Triangle: \( 4 + 3 = 7 \)  
+2. Square + Pentagon: \( 4 + 5 = 9 \)  
+3. Square + Hexagon: \( 4 + 6 = 10 \)  
+4. Triangle + Pentagon: \( 3 + 5 = 8 \)  
+5. Triangle + Hexagon: \( 3 + 6 = 9 \)  
+6. Pentagon + Hexagon: \( 5 + 6 = 11 \)
+
+---
+
+**Step 2: Count favorable outcomes**
+
+We want total sides ≥ 9.  
+Favorable pairs:  
+- Square + Pentagon: 9  
+- Square + Hexagon: 10  
+- Pentagon + Hexagon: 11  
+- Triangle + Hexagon: 9  
+
+That’s 4 favorable outcomes.
+
+---
+
+**Step 3: Compute probability**
+
+Total possible pairs = 6.  
+Favorable pairs = 4.  
+Probability = \( \frac{4}{6} = \frac{2}{3} \).
+
+---
+
+\[
+\boxed{\frac{2}{3}}
+\]",\frac{2}{3},CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_9,How many integers between 1 and 100 (including 1 and 100) are neither the square nor cube of an integer?,88,"We want the count of integers from 1 to 100 inclusive that are **neither** perfect squares **nor** perfect cubes.
+
+---
+
+**Step 1: Count perfect squares**
+
+The perfect squares between 1 and 100 are:
+
+\[
+1^2 = 1, \quad 2^2 = 4, \quad 3^2 = 9, \quad 4^2 = 16, \quad 5^2 = 25, \quad 6^2 = 36, \quad 7^2 = 49, \quad 8^2 = 64, \quad 9^2 = 81, \quad 10^2 = 100
+\]
+
+So there are 10 perfect squares.
+
+---
+
+**Step 2: Count perfect cubes**
+
+The perfect cubes between 1 and 100 are:
+
+\[
+1^3 = 1, \quad 2^3 = 8, \quad 3^3 = 27, \quad 4^3 = 64
+\]
+
+So there are 4 perfect cubes.
+
+---
+
+**Step 3: Count numbers that are both perfect squares and perfect cubes**
+
+A number that is both a perfect square and a perfect cube is a perfect sixth power.
+
+The perfect sixth powers between 1 and 100 are:
+
+\[
+1^6 = 1, \quad 2^6 = 64
+\]
+
+So there are 2 numbers that are both perfect squares and perfect cubes.
+
+---
+
+**Step 4: Apply inclusion-exclusion**
+
+Numbers that are either perfect squares or perfect cubes:
+
+\[
+10 + 4 - 2 = 12
+\]
+
+---
+
+**Step 5: Count numbers that are neither**
+
+Total numbers from 1 to 100 = 100.
+
+Numbers that are neither:
+
+\[
+100 - 12 = 88
+\]
+
+---
+
+\[
+\boxed{88}
+\]",88,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_10,"The number of inches in the length of the minor arc intercepted by a chord whose length is √1200 inches is kπ inches. If the radius of this circle is 20 inches, find the value of k. Express your answer as an improper fraction reduced to lowest terms.",40/3,"We are told:
+
+- The chord length is \(\sqrt{1200}\) inches.
+- The radius \(r = 20\) inches.
+- The minor arc length is \(k\pi\) inches.
+
+We need to find \(k\).
+
+---
+
+### Step 1: Relate chord length to central angle
+
+In a circle, if a chord of length \(c\) subtends a central angle \(\theta\) (in radians), then:
+
+\[
+c = 2r \sin\left(\frac{\theta}{2}\right)
+\]
+
+Here:
+\[
+c = \sqrt{1200}, \quad r = 20
+\]
+
+So:
+
+\[
+\sqrt{1200} = 2 \cdot 20 \cdot \sin\left(\frac{\theta}{2}\right)
+\]
+
+\[
+\sqrt{1200} = 40 \sin\left(\frac{\theta}{2}\right)
+\]
+
+\[
+\sin\left(\frac{\theta}{2}\right) = \frac{\sqrt{1200}}{40}
+\]
+
+---
+
+### Step 2: Simplify \(\frac{\sqrt{1200}}{40}\)
+
+\[
+\sqrt{1200} = \sqrt{100 \cdot 12} = 10\sqrt{12}
+\]
+
+\[
+\frac{10\sqrt{12}}{40} = \frac{\sqrt{12}}{4}
+\]
+
+Since \(\sqrt{12} = 2\sqrt{3}\):
+
+\[
+\frac{2\sqrt{3}}{4} = \frac{\sqrt{3}}{2}
+\]
+
+So:
+
+\[
+\sin\left(\frac{\theta}{2}\right) = \frac{\sqrt{3}}{2}
+\]
+
+---
+
+### Step 3: Find \(\frac{\theta}{2}\)
+
+\[
+\sin\left(\frac{\theta}{2}\right) = \frac{\sqrt{3}}{2}
+\]
+
+The angle whose sine is \(\frac{\sqrt{3}}{2}\) is \(\frac{\pi}{3}\) (or 60°). So:
+
+\[
+\frac{\theta}{2} = \frac{\pi}{3}
+\]
+
+\[
+\theta = \frac{2\pi}{3}
+\]
+
+---
+
+### Step 4: Minor arc length
+
+The minor arc length is:
+
+\[
+\text{Arc length} = r \theta = 20 \cdot \frac{2\pi}{3} = \frac{40\pi}{3}
+\]
+
+We are told this equals \(k\pi\). So:
+
+\[
+k\pi = \frac{40\pi",k\pi = \frac{40\pi,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_11,"Let x, y, and z represent integers greater than 1. If (x^7)^y = x^7 * x^z, find the sum of the smallest two distinct values of |z - y|.",16,"We are given:
+
+\[
+(x^7)^y = x^7 \cdot x^z
+\]
+
+First, simplify the left-hand side:
+
+\[
+(x^7)^y = x^{7y}
+\]
+
+So the equation becomes:
+
+\[
+x^{7y} = x^7 \cdot x^z
+\]
+
+Using the property of exponents \(a^m \cdot a^n = a^{m+n}\), the right-hand side becomes:
+
+\[
+x^7 \cdot x^z = x^{7+z}
+\]
+
+Thus, we have:
+
+\[
+x^{7y} = x^{7+z}
+\]
+
+Since \(x > 1\), the exponents must be equal:
+
+\[
+7y = 7 + z
+\]
+
+Solving for \(z\):
+
+\[
+z = 7y - 7
+\]
+
+We are told \(x, y, z > 1\). Since \(x > 1\) is a condition on \(x\), it doesn’t restrict \(y\) or \(z\). We need \(y > 1\) and \(z > 1\).
+
+From \(z = 7y - 7\), for \(z > 1\):
+
+\[
+7y - 7 > 1 \quad \Rightarrow \quad 7y > 8 \quad \Rightarrow \quad y > \frac{8}{7}
+\]
+
+Since \(y\) is an integer greater than 1, the smallest possible \(y\) is 2.
+
+Now, for the smallest two distinct values of \(|z - y|\):
+
+- If \(y = 2\), then \(z = 7(2) - 7 = 14 - 7 = 7\). So \(|z - y| = |7 - 2| = 5\).
+- If \(y = 3\), then \(z = 7(3) - 7 = 21 - 7 = 14\). So \(|z - y| = |14 - 3| = 11\).
+
+The smallest two distinct values are 5 and 11.
+
+Sum:
+
+\[
+5 + 11 = 16
+\]
+
+Thus, the answer is:
+
+\[
+\boxed{16}
+\]",16,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_12,"Two integers are formed by writing the same two digits in reverse order. The sum of the two integers is 22 times the difference between the digits. Also, the difference between the squares of the two integers is m where m > 1000. If none of the digits of m are the same as any digits used to form the original two integers, find the larger of the two original integers.",93,"We are told:
+
+- Two integers are formed by writing the same two digits in reverse order.  
+- Let the digits be \(a\) and \(b\), so the numbers are \(10a + b\) and \(10b + a\).  
+- The sum of the two integers is \(22\) times the difference between the digits.  
+- The difference between the squares of the two integers is \(m\) where \(m > 1000\).  
+- None of the digits of \(m\) are the same as any digits used to form the original two integers.  
+- We need the larger of the two original integers.
+
+---
+
+### Step 1: Set up the sum equation
+The sum of the two integers:
+\[
+(10a + b) + (10b + a) = 11a + 11b = 11(a + b)
+\]
+The difference between the digits:
+\[
+|a - b|
+\]
+The equation:
+\[
+11(a + b) = 22|a - b|
+\]
+Divide both sides by 11:
+\[
+a + b = 2|a - b|
+\]
+
+---
+
+### Step 2: Solve for \(a\) and \(b\)
+Since \(a\) and \(b\) are digits (0–9), \(a + b\) is between 0 and 18.  
+The right-hand side \(2|a - b|\) is a multiple of 2.  
+Thus \(a + b\) must be even.
+
+Let \(a + b = 2k\) for some integer \(k\).  
+Then:
+\[
+2k = 2|a - b| \quad \Rightarrow \quad k = |a - b|
+\]
+So:
+\[
+a + b = 2k \quad \text{and} \quad |a - b| = k
+\]
+
+---
+
+### Step 3: Find possible values for \(a\) and \(b\)
+From \(a + b = 2k\) and \(|a - b| = k\), we have two cases:
+
+1. \(a - b = k\):
+\[
+a + b = 2k, \quad a - b = k
+\]
+Add:
+\[
+2a = 3k \quad \Rightarrow \quad a = \frac{3k}{2}
+\]
+Since \(a\) is an integer, \(k\) must be even.  
+Let \(k = 2m\), then \(a = 3m\), \(b = 2m - 3m = -m\).  
+Since \(b\) is a digit (0–9), \(m\) must be 0 or 1.  
+- If \(m = 0\), \(a = 0\), \(b =","- If \(m = 0\), \(a = 0\), \(b =",INCORRECT
+reasoning_1,2011,freshman_sophomore_test,question_13,"A triangle has sides of lengths of 34, 34, and 32. Find the radius of the circle inscribed in that triangle. Express your answer as a decimal.",9.6,"We have an isosceles triangle with sides 34, 34, and 32.  
+Let the equal sides be \( a = 34 \), the base be \( b = 32 \), and the base half be \( s - b \), where \( s \) is the semi-perimeter.
+
+First, compute the semi-perimeter:
+\[
+s = \frac{a + a + b}{2} = \frac{34 + 34 + 32}{2} = \frac{100}{2} = 50
+\]
+
+The area \( A \) of the triangle can be found using Heron's formula:
+\[
+A = \sqrt{s(s-a)(s-a)(s-b)}
+\]
+\[
+A = \sqrt{50(50-34)(50-34)(50-32)}
+\]
+\[
+A = \sqrt{50 \cdot 16 \cdot 16 \cdot 18}
+\]
+
+We can simplify step-by-step:
+\[
+50 \cdot 16 = 800
+\]
+\[
+16 \cdot 18 = 288
+\]
+\[
+800 \cdot 288 = 230400
+\]
+
+So:
+\[
+A = \sqrt{230400}
+\]
+
+We can factor 230400:
+\[
+230400 = 2304 \cdot 100 = (1536 \cdot 1.5) \cdot 100 = 1536 \cdot 150
+\]
+\[
+1536 = 2^9 \cdot 3, \quad 150 = 2 \cdot 3 \cdot 25
+\]
+\[
+230400 = 2^{10} \cdot 3^2 \cdot 25
+\]
+\[
+25 = 5^2
+\]
+\[
+230400 = 2^{10} \cdot 3^2 \cdot 5^2
+\]
+\[
+\sqrt{230400} = 2^5 \cdot 3 \cdot 5 = 32 \cdot 3 \cdot 5 = 960
+\]
+
+Thus:
+\[
+A = 960
+\]
+
+The radius \( r \) of the inscribed circle is:
+\[
+r = \frac{A}{s} = \frac{960}{50} = 19.2
+\]
+
+\[
+\boxed{19.2}
+\]",19.2,INCORRECT
+reasoning_1,2011,freshman_sophomore_test,question_14,Let x and y be positive integers such that the average of 5x and 7y is 60. Find the sum of all distinct possible values of x.,30,"We are told:
+
+\[
+\frac{5x + 7y}{2} = 60
+\]
+
+Multiply both sides by 2:
+
+\[
+5x + 7y = 120
+\]
+
+We need positive integer solutions for \(x\) and \(y\).  
+Since \(x\) and \(y\) are positive integers, \(5x + 7y \geq 12\) (since \(5 \cdot 1 + 7 \cdot 1 = 12\)).  
+But here we have equality, so \(x \geq 1\) and \(y \geq 1\).
+
+---
+
+### Step 1: Solve for \(y\) in terms of \(x\)
+
+\[
+7y = 120 - 5x
+\]
+\[
+y = \frac{120 - 5x}{7}
+\]
+
+For \(y\) to be a positive integer, \(120 - 5x\) must be divisible by 7.
+
+---
+
+### Step 2: Find when \(120 - 5x\) is divisible by 7
+
+We solve:
+
+\[
+120 - 5x \equiv 0 \pmod{7}
+\]
+\[
+120 \equiv 1 \pmod{7} \quad (\text{since } 120 = 7 \cdot 17 + 1)
+\]
+\[
+-5x \equiv -1 \pmod{7}
+\]
+\[
+5x \equiv 1 \pmod{7}
+\]
+
+Now, find the multiplicative inverse of 5 mod 7.  
+We need \(5 \cdot k \equiv 1 \pmod{7}\).  
+Check:  
+\(5 \cdot 3 = 15 \equiv 1 \pmod{7}\).  
+So the inverse is 3.
+
+Multiply both sides by 3:
+
+\[
+x \equiv 3 \pmod{7}
+\]
+\[
+x = 7k + 3
+\]
+
+for integer \(k\).
+
+---
+
+### Step 3: Positive integer constraints
+
+We require \(x > 0\) and \(y > 0\).
+
+From \(x = 7k + 3\), \(x\) is positive for all integers \(k\).
+
+From \(y = \frac{120 - 5x}{7}\), since \(x\) is positive, \(120 - 5x > 0\), so:
+
+\[
+5x < 120
+\]
+\[
+x < 24
+\]
+
+Also, \(y > 0\), so:
+
+\[
+120 - 5x > 0
+\]
+\[
+x < 24
+\]
+
+and
+
+\[
+120 - 5",120 - 5,INCORRECT
+reasoning_1,2011,freshman_sophomore_test,question_15,"A right triangle has sides of integer length. The difference between the length of the hypotenuse and the length of the longer leg is the same as the difference between the length of the longer leg and the length of the shorter leg. If the area of the triangle is 600, find the length of the radius of the circumscribed circle.",25,"We are told the triangle is a right triangle with integer side lengths. Let the legs be \( a \) and \( b \) with \( a \le b \), and hypotenuse \( c \). The condition:
+
+\[
+c - b = b - a
+\]
+
+This simplifies to:
+
+\[
+c = 2b - a
+\]
+
+We also know the area is 600:
+
+\[
+\frac{1}{2}ab = 600 \quad \Rightarrow \quad ab = 1200
+\]
+
+Since it is a right triangle, we have:
+
+\[
+a^2 + b^2 = c^2
+\]
+
+Substitute \( c = 2b - a \):
+
+\[
+a^2 + b^2 = (2b - a)^2
+\]
+
+Expand:
+
+\[
+a^2 + b^2 = 4b^2 - 4ab + a^2
+\]
+
+Subtract \( a^2 \) from both sides:
+
+\[
+b^2 = 4b^2 - 4ab
+\]
+
+Subtract \( b^2 \):
+
+\[
+0 = 3b^2 - 4ab
+\]
+
+Factor:
+
+\[
+b(3b - 4a) = 0
+\]
+
+Since \( b \neq 0 \), we have:
+
+\[
+3b = 4a \quad \Rightarrow \quad a = \frac{3}{4}b
+\]
+
+Since \( a \) and \( b \) are integers, \( b \) must be a multiple of 4. Let \( b = 4k \), then:
+
+\[
+a = 3k
+\]
+
+The area condition:
+
+\[
+ab = 1200 \quad \Rightarrow \quad 3k \cdot 4k = 1200
+\]
+
+\[
+12k^2 = 1200
+\]
+
+\[
+k^2 = 100
+\]
+
+\[
+k = 10
+\]
+
+Thus:
+
+\[
+a = 30, \quad b = 40
+\]
+
+Check hypotenuse:
+
+\[
+c = \sqrt{a^2 + b^2} = \sqrt{30^2 + 40^2} = \sqrt{900 + 1600} = \sqrt{2500} = 50
+\]
+
+The hypotenuse is indeed \( 2b - a = 80 - 30 = 50 \), so the condition holds.
+
+The radius of the circumscribed circle for a right triangle is half the hypotenuse:
+
+\[
+R = \frac{c}{2} = \frac{50}{2} = 25
+\]
+
+Thus",Thus,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_16,"A truck was originally priced at $25,000. Its price was reduced by r% to x dollars. Then the price of x dollars was again reduced by k% to $16170. If both r and k are positive integers with r < k, find the smallest possible value of 2k.",46,"We are told:
+
+- Original price: $25,000
+- First reduction: \( r\% \) → price becomes \( x \)
+- Then \( x \) is reduced by \( k\% \) → final price $16,170
+- \( r \) and \( k \) are positive integers with \( r < k \)
+- We need the smallest possible \( 2k \).
+
+---
+
+### Step 1: Express the first reduction
+First reduction by \( r\% \) means:
+
+\[
+x = 25000 \times \left(1 - \frac{r}{100}\right)
+\]
+
+So:
+
+\[
+x = 25000 \times \frac{100 - r}{100}
+\]
+
+\[
+x = 2500 \times (100 - r)
+\]
+
+---
+
+### Step 2: Express the second reduction
+The second reduction is \( k\% \) of \( x \):
+
+\[
+16170 = x \times \left(1 - \frac{k}{100}\right)
+\]
+
+Substitute \( x \):
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{100}
+\]
+
+Simplify:
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{100}
+\]
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{100}
+\]
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{100}
+\]
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{100}
+\]
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{100}
+\]
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{100}
+\]
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{100}
+\]
+
+\[
+16170 = 2500 \times (100 - r) \times \frac{100 - k}{",16170 = 2500 \times (100 - r) \times \frac{100 - k}{,INCORRECT
+reasoning_1,2011,freshman_sophomore_test,question_17,"ABCD and EFGH are rectangles such that the lengths of all sides and diagonals are integers. The area of ABCD is 7/6 of the area of EFGH. If the length diagonal HF is 41, find the sum of all possible distinct lengths of diagonal DB.",66,"We are told:
+
+- \(ABCD\) and \(EFGH\) are rectangles with integer side lengths and diagonals.
+- Area of \(ABCD = \frac{7}{6} \times\) area of \(EFGH\).
+- Diagonal \(HF = 41\).
+- We need the sum of all possible distinct lengths of diagonal \(DB\).
+
+---
+
+### Step 1: Relate areas and side lengths
+Let:
+- \(ABCD\) has sides \(a, b\) with \(a \le b\).
+- \(EFGH\) has sides \(c, d\) with \(c \le d\).
+
+Area of \(ABCD = ab\), area of \(EFGH = cd\).
+
+Given:
+\[
+ab = \frac{7}{6} cd
+\]
+Since areas are integers, \(ab\) and \(cd\) must be integer multiples of 6. Let:
+\[
+ab = 6m, \quad cd = 6n
+\]
+Then:
+\[
+6m = \frac{7}{6} \cdot 6n \quad \Rightarrow \quad m = \frac{7}{6} n
+\]
+Since \(m\) and \(n\) are integers, \(n\) must be a multiple of 6. Let \(n = 6k\), then \(m = 7k\).
+
+So:
+\[
+ab = 6(7k) = 42k, \quad cd = 6(6k) = 36k
+\]
+
+---
+
+### Step 2: Diagonal conditions
+For a rectangle with sides \(x, y\), diagonal length is:
+\[
+\sqrt{x^2 + y^2}
+\]
+We are told:
+
+- Diagonal \(HF = 41\). Since \(H\) and \(F\) are opposite corners of rectangle \(EFGH\), the diagonal is:
+\[
+\sqrt{c^2 + d^2} = 41
+\]
+So:
+\[
+c^2 + d^2 = 1681
+\]
+
+- Diagonal \(DB\) of \(ABCD\) is:
+\[
+\sqrt{a^2 + b^2}
+\]
+
+---
+
+### Step 3: Integer side lengths
+We need \(a, b, c, d\) positive integers, \(a \le b\), \(c \le d\), and \(a^2 + b^2\) and \(c^2 + d^2 = 1681\) are integers.
+
+First, factor 1681:
+\[
+1681 = 41^2
+\]
+So:
+\[
+c^2 + d^2 = 41^2
+\]
+
+---
+
+### Step 4: Possible integer pairs \((c, d)\)
+We need \(c \",We need \(c \,INCORRECT
+reasoning_1,2011,freshman_sophomore_test,question_18,Twice the sum of the squares of the roots for x^2 - 70x + k = 0 is added to the product of the roots and the result is 6632. Find the smaller of the two roots for x.,22,"We are given the quadratic equation:
+
+\[
+x^2 - 70x + k = 0
+\]
+
+Let the roots be \( r \) and \( s \).
+
+---
+
+### Step 1: Relate roots to coefficients
+From Vieta's formulas:
+- Sum of roots:  
+\[
+r + s = 70
+\]
+- Product of roots:  
+\[
+rs = k
+\]
+
+---
+
+### Step 2: Interpret the given condition
+We are told:
+
+\[
+2(r^2 + s^2) + rs = 6632
+\]
+
+---
+
+### Step 3: Express \( r^2 + s^2 \) in terms of \( r+s \) and \( rs \)
+We know:
+
+\[
+r^2 + s^2 = (r+s)^2 - 2rs
+\]
+
+Substitute:
+
+\[
+r^2 + s^2 = 70^2 - 2rs = 4900 - 2rs
+\]
+
+---
+
+### Step 4: Substitute into the given equation
+The condition becomes:
+
+\[
+2(4900 - 2rs) + rs = 6632
+\]
+
+Simplify:
+
+\[
+9800 - 4rs + rs = 6632
+\]
+\[
+9800 - 3rs = 6632
+\]
+
+---
+
+### Step 5: Solve for \( rs \)
+\[
+-3rs = 6632 - 9800
+\]
+\[
+-3rs = -3168
+\]
+\[
+rs = 1056
+\]
+
+So:
+
+\[
+k = 1056
+\]
+
+---
+
+### Step 6: Solve for the roots
+We have:
+
+\[
+r + s = 70
+\]
+\[
+rs = 1056
+\]
+
+The roots are the solutions to:
+
+\[
+t^2 - 70t + 1056 = 0
+\]
+
+---
+
+### Step 7: Find the roots
+Discriminant:
+
+\[
+\Delta = 70^2 - 4 \cdot 1056 = 4900 - 4224 = 676
+\]
+
+Square root:
+
+\[
+\sqrt{676} = 26
+\]
+
+So:
+
+\[
+t = \frac{70 \pm 26}{2}
+\]
+
+\[
+t = \frac{96}{2} = 48 \quad \text{or} \quad t = \frac{44}{2} = 22
+\]
+
+---
+
+### Step 8: Smaller root
+The smaller root is:
+
+\[
+\boxed{22}
+\]",22,CORRECT
+reasoning_1,2011,freshman_sophomore_test,question_20,The number x is five more than the product of two consecutive positive integers. The number x is also an integral multiple of both 55 and 121. Let the smaller of the two consecutive positive integers be represented by k. Find the sum of all distinct values of k if k < 157.,169,"We are told:
+
+- \( x \) is five more than the product of two consecutive positive integers.
+- \( x \) is an integral multiple of both 55 and 121.
+- The smaller integer is \( k \).
+- \( k < 157 \).
+
+---
+
+### Step 1: Express \( x \) in terms of \( k \)
+
+If the two consecutive integers are \( k \) and \( k+1 \), then:
+
+\[
+x = (k+1)k + 5
+\]
+
+\[
+x = k^2 + k + 5
+\]
+
+---
+
+### Step 2: Find the least common multiple of 55 and 121
+
+- \( 55 = 5 \times 11 \)
+- \( 121 = 11^2 \)
+
+The LCM is:
+
+\[
+\text{LCM}(55, 121) = 5 \times 11^2 = 5 \times 121 = 605
+\]
+
+So \( x \) must be a multiple of 605.
+
+---
+
+### Step 3: Solve \( k^2 + k + 5 \equiv 0 \pmod{605} \)
+
+We need:
+
+\[
+k^2 + k + 5 \equiv 0 \pmod{605}
+\]
+
+Since \( 605 = 5 \times 121 \), we solve:
+
+\[
+k^2 + k + 5 \equiv 0 \pmod{5}
+\]
+\[
+k^2 + k \equiv -5 \equiv 0 \pmod{5}
+\]
+\[
+k(k+1) \equiv 0 \pmod{5}
+\]
+
+Since \( k \) and \( k+1 \) are consecutive, one is divisible by 5. So this is always true.
+
+---
+
+\[
+k^2 + k + 5 \equiv 0 \pmod{121}
+\]
+
+---
+
+### Step 4: Solve \( k^2 + k + 5 \equiv 0 \pmod{121} \)
+
+We solve:
+
+\[
+k^2 + k + 5 = 121m
+\]
+\[
+k^2 + k + 5 - 121m = 0
+\]
+
+This is a quadratic in \( k \):
+
+\[
+k^2 + k + (5 - 121m) = 0
+\]
+
+Discriminant:
+
+\[
+\Delta = 1^2 - 4(5 - 121m) = 1 - 20 + 484m = 484m - 19
+\]
+
+We need:
+
+\[
+484",484,INCORRECT
+reasoning_1,2011,junior_senior_test,question_1,"If x^4 - 1 = 624, find the largest possible real value of x^3 + 107x^2 - 317x + 157.",4292,"We start with the equation:
+
+\[
+x^4 - 1 = 624
+\]
+
+This simplifies to:
+
+\[
+x^4 = 625
+\]
+
+Taking the fourth root of both sides, we get:
+
+\[
+x = \pm 5
+\]
+
+We need to find the largest possible real value of:
+
+\[
+P(x) = x^3 + 107x^2 - 317x + 157
+\]
+
+We evaluate \(P(x)\) at \(x = 5\) and \(x = -5\):
+
+1. For \(x = 5\):
+
+\[
+P(5) = 5^3 + 107 \cdot 5^2 - 317 \cdot 5 + 157
+\]
+\[
+= 125 + 107 \cdot 25 - 317 \cdot 5 + 157
+\]
+\[
+= 125 + 2675 - 1585 + 157
+\]
+\[
+= 125 + 2675 = 2800
+\]
+\[
+2800 - 1585 = 1215
+\]
+\[
+1215 + 157 = 1372
+\]
+
+So:
+
+\[
+P(5) = 1372
+\]
+
+2. For \(x = -5\):
+
+\[
+P(-5) = (-5)^3 + 107 \cdot (-5)^2 - 317 \cdot (-5) + 157
+\]
+\[
+= -125 + 107 \cdot 25 + 317 \cdot 5 + 157
+\]
+\[
+= -125 + 2675 + 1585 + 157
+\]
+\[
+-125 + 2675 = 2550
+\]
+\[
+2550 + 1585 = 4135
+\]
+\[
+4135 + 157 = 4292
+\]
+
+So:
+
+\[
+P(-5) = 4292
+\]
+
+The largest value is:
+
+\[
+\boxed{4292}
+\]",4292,CORRECT
+reasoning_1,2011,junior_senior_test,question_2,Find the degree of the following polynomial: 48x^2(3x(x+5)^3 + 6x^3)(x^2 - 7)^11 + 44x^9 - 179.,28,"We need to find the degree of the polynomial:
+
+\[
+48x^2 \left( 3x(x+5)^3 + 6x^3 \right) (x^2 - 7)^{11} + 44x^9 - 179
+\]
+
+**Step 1: Identify the degree of each part.**
+
+- The constant term \(-179\) has degree \(0\).
+- The term \(44x^9\) has degree \(9\).
+
+So the polynomial is a sum of terms of degrees \(0\) and \(9\). The degree of the polynomial is the highest degree among its terms.
+
+**Step 2: Find the degree of the product inside the first term.**
+
+The first term is:
+
+\[
+48x^2 \left( 3x(x+5)^3 + 6x^3 \right) (x^2 - 7)^{11}
+\]
+
+We need the degree of:
+
+\[
+\left( 3x(x+5)^3 + 6x^3 \right) (x^2 - 7)^{11}
+\]
+
+**Step 2.1: Degree of \(3x(x+5)^3 + 6x^3\).**
+
+- \(3x(x+5)^3\) has degree \(1 + 3 = 4\).
+- \(6x^3\) has degree \(3\).
+
+The highest degree is \(4\), so:
+
+\[
+3x(x+5)^3 + 6x^3
+\]
+has degree \(4\).
+
+**Step 2.2: Degree of \((x^2 - 7)^{11}\).**
+
+The degree of \(x^2 - 7\) is \(2\), and raising it to the 11th power gives degree:
+
+\[
+2 \times 11 = 22
+\]
+
+**Step 2.3: Degree of the product.**
+
+Multiplying a degree 4 polynomial by a degree 22 polynomial gives:
+
+\[
+4 + 22 = 26
+\]
+
+So the first term has degree \(26\).
+
+**Step 3: Combine degrees.**
+
+The first term has degree \(26\), the second term has degree \(9\), and the constant has degree \(0\). The highest degree is \(26\).
+
+\[
+\boxed{26}
+\]",26,INCORRECT
+reasoning_1,2011,junior_senior_test,question_3,You are given 25 coins that look identical; however one of the coins is heavier than the others (the other 24 all have the same weight). You also have a pan balance that may be used to compare the weights of any two stacks of coins. Find the minimum number of weighings needed to be sure of finding the heavy coin.,3,"We are given 25 coins, one of which is heavier than the other 24, and we have a pan balance. We want to find the minimum number of weighings needed to guarantee finding the heavy coin.
+
+---
+
+**Step-by-step reasoning:**
+
+1. **First Weighing:**  
+   Divide the 25 coins into three groups:  
+   - Group A: 8 coins  
+   - Group B: 8 coins  
+   - Group C: 9 coins  
+
+   Weigh Group A against Group B.
+
+   - **Case 1:** If they balance, the heavy coin is in Group C.  
+   - **Case 2:** If they don’t balance, the heavy coin is in the heavier group.
+
+2. **Second Weighing:**  
+   - **If they balanced:**  
+     We now have 9 coins in Group C.  
+     Divide Group C into three groups of 3 coins each.  
+     Weigh two of these groups against each other.  
+     - If they balance, the heavy coin is in the third group.  
+     - If they don’t balance, the heavy coin is in the heavier group.
+
+   - **If they didn’t balance:**  
+     We now have 8 coins in the heavier group.  
+     Divide these 8 coins into three groups:  
+     - Group A: 3 coins  
+     - Group B: 3 coins  
+     - Group C: 2 coins  
+
+     Weigh Group A against Group B.
+
+     - If they balance, the heavy coin is in Group C.  
+     - If they don’t balance, the heavy coin is in the heavier group.
+
+3. **Third Weighing:**  
+   - **If they balanced in the second step (Group C with 9 coins):**  
+     We have 3 coins.  
+     Weigh two of them.  
+     - If they balance, the heavy coin is the third one.  
+     - If they don’t balance, the heavy coin is the heavier one.
+
+   - **If they balanced in the second step (Group C with 8 coins):**  
+     We have 3 coins.  
+     Weigh two of them.  
+     - If they balance, the heavy coin is the third one.  
+     - If they don’t balance, the heavy coin is the heavier one.
+
+   - **If they balanced in the second step (Group C with 2 coins):**  
+     We have 2 coins.  
+     Weigh them.  
+     - If they balance, there is an error (all are equal, so no heavy coin).  
+     - If they don’t balance, the heavy coin is the heavier one.
+
+---
+
+**Minimum number of weighings:**  
+In the worst case, we need 3 weighings to guarantee finding the heavy coin.
+
+Thus, the answer is:
+
+\[
+\boxed{3}
+\]",3,CORRECT
+reasoning_1,2011,junior_senior_test,question_4,The hypotenuse of a right triangle has length 37. The length of the longest leg is 35. Consider the circumscribed circle. Find the length of the arc subtended by the smallest angle of the triangle. Express your answer as a decimal rounded to four significant digits.,12.22,"We are given a right triangle with hypotenuse \( c = 37 \) and longest leg \( b = 35 \). Since it is a right triangle, the legs are the two sides other than the hypotenuse.
+
+Let the legs be \( a \) and \( b \), with \( a \le b \le c \). Here \( b = 35 \) is the longest leg, so it must be the leg adjacent to the right angle, not the hypotenuse. That means the hypotenuse is the side of length 37.
+
+By the Pythagorean theorem:
+\[
+a^2 + b^2 = c^2
+\]
+\[
+a^2 + 35^2 = 37^2
+\]
+\[
+a^2 + 1225 = 1369
+\]
+\[
+a^2 = 144
+\]
+\[
+a = 12
+\]
+
+So the legs are 12 and 35, with the hypotenuse 37.
+
+---
+
+**Step 1: Identify the angles**  
+In a right triangle, the smallest angle is opposite the smallest leg.  
+The smallest leg is 12, so the smallest angle is opposite it.  
+The largest leg is 35, so the largest angle is opposite it.  
+The right angle is 90°.
+
+The smallest angle \( \theta \) is:
+\[
+\sin \theta = \frac{12}{37}
+\]
+\[
+\cos \theta = \frac{35}{37}
+\]
+\[
+\tan \theta = \frac{12}{35}
+\]
+
+We can find \(\theta\) using:
+\[
+\theta = \arcsin\left(\frac{12}{37}\right)
+\]
+
+---
+
+**Step 2: Circumscribed circle**  
+For any triangle, the circumscribed circle has radius:
+\[
+R = \frac{c}{2} = \frac{37}{2} = 18.5
+\]
+
+---
+
+**Step 3: Arc length**  
+The arc subtended by angle \(\theta\) is:
+\[
+\text{Arc length} = 2\pi R \cdot \frac{\theta}{2\pi} = R \theta
+\]
+where \(\theta\) is in radians.
+
+First, compute \(\theta\) in radians:
+\[
+\theta = \arcsin\left(\frac{12}{37}\right)
+\]
+
+Using a calculator:
+\[
+\theta \approx 0.321750554389116
+\]
+
+Now:
+\[
+\text{Arc length} = 18.5 \times 0.32175",\text{Arc length} = 18.5 \times 0.32175,INCORRECT
+reasoning_1,2011,junior_senior_test,question_5,"ABCD is a rectangle with AB = 45 and BC = k. Let i = √(-1). If |45 + ki| = 53, find the perimeter of the rectangle.",146,"We are told:
+
+- \(AB = 45\), so one side of the rectangle is 45.
+- \(BC = k\), so the other side is \(k\).
+- \(i = \sqrt{-1}\).
+- \(|45 + ki| = 53\).
+
+We need to find the perimeter of the rectangle.
+
+---
+
+**Step 1: Interpret the absolute value condition**
+
+The expression \(45 + ki\) is a complex number. The absolute value of a complex number \(a + bi\) is:
+
+\[
+|a + bi| = \sqrt{a^2 + b^2}
+\]
+
+Here, \(a = 45\) and \(b = k\). So:
+
+\[
+|45 + ki| = \sqrt{45^2 + k^2}
+\]
+
+We are told this equals 53:
+
+\[
+\sqrt{45^2 + k^2} = 53
+\]
+
+---
+
+**Step 2: Solve for \(k\)**
+
+Square both sides:
+
+\[
+45^2 + k^2 = 53^2
+\]
+
+Compute:
+
+\[
+45^2 = 2025, \quad 53^2 = 2809
+\]
+
+So:
+
+\[
+2025 + k^2 = 2809
+\]
+
+Subtract 2025:
+
+\[
+k^2 = 2809 - 2025 = 784
+\]
+
+Take the positive square root (since side lengths are positive):
+
+\[
+k = \sqrt{784} = 28
+\]
+
+---
+
+**Step 3: Find the perimeter**
+
+The perimeter \(P\) of a rectangle is:
+
+\[
+P = 2 \times (\text{length} + \text{width})
+\]
+
+Here length = 45, width = 28:
+
+\[
+P = 2 \times (45 + 28) = 2 \times 73 = 146
+\]
+
+---
+
+\[
+\boxed{146}
+\]",146,CORRECT
+reasoning_1,2011,junior_senior_test,question_6,"The points (-6, 15), (9, 15), and (-6, 7) are the vertices of a triangle. Rounded to the nearest whole degree, find the degree measure of the smallest angle of this triangle.",28,"We are given three vertices of a triangle:  
+\((-6, 15)\), \((9, 15)\), and \((-6, 7)\).
+
+**Step 1: Identify the shape of the triangle.**
+
+- The first two points \((-6, 15)\) and \((9, 15)\) have the same \(y\)-coordinate, so they lie on a horizontal line.  
+- The third point \((-6, 7)\) has the same \(x\)-coordinate as the first point but a different \(y\)-coordinate.
+
+This means the triangle has a vertical side from \((-6, 15)\) to \((-6, 7)\) and a horizontal side from \((-6, 15)\) to \((9, 15)\).  
+The third side is from \((9, 15)\) to \((-6, 7)\).
+
+**Step 2: Determine the angles.**
+
+- The vertical side is vertical, so the angle at \((-6, 15)\) is a right angle (90°).
+- The horizontal side is horizontal, so the angle at \((9, 15)\) is also a right angle (90°).
+- The third angle is at \((-6, 7)\).
+
+**Step 3: Find the third angle.**
+
+In any triangle, the sum of the angles is 180°.  
+We have two right angles (90° each), so the third angle is:
+
+\[
+180° - 90° - 90° = 0°
+\]
+
+This is not possible for a triangle, so we must re-evaluate the interpretation.  
+The correct interpretation is that the triangle is a right triangle with the right angle at \((-6, 15)\).  
+The other two angles are at \((9, 15)\) and \((-6, 7)\).
+
+**Step 4: Find the angles at \((9, 15)\) and \((-6, 7)\).**
+
+The side from \((-6, 15)\) to \((9, 15)\) is horizontal, length \(9 - (-6) = 15\).  
+The side from \((-6, 15)\) to \((-6, 7)\) is vertical, length \(15 - 7 = 8\).  
+The hypotenuse is from \((9, 15)\) to \((-6, 7)\).
+
+Using the distance formula:
+
+\[
+\text{Hypotenuse} = \sqrt{(9 - (-6))^2 + (15 - 7)^2} = \sqrt{15^2 + 8^2} = \sqrt{",\text{Hypotenuse} = \sqrt{(9 - (-6))^2 + (15 - 7)^2} = \sqrt{15^2 + 8^2} = \sqrt{,INCORRECT
+reasoning_1,2011,junior_senior_test,question_7,"When (2x - 3)^12 is expanded and completely simplified, find the numerical coefficient of x^5.",-55427328,"We are expanding \((2x - 3)^{12}\) and want the coefficient of \(x^5\).
+
+---
+
+**Step 1: General term in binomial expansion**
+
+The binomial expansion of \((a + b)^n\) is:
+
+\[
+\sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k
+\]
+
+Here, \(a = 2x\), \(b = -3\), and \(n = 12\).
+
+The general term is:
+
+\[
+T_k = \binom{12}{k} (2x)^{12-k} (-3)^k
+\]
+
+---
+
+**Step 2: Find the term with \(x^5\)**
+
+We want the exponent of \(x\) to be 5. From \((2x)^{12-k}\), the exponent of \(x\) is \(12-k\). Set:
+
+\[
+12 - k = 5 \quad \Rightarrow \quad k = 7
+\]
+
+So the term with \(x^5\) is:
+
+\[
+T_7 = \binom{12}{7} (2x)^{5} (-3)^7
+\]
+
+---
+
+**Step 3: Simplify**
+
+\[
+T_7 = \binom{12}{7} \cdot 2^5 \cdot x^5 \cdot (-3)^7
+\]
+
+We know \(\binom{12}{7} = \binom{12}{5}\) (since \(\binom{n}{k} = \binom{n}{n-k}\)):
+
+\[
+\binom{12}{5} = \frac{12 \cdot 11 \cdot 10 \cdot 9 \cdot 8}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = 792
+\]
+
+Now compute the coefficients:
+
+\[
+2^5 = 32
+\]
+\[
+(-3)^7 = -2187
+\]
+
+---
+
+**Step 4: Multiply**
+
+\[
+T_7 = 792 \cdot 32 \cdot (-2187)
+\]
+
+First, \(792 \cdot 32\):
+
+\[
+792 \div 8 = 99, \quad 99 \cdot 32 = 3168
+\]
+
+Then \(3168 \cdot (-2187)\):
+
+\[
+3168 \div 8 = 396, \quad 396 \cdot (-2187)
+\]
+
+First \(396 \div 9 = 44\), then \(44 \cdot (-2187)\","First \(396 \div 9 = 44\), then \(44 \cdot (-2187)\",INCORRECT
+reasoning_1,2011,junior_senior_test,question_8,"Let ABC be a triangle and suppose that the lengths of sides AB and BC are 20 and 80 meters, respectively. If ∠ABC measures 120°, find the exact length of AC.",20√21,"We are given:
+
+- \( AB = 20 \) meters
+- \( BC = 80 \) meters
+- \( \angle ABC = 120^\circ \)
+
+We need to find the length of \( AC \).
+
+---
+
+**Step 1: Understand the triangle configuration**
+
+In triangle \( ABC \), side \( AB = 20 \) is opposite vertex \( C \), side \( BC = 80 \) is opposite vertex \( A \), and side \( AC \) is opposite vertex \( B \).
+
+---
+
+**Step 2: Apply the Law of Cosines**
+
+The Law of Cosines states:
+
+\[
+AC^2 = AB^2 + BC^2 - 2 \cdot AB \cdot BC \cdot \cos(\angle ABC)
+\]
+
+Substitute the given values:
+
+\[
+AC^2 = 20^2 + 80^2 - 2 \cdot 20 \cdot 80 \cdot \cos(120^\circ)
+\]
+
+---
+
+**Step 3: Compute each term**
+
+- \( AB^2 = 20^2 = 400 \)
+- \( BC^2 = 80^2 = 6400 \)
+- \( \cos(120^\circ) = -\frac{1}{2} \) (since \( 120^\circ \) is in the second quadrant, and the cosine is negative)
+
+---
+
+**Step 4: Substitute and simplify**
+
+\[
+AC^2 = 400 + 6400 - 2 \cdot 20 \cdot 80 \cdot \left(-\frac{1}{2}\right)
+\]
+
+The product \( 2 \cdot 20 \cdot 80 \cdot \left(-\frac{1}{2}\right) \) simplifies as follows:
+
+\[
+2 \cdot 20 = 40
+\]
+\[
+40 \cdot 80 = 3200
+\]
+\[
+3200 \cdot \left(-\frac{1}{2}\right) = -1600
+\]
+
+So:
+
+\[
+AC^2 = 400 + 6400 + 1600
+\]
+
+---
+
+**Step 5: Add the numbers**
+
+\[
+400 + 6400 = 6800
+\]
+\[
+6800 + 1600 = 8400
+\]
+
+Thus:
+
+\[
+AC^2 = 8400
+\]
+
+---
+
+**Step 6: Take the square root**
+
+\[
+AC = \sqrt{8400}
+\]
+
+Factor 8400:
+
+\[
+8400 = 84 \times 10",8400 = 84 \times 10,INCORRECT
+reasoning_1,2011,junior_senior_test,question_9,"If the speed of the current remains constant at 5.5 mph, a boat can travel 246 miles downstream in the same time it can travel 180 miles upstream. Find the speed (in mph) of the boat in still water. Express your answer as a decimal.",35.5,"We are told:
+
+- Current speed = 5.5 mph
+- Downstream distance = 246 miles
+- Upstream distance = 180 miles
+- Time downstream = Time upstream
+
+Let the speed of the boat in still water be \( b \) mph.
+
+**Downstream speed:**  
+When going downstream, the current helps the boat, so the effective speed is:  
+\[
+b + 5.5 \text{ mph}
+\]
+
+**Upstream speed:**  
+When going upstream, the current works against the boat, so the effective speed is:  
+\[
+b - 5.5 \text{ mph}
+\]
+
+**Time equations:**  
+Time = Distance / Speed.
+
+Time downstream =  
+\[
+\frac{246}{b + 5.5}
+\]
+
+Time upstream =  
+\[
+\frac{180}{b - 5.5}
+\]
+
+Since these times are equal:
+
+\[
+\frac{246}{b + 5.5} = \frac{180}{b - 5.5}
+\]
+
+**Cross-multiply:**  
+\[
+246(b - 5.5) = 180(b + 5.5)
+\]
+
+Expand:  
+\[
+246b - 1353 = 180b + 990
+\]
+
+Bring all terms involving \( b \) to one side and constants to the other:  
+\[
+246b - 180b = 990 + 1353
+\]
+
+\[
+66b = 2343
+\]
+
+\[
+b = \frac{2343}{66}
+\]
+
+Simplify:  
+\[
+b = 35.5
+\]
+
+Thus, the speed of the boat in still water is:
+
+\[
+\boxed{35.5}
+\]",35.5,CORRECT
+reasoning_1,2011,junior_senior_test,question_10,Urn A contains two orange marbles and one blue marble. Urn B contains two orange marbles and two blue marbles. An urn is selected at random and then one of the marbles is selected at random from that urn. Find the probability that the marble selected is orange. Express your answer as a common fraction reduced to lowest terms.,7/12,"We have two urns:
+
+- **Urn A**: 2 orange, 1 blue
+- **Urn B**: 2 orange, 2 blue
+
+We select an urn at random, so the probability of choosing either urn is:
+
+\[
+P(\text{Urn A}) = \frac{1}{2}, \quad P(\text{Urn B}) = \frac{1}{2}
+\]
+
+Next, we select a marble from the chosen urn. We need the probability that the marble is orange.
+
+**Case 1: Urn A is chosen**  
+Probability of choosing Urn A: \(\frac{1}{2}\)  
+In Urn A, the probability of drawing an orange marble is:  
+\[
+P(\text{Orange} \mid \text{Urn A}) = \frac{2}{3}
+\]  
+So the combined probability for this case is:  
+\[
+P(\text{Orange} \cap \text{Urn A}) = \frac{1}{2} \times \frac{2}{3} = \frac{1}{3}
+\]
+
+**Case 2: Urn B is chosen**  
+Probability of choosing Urn B: \(\frac{1}{2}\)  
+In Urn B, the probability of drawing an orange marble is:  
+\[
+P(\text{Orange} \mid \text{Urn B}) = \frac{2}{4} = \frac{1}{2}
+\]  
+So the combined probability for this case is:  
+\[
+P(\text{Orange} \cap \text{Urn B}) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}
+\]
+
+**Total probability of drawing an orange marble**  
+\[
+P(\text{Orange}) = \frac{1}{3} + \frac{1}{4}
+\]  
+To add, find a common denominator:  
+\[
+\frac{1}{3} = \frac{4}{12}, \quad \frac{1}{4} = \frac{3}{12}
+\]  
+\[
+P(\text{Orange}) = \frac{4}{12} + \frac{3}{12} = \frac{7}{12}
+\]
+
+Thus, the probability that the marble selected is orange is:
+
+\[
+\boxed{\frac{7}{12}}
+\]",\frac{7}{12},CORRECT
+reasoning_1,2011,junior_senior_test,question_11,A committee of four is to be chosen randomly from five Whigs and six Tories. What is the probability that there is at least one person from each party on the committee? Express your answer as a fraction reduced to lowest terms.,31/33,"We have 5 Whigs and 6 Tories, total 11 people.  
+We want the probability that a randomly chosen committee of 4 people includes at least one person from each party.
+
+---
+
+**Step 1: Total number of committees**  
+The total number of ways to choose 4 people from 11 is:
+
+\[
+\binom{11}{4} = \frac{11 \times 10 \times 9 \times 8}{4 \times 3 \times 2 \times 1} = 330
+\]
+
+---
+
+**Step 2: Committees with only one party**  
+- All 4 from Whigs:  
+\[
+\binom{5}{4} = 5
+\]  
+- All 4 from Tories:  
+\[
+\binom{6}{4} = 15
+\]  
+
+So total committees with only one party = \(5 + 15 = 20\).
+
+---
+
+**Step 3: Committees with at least one from each party**  
+This is the total committees minus the committees with only one party:
+
+\[
+330 - 20 = 310
+\]
+
+---
+
+**Step 4: Probability**  
+\[
+\frac{310}{330} = \frac{31}{33}
+\]
+
+---
+
+\[
+\boxed{\frac{31}{33}}
+\]",\frac{31}{33},CORRECT
+reasoning_1,2011,junior_senior_test,question_12,"A circle has the line x - 2y + 4 = 0 tangent at the point (0, 2) and y = 2x - 7 tangent at (3, -1). Find the exact area of this circle.",5π,"We are told the circle is tangent to two lines at given points:
+
+1. Line 1: \( x - 2y + 4 = 0 \) at \((0, 2)\)
+2. Line 2: \( y = 2x - 7 \) at \((3, -1)\)
+
+The center of the circle lies on the perpendicular bisector of the chord (segment) between the two points of tangency. The radius is perpendicular to the tangent lines at the points of tangency.
+
+---
+
+### Step 1: Find the slopes of the tangents
+
+- Line 1: \( x - 2y + 4 = 0 \)  
+  \[
+  -2y = -x - 4 \quad \Rightarrow \quad y = \frac{1}{2}x + 2
+  \]  
+  Slope = \(\frac{1}{2}\).
+
+- Line 2: \( y = 2x - 7 \)  
+  Slope = \(2\).
+
+---
+
+### Step 2: Find the radii at the points of tangency
+
+The radius at a point of tangency is perpendicular to the tangent line.
+
+- At \((0, 2)\):  
+  Slope of radius = \(-\frac{1}{\frac{1}{2}} = -2\).
+
+- At \((3, -1)\):  
+  Slope of radius = \(-\frac{1}{2}\).
+
+---
+
+### Step 3: Find the center of the circle
+
+The center lies on the perpendicular bisector of the chord between \((0, 2)\) and \((3, -1)\).
+
+First, find the midpoint:
+\[
+\left( \frac{0+3}{2}, \frac{2+(-1)}{2} \right) = \left( \frac{3}{2}, \frac{1}{2} \right)
+\]
+
+The slope of the chord is:
+\[
+\frac{-1 - 2}{3 - 0} = \frac{-3}{3} = -1
+\]
+So the slope of the perpendicular bisector is \(1\).
+
+Equation of the perpendicular bisector:
+\[
+y - \frac{1}{2} = 1\left(x - \frac{3}{2}\right)
+\]
+\[
+y - \frac{1}{2} = x - \frac{3}{2}
+\]
+\[
+y = x - 1
+\]
+
+---
+
+### Step 4: Find the center using the radii
+
+The center \((h, k)\) lies on the line \(y = x - 1\).
+
+From the first point of tangency \((0, 2)\), the radius slope is \(-2\):
+\[
+\frac{k - 2",\frac{k - 2,INCORRECT
+reasoning_1,2011,junior_senior_test,question_13,"When 2^2011 is written as an integer, how many digits are there in the integer?",606,"We want the number of digits in \(2^{2011}\).
+
+The number of digits \(d\) in an integer \(n\) is given by:
+
+\[
+d = \lfloor \log_{10} n \rfloor + 1
+\]
+
+Here, \(n = 2^{2011}\). So:
+
+\[
+d = \lfloor \log_{10} (2^{2011}) \rfloor + 1
+\]
+
+Using the logarithm power rule:
+
+\[
+\log_{10} (2^{2011}) = 2011 \cdot \log_{10} 2
+\]
+
+We know that:
+
+\[
+\log_{10} 2 \approx 0.30102999566
+\]
+
+Thus:
+
+\[
+2011 \cdot \log_{10} 2 \approx 2011 \times 0.30102999566
+\]
+
+First, multiply:
+
+\[
+2011 \times 0.3 = 603.3
+\]
+
+Now add the decimal part:
+
+\[
+0.30102999566 - 0.3 = 0.00102999566
+\]
+
+So:
+
+\[
+2011 \times 0.30102999566 \approx 603.30102999566
+\]
+
+Now take the floor:
+
+\[
+\lfloor 603.30102999566 \rfloor = 603
+\]
+
+Add 1:
+
+\[
+d = 603 + 1 = 604
+\]
+
+Thus, the number of digits in \(2^{2011}\) is:
+
+\[
+\boxed{604}
+\]",604,INCORRECT
+reasoning_1,2011,junior_senior_test,question_15,Find the smallest positive integer that has exactly 44 distinct positive divisors.,15360,"We want the smallest positive integer with exactly 44 divisors.
+
+The number of divisors of a number \( n = p_1^{e_1} p_2^{e_2} \cdots p_k^{e_k} \) is given by:
+
+\[
+\sigma(n) = (e_1 + 1)(e_2 + 1) \cdots (e_k + 1)
+\]
+
+We need:
+
+\[
+(e_1 + 1)(e_2 + 1) \cdots (e_k + 1) = 44
+\]
+
+First, factor 44:
+
+\[
+44 = 2^2 \times 11
+\]
+
+We want the smallest \( n \), so we should minimize the product of the primes raised to the powers. The exponents \( e_i \) must be positive integers, so \( e_i + 1 \ge 2 \).
+
+Possible factorizations of 44:
+
+1. \( 44 = 44 \times 1 \) → \( n = p_1^{43} \) (smallest prime is 2, so \( 2^{43} \) is very large)
+2. \( 44 = 22 \times 2 \) → \( n = p_1^{21} p_2^1 \)
+3. \( 44 = 11 \times 4 \) → \( n = p_1^{10} p_2^3 \)
+4. \( 44 = 11 \times 2 \times 2 \) → \( n = p_1^{10} p_2^1 p_3^1 \)
+
+We will test these in order of increasing product of exponents.
+
+**Case 1:** \( 2^{43} \) is very large.
+
+**Case 2:** \( 2^{21} \times 3^1 \)
+
+\[
+2^{21} = 2097152, \quad 3^1 = 3
+\]
+\[
+2097152 \times 3 = 6291456
+\]
+
+**Case 3:** \( 2^{10} \times 3^3 \)
+
+\[
+2^{10} = 1024, \quad 3^3 = 27
+\]
+\[
+1024 \times 27 = 27648
+\]
+
+**Case 4:** \( 2^{10} \times 3^1 \times 5^1 \)
+
+\[
+2^{10} = 1024, \quad 3^1 = 3, \quad 5^1 = 5","2^{10} = 1024, \quad 3^1 = 3, \quad 5^1 = 5",INCORRECT
+reasoning_1,2011,junior_senior_test,question_16,Let x and n be two-digit positive numbers (for which the tens digits are not zero). Suppose n > x. Find the value of x for which the sum of consecutive positive integers from 1 to (x - 1) is the same as the sum of consecutive positive integers from (x + 1) through n.,35,"We are told:
+
+- \( x \) and \( n \) are two-digit positive integers with non-zero tens digits.
+- \( n > x \).
+- The sum of integers from 1 to \( x-1 \) equals the sum from \( x+1 \) to \( n \).
+
+We need to find \( x \).
+
+---
+
+### Step 1: Express the sums
+
+The sum of integers from 1 to \( k \) is:
+
+\[
+S(k) = \frac{k(k+1)}{2}
+\]
+
+So:
+
+- Sum from 1 to \( x-1 \):  
+\[
+S_1 = \frac{(x-1)x}{2}
+\]
+
+- Sum from \( x+1 \) to \( n \):  
+First, sum from 1 to \( n \):  
+\[
+S(n) = \frac{n(n+1)}{2}
+\]  
+Then subtract sum from 1 to \( x \):  
+\[
+S_2 = \frac{n(n+1)}{2} - \frac{x(x+1)}{2}
+\]
+
+We are told:
+
+\[
+S_1 = S_2
+\]
+
+---
+
+### Step 2: Set up the equation
+
+\[
+\frac{(x-1)x}{2} = \frac{n(n+1)}{2} - \frac{x(x+1)}{2}
+\]
+
+Multiply through by 2:
+
+\[
+(x-1)x = n(n+1) - x(x+1)
+\]
+
+Expand:
+
+\[
+x^2 - x = n^2 + n - x^2 - x
+\]
+
+Add \( x^2 + x \) to both sides:
+
+\[
+2x^2 = n^2 + n
+\]
+
+---
+
+### Step 3: Solve for \( n \)
+
+\[
+n^2 + n - 2x^2 = 0
+\]
+
+This is a quadratic in \( n \):
+
+\[
+n = \frac{-1 \pm \sqrt{1 + 8x^2}}{2}
+\]
+
+Since \( n \) is a positive integer, we take:
+
+\[
+n = \frac{-1 + \sqrt{1 + 8x^2}}{2}
+\]
+
+---
+
+### Step 4: Integer condition
+
+For \( n \) to be an integer, \( 1 + 8x^2 \) must be a perfect square. Let:
+
+\[
+1 + 8x^2 = k^2
+\]
+
+Then:
+
+\[
+k^2 - 8x^2 = 1
+\]
+
+This is a Pell-like equation. We solve it by finding integer solutions.
+
+---
+
+### Step 5: Find \( x \) and \( n \)
+
+We know \( x \) and \( n \) are two-digit numbers with non-zero tens",We know \( x \) and \( n \) are two-digit numbers with non-zero tens,INCORRECT
+reasoning_1,2011,junior_senior_test,question_17,AB is the hypotenuse of △ABC and has a length AB = 20. The radius of the inscribed circle has a length of 4. Find the perimeter of △ABC.,48,"We are told that \( AB \) is the hypotenuse of right triangle \( \triangle ABC \), so \( \angle C = 90^\circ \).  
+The hypotenuse \( AB = 20 \).  
+The radius of the inscribed circle is \( r = 4 \).
+
+---
+
+### Step 1: Recall the formula for the radius of the inscribed circle in a right triangle
+For a right triangle with legs \( a \) and \( b \), hypotenuse \( c \), and inradius \( r \), the formula is:
+
+\[
+r = \frac{a + b - c}{2}
+\]
+
+Here, \( c = AB = 20 \), \( r = 4 \), so:
+
+\[
+4 = \frac{a + b - 20}{2}
+\]
+
+Multiply both sides by 2:
+
+\[
+8 = a + b - 20
+\]
+
+\[
+a + b = 28
+\]
+
+---
+
+### Step 2: Find the perimeter
+The perimeter \( P \) of \( \triangle ABC \) is:
+
+\[
+P = a + b + c = 28 + 20 = 48
+\]
+
+---
+
+\[
+\boxed{48}
+\]",48,CORRECT
+reasoning_1,2011,junior_senior_test,question_18,"The first term of an infinite geometric sequence of real terms is 225, and the fourth term of this geometric sequence is 14.4. Find the sum of the terms of this infinite geometric sequence.",375,"We are given:
+
+- First term \( a = 225 \)
+- Fourth term \( a_4 = 14.4 \)
+
+In a geometric sequence, the \( n \)-th term is given by:
+
+\[
+a_n = a \cdot r^{n-1}
+\]
+
+So the fourth term is:
+
+\[
+a_4 = a \cdot r^3
+\]
+
+Substitute the known values:
+
+\[
+14.4 = 225 \cdot r^3
+\]
+
+Solve for \( r^3 \):
+
+\[
+r^3 = \frac{14.4}{225}
+\]
+
+Simplify the fraction:
+
+\[
+\frac{14.4}{225} = \frac{144}{2250} = \frac{24}{375} = \frac{8}{125}
+\]
+
+So:
+
+\[
+r^3 = \frac{8}{125}
+\]
+
+Take the cube root:
+
+\[
+r = \sqrt[3]{\frac{8}{125}} = \frac{\sqrt[3]{8}}{\sqrt[3]{125}} = \frac{2}{5}
+\]
+
+Now we have \( r = \frac{2}{5} \).
+
+The sum of an infinite geometric series with \( |r| < 1 \) is:
+
+\[
+S = \frac{a}{1 - r}
+\]
+
+Substitute:
+
+\[
+S = \frac{225}{1 - \frac{2}{5}} = \frac{225}{\frac{3}{5}} = 225 \cdot \frac{5}{3} = 75 \cdot 5 = 375
+\]
+
+Thus, the sum of the terms is:
+
+\[
+\boxed{375}
+\]",375,CORRECT
+reasoning_1,2011,junior_senior_test,question_19,"Tom is a gambler. He has a pair of fair, standard cubical dice. He selects two different numbers in advance from the face numbers 1, 2, 3, 4, 5, and 6. He then rolls the pair of dice. If both numbers showing match his two selections, he wins $108. If exactly one number showing matches one of his two selections, he neither wins nor loses. If neither number showing matches either of his two selections, he loses $54. Find Tom's mathematical expectation (in dollars) each time he rolls the pair of dice. Express your answer by including the word 'lose' or the word 'win.'",Lose 18,"We need to find Tom’s expected value for a single roll of a pair of fair dice, given his betting conditions.
+
+**Step 1: Define the selections and outcomes**
+
+Tom selects two different numbers from \(\{1, 2, 3, 4, 5, 6\}\). Let’s call these numbers \(a\) and \(b\), with \(a \neq b\).
+
+**Step 2: List all possible outcomes of rolling two dice**
+
+Each die has 6 faces, so there are \(6 \times 6 = 36\) possible outcomes.
+
+**Step 3: Count favorable and unfavorable outcomes**
+
+- **Win condition**: Both dice show either \(a\) or \(b\).  
+  - Number of ways to get both \(a\): \(1 \times 1 = 1\)  
+  - Number of ways to get both \(b\): \(1 \times 1 = 1\)  
+  - Number of ways to get both \(a\) or both \(b\): \(1 + 1 = 2\)  
+  - Probability of winning: \(\frac{2}{36} = \frac{1}{18}\)  
+  - Prize: $108
+
+- **No win, no loss condition**: Exactly one die shows \(a\) and the other shows \(b\).  
+  - Number of ways: \(1 \times 1 = 1\) for each order, so \(2\) total.  
+  - Probability: \(\frac{2}{36} = \frac{1}{18}\)  
+  - Prize: $0
+
+- **Lose condition**: Neither die shows \(a\) or \(b\).  
+  - Number of ways to get a number different from \(a\) and \(b\) on each die:  
+    - For the first die: 4 choices (1, 2, 3, 4, 5, 6 minus \(a\) and \(b\))  
+    - For the second die: 4 choices  
+    - Total: \(4 \times 4 = 16\)  
+  - Probability: \(\frac{16}{36} = \frac{4}{9}\)  
+  - Prize: \(-\$54\)
+
+**Step 4: Compute expected value**
+
+\[
+E = \left( \frac{1}{18} \times 108 \right) + \left( \frac{1}{18} \times 0 \right) + \left( \frac{4}{9} \times (-54) \right)
+\]
+
+\[
+E = \frac{108}{18} + 0 + \left( \frac{4}{9} \times (-54) \right)
+\]
+
+\[
+\frac",\frac,INCORRECT
+reasoning_1,2012,freshman_sophomore_test,question_1,"Set A = {1,2,3,4,5}. If one member of Set A is selected at random and substituted for x in the expression (2x+1)/3, find the probability that this expression will then have a value that is an integer. Express your answer as a common fraction reduced to lowest terms.",2/5,"We have set \( A = \{1, 2, 3, 4, 5\} \).  
+We substitute each element for \( x \) in the expression:
+
+\[
+\frac{2x + 1}{3}
+\]
+
+We want the result to be an integer.
+
+---
+
+### Step 1: Condition for integer
+For \(\frac{2x + 1}{3}\) to be an integer, \(2x + 1\) must be divisible by 3.  
+That is:
+
+\[
+2x + 1 \equiv 0 \pmod{3}
+\]
+
+---
+
+### Step 2: Solve congruence
+Subtract 1 from both sides:
+
+\[
+2x \equiv -1 \pmod{3}
+\]
+
+Since \(-1 \equiv 2 \pmod{3}\), we have:
+
+\[
+2x \equiv 2 \pmod{3}
+\]
+
+Divide both sides by 2. Since 2 is coprime to 3, we can multiply by the modular inverse of 2 mod 3.  
+The inverse of 2 mod 3 is 2, because \(2 \cdot 2 = 4 \equiv 1 \pmod{3}\).  
+So:
+
+\[
+x \equiv 2 \cdot 2 \pmod{3} \quad \Rightarrow \quad x \equiv 4 \equiv 1 \pmod{3}
+\]
+
+Thus:
+
+\[
+x \equiv 1 \pmod{3}
+\]
+
+---
+
+### Step 3: Find valid \( x \) in set
+We list the elements of \( A \):  
+\[
+1, 2, 3, 4, 5
+\]
+
+Check which satisfy \( x \equiv 1 \pmod{3} \):
+
+- \( 1 \mod 3 = 1 \) → yes
+- \( 2 \mod 3 = 2 \) → no
+- \( 3 \mod 3 = 0 \) → no
+- \( 4 \mod 3 = 1 \) → yes
+- \( 5 \mod 3 = 2 \) → no
+
+So valid \( x \) are \( 1 \) and \( 4 \).
+
+---
+
+### Step 4: Probability
+There are 5 elements in total, and 2 of them work.  
+Probability:
+
+\[
+\frac{2}{5}
+\]
+
+---
+
+\[
+\boxed{\frac{2}{5}}
+\]",\frac{2}{5},CORRECT
+reasoning_1,2012,freshman_sophomore_test,question_3,"A line segment has endpoints at (14,9) and (2,37). Find the ordered pair that represents the midpoint of that segment.","(8,23)","To find the midpoint of a line segment with endpoints \((x_1, y_1)\) and \((x_2, y_2)\), we use the midpoint formula:
+
+\[
+\left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)
+\]
+
+Here, the endpoints are:
+
+\[
+(14, 9) \quad \text{and} \quad (2, 37)
+\]
+
+So:
+
+\[
+x_1 = 14, \quad y_1 = 9, \quad x_2 = 2, \quad y_2 = 37
+\]
+
+Now, compute the midpoint:
+
+\[
+\left( \frac{14 + 2}{2}, \frac{9 + 37}{2} \right)
+\]
+
+\[
+= \left( \frac{16}{2}, \frac{46}{2} \right)
+\]
+
+\[
+= (8, 23)
+\]
+
+Thus, the ordered pair that represents the midpoint is:
+
+\[
+\boxed{(8, 23)}
+\]","(8, 23)",CORRECT
+reasoning_1,2012,freshman_sophomore_test,question_4,"Does the point (4,7) lie INSIDE, OUTSIDE, or ON the circle whose equation is x^2 + (y-2)^2 = 42? For your answer, write the whole word: INSIDE, OUTSIDE, or ON – whichever is correct.",INSIDE,OUTSIDE,OUTSIDE,INCORRECT

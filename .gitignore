@@ -1,6 +1,31 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
 .env
-env
-.env/local
+.env.local
+env/
+
+# ── Model weights & adapters ──────────────────────────────────────────────────
 fused_model/
 adapters/
 *.safetensors
+*.bin
+*.pt
+*.pth
+
+# ── Large data files (too big for GitHub) ────────────────────────────────────
+qwen_tuned_results.csv
+qwen_tuned_results_200iterations.csv
+qwen_tuned_math500_results.csv
+results-iteration1-mistake.csv
+results-math500.csv
+
+# ── Raw source PDFs ───────────────────────────────────────────────────────────
+Raw PDF Files/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
